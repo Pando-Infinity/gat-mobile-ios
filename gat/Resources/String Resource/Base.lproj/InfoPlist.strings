@@ -1,0 +1,12 @@
+/* 
+  InfoPlist.strings
+  gat
+
+  Created by Vũ Kiên on 11/09/2017.
+  Copyright © 2017 GaTBook. All rights reserved.
+*/
+
+"NSCameraUsageDescription" = "Scan ISBN barcode.";
+"NSLocationWhenInUseUsageDescription" = "Find nearby readers and sharing books.";
+"NSPhotoLibraryUsageDescription" = "Change profile picture.";
+"NSPhotoLibraryAddUsageDescription" = "Access library usage";

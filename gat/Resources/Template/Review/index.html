@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv=Content-Language content=en_US>
+    <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="quill.snow.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="jquery.min.js"></script>
+    <script src="quill.js"></script>
+</head>
+
+<body>
+    <div id="editor"></div>
+    <div class="custom-toolbar" id="custom-toolbar">
+        <button onclick="clickSizeIcon()">
+            <img src="text big size_gray.png" id="icon-text-size" />
+        </button>
+        <button onclick="clickListIcon()">
+            <img src="bullet_gray.png" id="icon-list" />
+        </button>
+        <button onclick="clickQuoteIcon()">
+            <img src="quote_gray.png" id="icon-quote" />
+        </button>
+        <button onclick="clickDivisionIcon()">
+            <img src="division_gray.png" id="icon-division" />
+        </button>
+        <button onclick="clickImageIcon()">
+            <img src="image_gray.png" id="icon-image" />
+        </button>
+        <div style="clear: both;"></div>
+    </div>
+    <div id="toolbar">
+        <select class="ql-size">
+            <option selected></option>
+            <option value="large"></option>
+        </select>
+        <button type="button" class="ql-list" value="bullet"></button>
+        <button type="button" class="ql-blockquote"></button>
+        <button type="button" class="ql-clean"></button>
+        <button type="button" class="ql-image"></button>
+    </div>
+    <input type="file" accept="image/png, image/gif, image/jpeg, image/bmp, image/x-icon" id="selectedImage" style="display: none">
+    <script src="main.js"></script>
+    <!-- <div class="test">
+        <button onclick="initEditor()">Init</button>
+        <button onclick="showToolbar(false)">imgBase64</button>
+    </div> -->
+</body>
+
+</html>

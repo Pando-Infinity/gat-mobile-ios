@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="RateView" customModule="gat" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="141"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hiM-zK-vGZ">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="0.5"/>
+                    <color key="backgroundColor" red="0.56862745100000001" green="0.56862745100000001" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="leJ-5V-mtu"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C80-Jx-o2o">
+                    <rect key="frame" x="0.0" y="0.5" width="375" height="140.5"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CTP-Ut-BA1" customClass="CosmosView" customModule="Cosmos">
+                            <rect key="frame" x="122.5" y="26" width="131" height="46.5"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="filledColor">
+                                    <color key="value" red="0.95686274510000002" green="0.76470588240000004" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="emptyColor">
+                                    <color key="value" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="emptyBorderColor">
+                                    <color key="value" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="filledBorderColor">
+                                    <color key="value" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="rating">
+                                    <real key="value" value="0.0"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="totalStars">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pgv-Zz-OPC" customClass="NVActivityIndicatorView" customModule="NVActivityIndicatorView">
+                            <rect key="frame" x="261.5" y="10.5" width="120" height="120"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="pgv-Zz-OPC" secondAttribute="height" multiplier="1:1" id="8su-kN-Ivy"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="color">
+                                    <color key="value" red="0.32549019607843138" green="0.58823529411764708" blue="0.72549019607843135" alpha="1" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="CTP-Ut-BA1" firstAttribute="height" secondItem="C80-Jx-o2o" secondAttribute="height" multiplier="1:3" id="1DW-1P-QDE"/>
+                        <constraint firstItem="pgv-Zz-OPC" firstAttribute="centerY" secondItem="C80-Jx-o2o" secondAttribute="centerY" id="Ff9-BW-nLf"/>
+                        <constraint firstItem="pgv-Zz-OPC" firstAttribute="height" secondItem="C80-Jx-o2o" secondAttribute="height" multiplier="0.85" id="IyY-uI-TcX"/>
+                        <constraint firstItem="CTP-Ut-BA1" firstAttribute="centerX" secondItem="C80-Jx-o2o" secondAttribute="centerX" id="UQ9-B6-ngq"/>
+                        <constraint firstItem="CTP-Ut-BA1" firstAttribute="centerY" secondItem="C80-Jx-o2o" secondAttribute="centerY" multiplier="0.7" id="b4H-Y5-7Ha"/>
+                        <constraint firstItem="pgv-Zz-OPC" firstAttribute="leading" secondItem="CTP-Ut-BA1" secondAttribute="trailing" constant="8" id="fcH-uu-cMG"/>
+                        <constraint firstItem="CTP-Ut-BA1" firstAttribute="width" secondItem="C80-Jx-o2o" secondAttribute="width" multiplier="0.35" id="vz9-pX-wfD"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="hiM-zK-vGZ" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="2CV-Ct-PBN"/>
+                <constraint firstItem="hiM-zK-vGZ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Huk-WO-woa"/>
+                <constraint firstItem="hiM-zK-vGZ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Q8J-Th-Ued"/>
+                <constraint firstAttribute="bottom" secondItem="C80-Jx-o2o" secondAttribute="bottom" id="ayI-jA-DEr"/>
+                <constraint firstItem="C80-Jx-o2o" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="pIp-la-JyJ"/>
+                <constraint firstItem="C80-Jx-o2o" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="uZP-ek-0HZ"/>
+                <constraint firstItem="C80-Jx-o2o" firstAttribute="top" secondItem="hiM-zK-vGZ" secondAttribute="bottom" id="vY1-DO-wS7"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="contraintBottom" destination="ayI-jA-DEr" id="Z5H-h0-z2t"/>
+                <outlet property="loading" destination="pgv-Zz-OPC" id="qJR-5p-yyp"/>
+                <outlet property="rateContentView" destination="C80-Jx-o2o" id="ym9-zg-m6N"/>
+                <outlet property="rateView" destination="CTP-Ut-BA1" id="14k-GV-Vxp"/>
+            </connections>
+            <point key="canvasLocation" x="116.5" y="-89.5"/>
+        </view>
+        <view contentMode="scaleToFill" id="zq4-hi-bGL" customClass="CommentView" customModule="gat" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="141"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GI9-hd-tEo">
+                    <rect key="frame" x="117" y="36.5" width="140" height="95.5"/>
+                    <color key="backgroundColor" red="0.32549019610000002" green="0.58823529409999997" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
+                    <state key="normal" title="Chỉnh sửa bình luận">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lwl-Nx-CHo">
+                    <rect key="frame" x="187" y="7" width="0.0" height="0.0"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="comma_left-icon" translatesAutoresizingMaskIntoConstraints="NO" id="jHW-xS-0VB">
+                    <rect key="frame" x="173.5" y="2" width="6" height="5"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="comma_right-icon" translatesAutoresizingMaskIntoConstraints="NO" id="vJN-Y7-F6v">
+                    <rect key="frame" x="194.5" y="7" width="6" height="5"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="lwl-Nx-CHo" firstAttribute="leading" secondItem="jHW-xS-0VB" secondAttribute="trailing" constant="7.5" id="55i-qP-Cza"/>
+                <constraint firstItem="lwl-Nx-CHo" firstAttribute="centerY" secondItem="zq4-hi-bGL" secondAttribute="centerY" multiplier="0.1" id="Al7-JC-8D9"/>
+                <constraint firstItem="jHW-xS-0VB" firstAttribute="bottom" secondItem="lwl-Nx-CHo" secondAttribute="top" id="BdP-Wd-TlO"/>
+                <constraint firstItem="vJN-Y7-F6v" firstAttribute="top" secondItem="lwl-Nx-CHo" secondAttribute="top" id="FAj-W2-EZL"/>
+                <constraint firstItem="GI9-hd-tEo" firstAttribute="height" secondItem="zq4-hi-bGL" secondAttribute="height" multiplier="0.68" id="FQx-Fv-o8Z"/>
+                <constraint firstItem="GI9-hd-tEo" firstAttribute="centerX" secondItem="zq4-hi-bGL" secondAttribute="centerX" id="SdN-or-mkS"/>
+                <constraint firstItem="lwl-Nx-CHo" firstAttribute="centerX" secondItem="zq4-hi-bGL" secondAttribute="centerX" id="U5S-Bk-ixN"/>
+                <constraint firstItem="lwl-Nx-CHo" firstAttribute="width" relation="lessThanOrEqual" secondItem="zq4-hi-bGL" secondAttribute="width" multiplier="0.6" id="cpd-iR-J8W"/>
+                <constraint firstItem="GI9-hd-tEo" firstAttribute="centerY" secondItem="zq4-hi-bGL" secondAttribute="centerY" multiplier="1.2" id="jeC-Fl-23P"/>
+                <constraint firstItem="vJN-Y7-F6v" firstAttribute="leading" secondItem="lwl-Nx-CHo" secondAttribute="trailing" constant="7.5" id="l93-AV-QVe"/>
+                <constraint firstItem="GI9-hd-tEo" firstAttribute="width" secondItem="zq4-hi-bGL" secondAttribute="width" multiplier="28:75" id="liL-mg-S43"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="centerCommentConstraint" destination="jeC-Fl-23P" id="6fA-8r-8Z4"/>
+                <outlet property="commentButton" destination="GI9-hd-tEo" id="K7R-zZ-ODz"/>
+                <outlet property="commentLabel" destination="lwl-Nx-CHo" id="192-i1-N8X"/>
+                <outlet property="leftImageView" destination="jHW-xS-0VB" id="hdP-c1-P7n"/>
+                <outlet property="rightImageView" destination="vJN-Y7-F6v" id="bxh-bR-Nd1"/>
+            </connections>
+            <point key="canvasLocation" x="561.5" y="-89.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="comma_left-icon" width="6" height="5"/>
+        <image name="comma_right-icon" width="6" height="5"/>
+    </resources>
+</document>

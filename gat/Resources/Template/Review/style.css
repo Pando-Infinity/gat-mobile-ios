@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+}
+
+#editor {
+    border: none;
+    position: fixed;
+    width: 100%;
+}
+
+#toolbar {
+    display: none;
+}
+
+.ql-container {
+    font-size: 14px;
+}
+
+.custom-toolbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #ccc;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+    text-align: center;
+    max-height: 100px;
+}
+
+.custom-toolbar button {
+    border: none;
+    outline: none;
+    background: white;
+    max-height: 100px;
+    width: 15%;
+    float: left;
+}
+
+.custom-toolbar button img {
+    max-height: 100px;
+    width: 95%;
+}
+
+/* .custom-toolbar button #icon-text-size {
+    width: 50px;
+}
+
+.custom-toolbar button #icon-list {
+    width: 50px;
+}
+
+.custom-toolbar button #icon-quote {
+    width: 50px;
+}
+
+.custom-toolbar button #icon-division {
+    width: 50px;
+}
+
+.custom-toolbar button #icon-image {
+    width: 50px;
+} */
+
+.test {
+    position: fixed;
+    bottom: 0;
+}

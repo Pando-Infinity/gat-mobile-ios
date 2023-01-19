@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="BookTargetChallengeCollectionViewCell" id="gTV-IL-0wX" customClass="BookTargetChallengeCollectionViewCell" customModule="gat" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="132" height="193"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="132" height="193"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Pvg-le-dwF">
+                        <rect key="frame" x="0.0" y="0.0" width="132" height="193"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PYX-vn-LlA">
+                        <rect key="frame" x="66" y="96.5" width="0.0" height="0.0"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Pvg-le-dwF" secondAttribute="trailing" id="9KA-BN-45h"/>
+                <constraint firstItem="Pvg-le-dwF" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="9dQ-Oy-qAo"/>
+                <constraint firstItem="Pvg-le-dwF" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="AP7-B8-x8y"/>
+                <constraint firstItem="PYX-vn-LlA" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="HGf-j9-bgG"/>
+                <constraint firstAttribute="bottom" secondItem="Pvg-le-dwF" secondAttribute="bottom" id="WH5-Hr-bI9"/>
+                <constraint firstItem="PYX-vn-LlA" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="gho-Hn-AGF"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="132" height="193"/>
+            <connections>
+                <outlet property="imgBook" destination="Pvg-le-dwF" id="u8N-pq-xVl"/>
+                <outlet property="lbNumberBookRest" destination="PYX-vn-LlA" id="6ni-44-r2b"/>
+            </connections>
+            <point key="canvasLocation" x="197.10144927536234" y="61.941964285714285"/>
+        </collectionViewCell>
+    </objects>
+</document>

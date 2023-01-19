@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="historyCell" rowHeight="85" id="KGk-i7-Jjw" customClass="HistoryTableViewCell" customModule="gat" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="85"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="85"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CXN-ZM-CBp">
+                        <rect key="frame" x="15" y="17" width="51" height="51"/>
+                        <color key="backgroundColor" red="0.83529411760000005" green="0.83529411760000005" blue="0.83529411760000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="CXN-ZM-CBp" secondAttribute="height" multiplier="1:1" id="ePk-6D-0bJ"/>
+                        </constraints>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="book_placeholder-icon" translatesAutoresizingMaskIntoConstraints="NO" id="Oen-1f-RuR">
+                        <rect key="frame" x="23.5" y="25.5" width="34" height="34"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Oen-1f-RuR" secondAttribute="height" multiplier="1:1" id="4lQ-96-dGl"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PvE-VE-Hj5">
+                        <rect key="frame" x="94" y="17" width="218" height="17"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                        <color key="textColor" red="0.12549019607843137" green="0.12549019607843137" blue="0.12549019607843137" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KEm-h0-nVO">
+                        <rect key="frame" x="94" y="52" width="218" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.56862745098039214" green="0.56862745098039214" blue="0.56862745098039214" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="77p-wK-RkX">
+                        <rect key="frame" x="15" y="84.5" width="290" height="0.5"/>
+                        <color key="backgroundColor" red="0.83529411760000005" green="0.83529411760000005" blue="0.83529411760000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="74r-oH-jhK"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.96470588235294119" green="0.96470588235294119" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstItem="CXN-ZM-CBp" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="0Yw-cR-QmY"/>
+                    <constraint firstItem="Oen-1f-RuR" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="BcV-ny-bM0"/>
+                    <constraint firstItem="Oen-1f-RuR" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.4" id="CUl-oV-3cz"/>
+                    <constraint firstAttribute="trailing" secondItem="PvE-VE-Hj5" secondAttribute="trailing" constant="8" id="Ca4-CK-WFm"/>
+                    <constraint firstItem="77p-wK-RkX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="Eav-uU-QxE"/>
+                    <constraint firstAttribute="trailing" secondItem="KEm-h0-nVO" secondAttribute="trailing" constant="8" id="FIM-GR-ZwZ"/>
+                    <constraint firstItem="Oen-1f-RuR" firstAttribute="centerX" secondItem="CXN-ZM-CBp" secondAttribute="centerX" id="Tuv-vR-Mee"/>
+                    <constraint firstAttribute="bottom" secondItem="77p-wK-RkX" secondAttribute="bottom" id="Ufm-2v-tuh"/>
+                    <constraint firstItem="KEm-h0-nVO" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" multiplier="1.4" id="esZ-N0-lzp"/>
+                    <constraint firstItem="PvE-VE-Hj5" firstAttribute="leading" secondItem="CXN-ZM-CBp" secondAttribute="trailing" constant="28" id="ibN-2n-hXq"/>
+                    <constraint firstItem="KEm-h0-nVO" firstAttribute="leading" secondItem="PvE-VE-Hj5" secondAttribute="leading" id="oLY-bF-RK1"/>
+                    <constraint firstItem="CXN-ZM-CBp" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.6" id="oeh-VQ-aZ3"/>
+                    <constraint firstItem="PvE-VE-Hj5" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" multiplier="0.6" id="qXt-UZ-JV6"/>
+                    <constraint firstAttribute="trailing" secondItem="77p-wK-RkX" secondAttribute="trailing" constant="15" id="wmB-YY-Hgm"/>
+                    <constraint firstItem="CXN-ZM-CBp" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="wxh-iO-mGf"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.96470588235294119" green="0.96470588235294119" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
+            <connections>
+                <outlet property="history1Label" destination="KEm-h0-nVO" id="gbA-iF-MEk"/>
+                <outlet property="historyContraint" destination="qXt-UZ-JV6" id="9sr-OH-r5d"/>
+                <outlet property="historyImageContraint" destination="CUl-oV-3cz" id="suW-CX-5xk"/>
+                <outlet property="historyImageView" destination="Oen-1f-RuR" id="AzF-Ml-boA"/>
+                <outlet property="historyLabel" destination="PvE-VE-Hj5" id="BYL-hT-Aa1"/>
+                <outlet property="historyView" destination="CXN-ZM-CBp" id="lxs-UL-tym"/>
+            </connections>
+            <point key="canvasLocation" x="-184" y="47.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="book_placeholder-icon" width="10.5" height="14"/>
+    </resources>
+</document>

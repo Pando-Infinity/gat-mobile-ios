@@ -1,0 +1,24 @@
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "9VG-zv-muc"; */
+"9VG-zv-muc.placeholder" = "Email";
+
+/* Class = "UILabel"; text = "ĐĂNG NHẬP"; ObjectID = "L2A-Z3-W4Z"; */
+"L2A-Z3-W4Z.text" = "ĐĂNG NHẬP";
+
+/* Class = "UIButton"; normalTitle = "ĐĂNG NHẬP"; ObjectID = "Les-bN-T97"; */
+"Les-bN-T97.normalTitle" = "ĐĂNG NHẬP";
+
+/* Class = "UILabel"; text = "Đăng nhập bằng mạng xã hội đang có"; ObjectID = "O8l-sp-lSQ"; */
+"O8l-sp-lSQ.text" = "Đăng nhập bằng mạng xã hội đang có";
+
+/* Class = "UIButton"; normalTitle = "Quên mật khẩu?"; ObjectID = "tcH-jr-ASs"; */
+"tcH-jr-ASs.normalTitle" = "Quên mật khẩu?";
+
+/* Class = "UIButton"; normalTitle = "ĐĂNG NHẬP"; ObjectID = "uLv-ET-nyQ"; */
+"uLv-ET-nyQ.normalTitle" = "ĐĂNG NHẬP";
+
+/* Class = "UIButton"; normalTitle = "ĐĂNG KÝ"; ObjectID = "ySt-9t-Asn"; */
+"ySt-9t-Asn.normalTitle" = "ĐĂNG KÝ";
+
+/* Class = "UITextField"; placeholder = "Mật khẩu"; ObjectID = "yiw-Om-zte"; */
+"yiw-Om-zte.placeholder" = "Mật khẩu";

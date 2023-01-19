@@ -1,0 +1,32 @@
+//
+//  Development.xcconfig
+//  gat
+//
+//  Created by jujien on 8/15/20.
+//  Copyright © 2020 GaTBook. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+PRODUCT_BUNDLE_IDENTIFIER = GaT.app.vn.dev
+
+google_clien_id = 177876099439-iga3bf4oii4m37bd1lojg0j0p404fe5o.apps.googleusercontent.com
+
+admob_application_id = ca-app-pub-2557988302651232~7479980792
+
+ad_unit_id = ca-app-pub-2557988302651232/8537733986
+
+twitter_consumer_secret = iiUTGYNsXTpwhtmGVIfxEtkBhVHl6VLNrKD4hDxZ2fwNyk9Jdl
+
+twitter_consumer_key = gKxGJeazBQC8Mk5AwLZeMUxcC
+
+google_map_api_key = AIzaSyCV3dL_7IkI-cweT19Tc1ka5tGy041CBOE
+
+api_url = https:/$()/fordev.gatbook.org/rest/api/
+
+api_url_v2 = https:/$()/fordevv2.gatbook.org/api/v1/
+
+previous_days = 365
+
+idGAT = 964105

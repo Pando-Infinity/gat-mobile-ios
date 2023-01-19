@@ -1,0 +1,16 @@
+.DS_Store
+DerivedData/
+Pods/
+Podfile.lock
+*.plist
+*.xcuserstate
+*.xcuserstate
+/.idea/.gitignore
+/.idea/.name
+/.idea/encodings.xml
+/.idea/runConfigurations/gat.xml
+/.idea/gat-ios-1.0.iml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml
+/.idea/xcode.xml

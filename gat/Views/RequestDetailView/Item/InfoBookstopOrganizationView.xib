@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="2hg-PL-dKr" customClass="InfoBookstopView" customModule="gat" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="156"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UeN-X7-2YH">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="88"/>
+                    <subviews>
+                        <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PfP-do-Dzg">
+                            <rect key="frame" x="8" y="19" width="50" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="PfP-do-Dzg" secondAttribute="height" multiplier="1:1" id="Iyj-Wf-Gg5"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zDD-WP-ZDi">
+                            <rect key="frame" x="66" y="19" width="301" height="17"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="400" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qyc-kD-4yE">
+                            <rect key="frame" x="80.5" y="36.5" width="24" height="15"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Members" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3I9-H5-A5X">
+                            <rect key="frame" x="66" y="54" width="53" height="15"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.56862745100000001" green="0.56862745100000001" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RbO-rH-d01">
+                            <rect key="frame" x="139.5" y="36.5" width="21.5" height="15"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Books" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C8a-Pb-HhK">
+                            <rect key="frame" x="132.5" y="54" width="35" height="15"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.56862745100000001" green="0.56862745100000001" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="PfP-do-Dzg" firstAttribute="leading" secondItem="UeN-X7-2YH" secondAttribute="leading" constant="8" id="5i8-he-BzB"/>
+                        <constraint firstItem="zDD-WP-ZDi" firstAttribute="leading" secondItem="PfP-do-Dzg" secondAttribute="trailing" constant="8" id="AK6-Rm-ZvF"/>
+                        <constraint firstItem="3I9-H5-A5X" firstAttribute="leading" secondItem="zDD-WP-ZDi" secondAttribute="leading" id="Bco-TK-Rok"/>
+                        <constraint firstAttribute="trailing" secondItem="zDD-WP-ZDi" secondAttribute="trailing" constant="8" id="Eha-kO-LgO"/>
+                        <constraint firstItem="zDD-WP-ZDi" firstAttribute="top" secondItem="PfP-do-Dzg" secondAttribute="top" id="Ixl-DH-L1N"/>
+                        <constraint firstItem="C8a-Pb-HhK" firstAttribute="centerX" secondItem="UeN-X7-2YH" secondAttribute="centerX" multiplier="0.8" id="Jn9-TJ-T8P"/>
+                        <constraint firstItem="Qyc-kD-4yE" firstAttribute="centerX" secondItem="3I9-H5-A5X" secondAttribute="centerX" id="NoR-pg-4P2"/>
+                        <constraint firstItem="3I9-H5-A5X" firstAttribute="bottom" secondItem="PfP-do-Dzg" secondAttribute="bottom" id="VrJ-X5-xCj"/>
+                        <constraint firstItem="Qyc-kD-4yE" firstAttribute="centerY" secondItem="PfP-do-Dzg" secondAttribute="centerY" id="Xx7-Wu-HpK"/>
+                        <constraint firstItem="PfP-do-Dzg" firstAttribute="width" secondItem="UeN-X7-2YH" secondAttribute="width" multiplier="2:15" id="a0I-JO-aiw"/>
+                        <constraint firstItem="RbO-rH-d01" firstAttribute="centerY" secondItem="PfP-do-Dzg" secondAttribute="centerY" id="biO-dr-C25"/>
+                        <constraint firstItem="RbO-rH-d01" firstAttribute="centerX" secondItem="C8a-Pb-HhK" secondAttribute="centerX" id="duS-xL-pCr"/>
+                        <constraint firstItem="PfP-do-Dzg" firstAttribute="centerY" secondItem="UeN-X7-2YH" secondAttribute="centerY" id="xiO-CF-7eU"/>
+                        <constraint firstItem="C8a-Pb-HhK" firstAttribute="bottom" secondItem="PfP-do-Dzg" secondAttribute="bottom" id="zJQ-GA-tgY"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NEi-g3-wI1">
+                    <rect key="frame" x="8" y="88" width="359" height="68"/>
+                    <string key="text">With approximately 264,000 people worldwide, Deloitte member firms deliver professional services in more than 150 countries. How can Deloitte help you?</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="UeN-X7-2YH" firstAttribute="height" secondItem="2hg-PL-dKr" secondAttribute="height" multiplier="82:145" id="D7Y-Qn-elV"/>
+                <constraint firstItem="UeN-X7-2YH" firstAttribute="width" secondItem="2hg-PL-dKr" secondAttribute="width" id="Dgu-AU-cHl"/>
+                <constraint firstAttribute="bottom" secondItem="NEi-g3-wI1" secondAttribute="bottom" id="Xqh-qv-Mo4"/>
+                <constraint firstAttribute="trailing" secondItem="NEi-g3-wI1" secondAttribute="trailing" constant="8" id="cuE-9v-uab"/>
+                <constraint firstItem="UeN-X7-2YH" firstAttribute="centerX" secondItem="2hg-PL-dKr" secondAttribute="centerX" id="geH-37-QK4"/>
+                <constraint firstItem="NEi-g3-wI1" firstAttribute="leading" secondItem="PfP-do-Dzg" secondAttribute="leading" id="jfm-yi-3iX"/>
+                <constraint firstItem="UeN-X7-2YH" firstAttribute="top" secondItem="2hg-PL-dKr" secondAttribute="top" id="rZr-3W-URH"/>
+                <constraint firstItem="NEi-g3-wI1" firstAttribute="top" secondItem="UeN-X7-2YH" secondAttribute="bottom" id="xvn-4H-GSZ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="LgB-Yh-3hJ"/>
+            <connections>
+                <outlet property="aboutLabel" destination="NEi-g3-wI1" id="vGS-RV-mMF"/>
+                <outlet property="bookTitleLabel" destination="C8a-Pb-HhK" id="U4I-sl-TmP"/>
+                <outlet property="imageView" destination="PfP-do-Dzg" id="CDA-ZH-MZy"/>
+                <outlet property="memberTitleLabel" destination="3I9-H5-A5X" id="s8A-9K-tN8"/>
+                <outlet property="nameBookstopLabel" destination="zDD-WP-ZDi" id="C3m-5K-j8X"/>
+                <outlet property="numberBooksLabel" destination="RbO-rH-d01" id="sIN-hU-9tt"/>
+                <outlet property="numberMembersLabel" destination="Qyc-kD-4yE" id="r3i-CR-2se"/>
+            </connections>
+            <point key="canvasLocation" x="30.5" y="-215"/>
+        </view>
+    </objects>
+</document>

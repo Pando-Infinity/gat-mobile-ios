@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="challengeOrganizationCell" id="gTV-IL-0wX" customClass="ChallengeOrganizationCollectionViewCell" customModule="gat" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="338" height="309"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="338" height="309"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yoF-Oz-qec">
+                        <rect key="frame" x="0.0" y="0.0" width="338" height="228"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="228" id="AOH-Yz-FL0"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M2c-1T-elR">
+                        <rect key="frame" x="16" y="244" width="306" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="0.1019607843" blue="0.22352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_user_gray" translatesAutoresizingMaskIntoConstraints="NO" id="9XU-DG-57K">
+                        <rect key="frame" x="16" y="271.5" width="16" height="17"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gV9-0Y-nLW">
+                        <rect key="frame" x="36" y="273" width="31" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.60784313725490191" green="0.60784313725490191" blue="0.60784313725490191" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_calendar_gray" translatesAutoresizingMaskIntoConstraints="NO" id="c5E-Ky-8WX">
+                        <rect key="frame" x="95" y="272.5" width="13" height="15"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ppt-iU-hqo">
+                        <rect key="frame" x="116" y="273" width="31" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.60784313729999995" green="0.60784313729999995" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="yoF-Oz-qec" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Bqf-KL-h4X"/>
+                <constraint firstItem="c5E-Ky-8WX" firstAttribute="leading" secondItem="gV9-0Y-nLW" secondAttribute="trailing" constant="28" id="Ciq-zk-842"/>
+                <constraint firstItem="9XU-DG-57K" firstAttribute="top" secondItem="M2c-1T-elR" secondAttribute="bottom" constant="8" id="Cyv-0j-qOf"/>
+                <constraint firstItem="ppt-iU-hqo" firstAttribute="centerY" secondItem="c5E-Ky-8WX" secondAttribute="centerY" id="Czk-I0-Eom"/>
+                <constraint firstItem="9XU-DG-57K" firstAttribute="leading" secondItem="M2c-1T-elR" secondAttribute="leading" id="Hlp-GM-wr0"/>
+                <constraint firstItem="ppt-iU-hqo" firstAttribute="leading" secondItem="c5E-Ky-8WX" secondAttribute="trailing" constant="8" id="ICm-gL-7zi"/>
+                <constraint firstItem="M2c-1T-elR" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="JOa-w3-hYD"/>
+                <constraint firstItem="gV9-0Y-nLW" firstAttribute="centerY" secondItem="9XU-DG-57K" secondAttribute="centerY" id="aj1-n6-leE"/>
+                <constraint firstItem="yoF-Oz-qec" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="cnW-Dl-skG"/>
+                <constraint firstAttribute="trailing" secondItem="M2c-1T-elR" secondAttribute="trailing" constant="16" id="eUY-j6-vK2"/>
+                <constraint firstAttribute="trailing" secondItem="yoF-Oz-qec" secondAttribute="trailing" id="ldF-J4-yLM"/>
+                <constraint firstItem="c5E-Ky-8WX" firstAttribute="centerY" secondItem="gV9-0Y-nLW" secondAttribute="centerY" id="lv5-9L-y48"/>
+                <constraint firstItem="gV9-0Y-nLW" firstAttribute="leading" secondItem="9XU-DG-57K" secondAttribute="trailing" constant="4" id="n0f-pY-zng"/>
+                <constraint firstItem="M2c-1T-elR" firstAttribute="top" secondItem="yoF-Oz-qec" secondAttribute="bottom" constant="16" id="t7f-pY-JaH"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="338" height="309"/>
+            <connections>
+                <outlet property="challengeNameLabel" destination="M2c-1T-elR" id="J85-RV-6Z7"/>
+                <outlet property="dataLabel" destination="ppt-iU-hqo" id="frw-2R-780"/>
+                <outlet property="imageView" destination="yoF-Oz-qec" id="cuC-gs-rwS"/>
+                <outlet property="totalJoinLabel" destination="gV9-0Y-nLW" id="ubq-QK-JHG"/>
+            </connections>
+            <point key="canvasLocation" x="327.536231884058" y="212.61160714285714"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="ic_calendar_gray" width="13" height="15"/>
+        <image name="ic_user_gray" width="16" height="17"/>
+    </resources>
+</document>

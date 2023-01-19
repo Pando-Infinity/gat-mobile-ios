@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="JoinBookstopView" customModule="gat" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="169"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n6G-KD-bCU">
+                    <rect key="frame" x="16" y="16" width="343" height="43"/>
+                    <string key="text">Deloitte Vietnam Bookstop chỉ cho phép thành viên được mượn sách. Nếu bạn là nhân viên của Deloitte Vietnam, hãy gửi yêu cầu để trở thành thành viên Bookstop.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wvl-Ko-bs3">
+                    <rect key="frame" x="0.0" y="59" width="375" height="110"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OD5-J3-LbK">
+                            <rect key="frame" x="16" y="16" width="343" height="50"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="Hz7-za-Ige"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                            <state key="normal" title="Button">
+                                <color key="titleColor" red="0.2627450980392157" green="0.5725490196078431" blue="0.73333333333333328" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="OD5-J3-LbK" firstAttribute="top" secondItem="wvl-Ko-bs3" secondAttribute="top" constant="16" id="9gY-fb-XLy"/>
+                        <constraint firstItem="OD5-J3-LbK" firstAttribute="centerX" secondItem="wvl-Ko-bs3" secondAttribute="centerX" id="BDm-Ma-45F"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.96470588235294119" green="0.96470588235294119" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="wvl-Ko-bs3" secondAttribute="bottom" id="MqH-Cj-dxx"/>
+                <constraint firstItem="wvl-Ko-bs3" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="P6o-Ag-2Bg"/>
+                <constraint firstItem="OD5-J3-LbK" firstAttribute="width" secondItem="n6G-KD-bCU" secondAttribute="width" id="Rts-hE-4Ca"/>
+                <constraint firstItem="n6G-KD-bCU" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="SPi-bL-k3i"/>
+                <constraint firstItem="wvl-Ko-bs3" firstAttribute="top" secondItem="n6G-KD-bCU" secondAttribute="bottom" id="WQg-Y0-BXn"/>
+                <constraint firstItem="n6G-KD-bCU" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="16" id="nS9-f3-tEb"/>
+                <constraint firstItem="n6G-KD-bCU" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="rmq-Sz-r51"/>
+                <constraint firstItem="wvl-Ko-bs3" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="xf6-mO-aIM"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="joinButton" destination="OD5-J3-LbK" id="TZU-9C-8Xu"/>
+                <outlet property="messageLabel" destination="n6G-KD-bCU" id="V9C-bM-cs7"/>
+            </connections>
+            <point key="canvasLocation" x="40.799999999999997" y="-195.6521739130435"/>
+        </view>
+    </objects>
+</document>

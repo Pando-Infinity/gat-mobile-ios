@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ownerPostCell" id="gTV-IL-0wX" customClass="OwnerPostCollectionViewCell" customModule="gat" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="411" height="181"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="411" height="181"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01" translatesAutoresizingMaskIntoConstraints="NO" id="q3K-y4-fRw">
+                        <rect key="frame" x="16" y="16" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="r2N-4x-Fpg"/>
+                            <constraint firstAttribute="width" secondItem="q3K-y4-fRw" secondAttribute="height" multiplier="1:1" id="sTl-Gq-fRZ"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BÀI VIẾT BỞI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IYQ-BE-Twx">
+                        <rect key="frame" x="84" y="16" width="72.5" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.60784313725490191" green="0.60784313725490191" blue="0.60784313725490191" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="91R-uh-D6Z">
+                        <rect key="frame" x="84" y="34.5" width="46" height="21.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                        <color key="textColor" red="0.0" green="0.1019607843" blue="0.22352941179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f6K-Ko-64d">
+                        <rect key="frame" x="84" y="60" width="35.5" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.62745098039215685" green="0.62745098039215685" blue="0.62745098039215685" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bDc-Zy-Mij">
+                        <rect key="frame" x="306" y="16" width="89" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="WEV-Gg-1AG"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
+                        <state key="normal" title="+ Theo dõi">
+                            <color key="titleColor" red="0.35294117650000001" green="0.64313725489999995" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="bDc-Zy-Mij" secondAttribute="trailing" constant="16" id="2qn-qn-rUc"/>
+                <constraint firstItem="f6K-Ko-64d" firstAttribute="top" secondItem="91R-uh-D6Z" secondAttribute="bottom" constant="4" id="7Eo-gL-EMe"/>
+                <constraint firstItem="f6K-Ko-64d" firstAttribute="leading" secondItem="91R-uh-D6Z" secondAttribute="leading" id="9J7-00-f3I"/>
+                <constraint firstItem="bDc-Zy-Mij" firstAttribute="top" secondItem="IYQ-BE-Twx" secondAttribute="top" id="FgC-lu-257"/>
+                <constraint firstItem="q3K-y4-fRw" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="16" id="MMb-5F-dP7"/>
+                <constraint firstItem="91R-uh-D6Z" firstAttribute="leading" secondItem="IYQ-BE-Twx" secondAttribute="leading" id="O6K-1j-Boj"/>
+                <constraint firstItem="IYQ-BE-Twx" firstAttribute="leading" secondItem="q3K-y4-fRw" secondAttribute="trailing" constant="8" id="drf-sg-8lf"/>
+                <constraint firstItem="IYQ-BE-Twx" firstAttribute="top" secondItem="q3K-y4-fRw" secondAttribute="top" id="f7C-3K-g0j"/>
+                <constraint firstItem="q3K-y4-fRw" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="hHJ-9z-Klm"/>
+                <constraint firstItem="91R-uh-D6Z" firstAttribute="top" secondItem="IYQ-BE-Twx" secondAttribute="bottom" constant="4" id="sNR-5j-fLT"/>
+            </constraints>
+            <size key="customSize" width="411" height="181"/>
+            <connections>
+                <outlet property="addressLabel" destination="f6K-Ko-64d" id="7Fz-R5-HkO"/>
+                <outlet property="followButton" destination="bDc-Zy-Mij" id="psP-sY-by8"/>
+                <outlet property="imageView" destination="q3K-y4-fRw" id="7FD-cy-HzM"/>
+                <outlet property="nameLabel" destination="91R-uh-D6Z" id="bqQ-8D-pQe"/>
+                <outlet property="ownerPostTitleLabel" destination="IYQ-BE-Twx" id="b8u-iY-abR"/>
+            </connections>
+            <point key="canvasLocation" x="192.0289855072464" y="138.95089285714286"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="01" width="75" height="75"/>
+    </resources>
+</document>

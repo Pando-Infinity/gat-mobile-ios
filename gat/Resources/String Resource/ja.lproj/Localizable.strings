@@ -1,0 +1,928 @@
+//Accept-Language
+"Accept-Language" = "jp";
+
+//MARK: - COMMON
+"ERROR_GPS_MESSAGE" = "この機能を利用するために GPS機能をオンにする";
+"ERROR_CONNECT_INTERNET_MESSAGE" = "インターネットが繋がりませんでした";
+"ERROR_CONNECT_INTERNET_TITLE" = "エラーが発生しました!";
+"ERROR_LOGIN_TITLE" = "お知らせ";
+"SKIP_ALERT_TITLE" = "スキップ";
+"LOGIN_ALERT_MESSAGE" = "この機能を利用するために、ログインしてください";
+"LOGIN_ALERT_TITLE" = "ログイン";
+"ERROR_CAMERA_TITLE" = "エラーが発生しました!";
+"CAMERA_ALERT_MESSAGE" = "カメラのアクセスが不許可です";
+"SETTING_ALERT_TITLE" = "設定";
+"PERMISSION_CAMERA_TITLE" = "カメラへのアクセスを許可することで、写真や動画を撮影できるようになります。";
+"ERROR_ALERT_TITLE" = "エラーが発生しました!";
+"OK_ALERT_TITLE" = "同意";
+"ERROR_LOCATION_TITLE" = "お知らせ!";
+"CANCEL_NOTIFICATION_ALERT_TITLE" = "通知をオフにする";
+"YES_ALERT_TITLE" = "同意";
+"NO_ALERT_TITLE" = "キャンセル";
+"CANCEL_CHANGE_MESSAGE" = "編集をキャンセルしても宜しいですか";
+"LOST_BOOK_ALERT_TITLE" = "本がまだ返却されていません";
+"LOST_BOOK_MESSAGE" = "相手に連絡してみましたか\n「本がまだ返却されていません」を選択すると、編集不可ですから、慎重に検討してください。";
+"LOST_ALERT_TITLE" = "まだ貰ってない!";
+"CANCEL_ERROR_TITLE" = "キャンセル";
+"CANCEL_REQUEST_ERROR_TITLE" = "リクエストをキャンセルする";
+"CANCEL_REQUEST_MESSAGE" = "貸出リクエストをキャンセルしてもよろしいですか？";
+"REJECT_ERROR_TITLE" = "リクエストを拒否する";
+"REJECT_MESSAGE" = "リクエストを拒否しても宜しいですか？";
+"ERROR_EMAIL_EXISTED_TITLE" = "エラーが発生しました";
+"EMAIL_EXISTED_MESSAGE" = "メールは無効です。";
+"SOCIAL_LOGIN_NOTIFICATION" = "お知らせ";
+"SOCIAL_LOGIN_MESSAGE" = "パスワードを変更するため、%@ %@アカウントにログインしてください。";
+"UPDATE_ALERT_TITLE" = "アプリを更新する！";
+"UPDATE_MESSAGE" = "GATは、いくつかのバグを修正し、アプリを更新しました。 該当バージョンをお使いの方は、お手数ですが必ず最新バージョンにアップデートをお願いします。";
+"UPDATE_ALERT_TITLE" = "アップデート";
+"SESSION_NOT_EXISTED_MESSAGE" = "エラーが発生しました。 もう一度やり直してください。";
+"NOT_GET_ADDRESS_MESSAGE" = "アドレスを取得できません";
+"CANCEL_REQUEST_BOOKSTOP_MESSAGE" = "ブックストップ参加リクエストをキャンセルしますか%@?";
+"LEVEAVE_BOOKSTOP_MESSAGE" = "%@ブックストップを脱退しますか";
+"DOING_JOIN_BOOKSTOP_MESSAGE" = "%@ブックスラップに参加しています";
+"NOTIFICATION_TITLE" = "お知らせ";
+"YOUR_SEND_MESSAGE" = "ブックストップ参加リクエストを送信しました";
+"OTHER" = "その他";
+"SERVER_ERROR_MESSAGE" = "サーバーにエラーが発生しました。もう一度やり直してください";
+"LESS_TITLE" = "縮小";
+"PLEASE_WAIT" = "読み込み中です。しばらくお待ちください。";
+
+
+//MARK: - Pop Up
+"TOTAL_PAGES" = "総ページ数";
+"BOOK_YOU_HAVE_READ" = "読書ページ数";
+
+//MARK: - Favourite Category
+"CATEGORY_TITLE" = "お気に入り本のジャンル";
+"FAVOURITE_CATEGORY_TITLE" = "お気に入り本のジャンル";
+"ALL_CATEGORY_TITLE" = "すべて";
+"LITERATURE_CATEGORY_TITLE" = "文学";
+"SKILL_CATEGORY_TITLE" = "スキル";
+"ECONOMIC_CATEGORY_TITLE" = "経済";
+"HISTORY_AND_GEOGRAPHY_CATEGORY_TITLE" = "歴史・地理";
+"ART_CATEGORY_TITLE" = "芸能";
+"RELIGION_CATEGORY_TITLE" = "宗教・思想";
+"CHILDREN_CATEGORY_TITLE" = "児童書";
+"COMIC_CATEGORY_TITLE" = "コミックス";
+"SCIENCE_CATEGORY_TITLE" = "科学";
+"TEXTBOOK_CATEGORY_TITLE" = "教科書";
+"FOREIGN_LANGUAGE_CATEGORY_TITLE" = "外国語";
+"SYLLABUS_CATEGORY_TITLE" = "テキスト";
+"MOM_AND_BABY_CATEGORY_TITLE" = "育児";
+"SYNTHESIS_CATEGORY_TITLE" = "総合";
+"MAGAZINE_CATEGORY_TITLE" = "雑誌";
+
+//MARK: - Time
+"YEARS" = "%d年前";
+"ONE_YEAR" = "%d年前";
+"MONTHS" = "%dヵ月前";
+"ONE_MONTH" = "%dヵ月前";
+"WEEKS" = "%d週間前";
+"ONE_WEEK" = "%d週間前";
+"DAYS" = "%d日前";
+"ONE_DAY" = "%d日前";
+"HOURS" = "%d時間前";
+"ONE_HOUR" = "%d時間前";
+"MINUTES" = "%d分前";
+"ONE_MINUTE" = "%d分前";
+"SECONDS" = "%d秒前";
+"ONE_SECOND" = "%d秒前";
+"A_MOMENT_AGO" = "たった今";
+
+// TAB BAR
+"HOME_TABBAR" = "ホームページ";
+"PROFILE_TABBAR" = "プロフィール";
+"ADD_BOOK_TABBAR" = "本の追加";
+"NOTIFICATION_TABBAR" = "お知らせ";
+"SETTING_TABBAR" = "設定";
+
+//MARK: - HOME
+"SEARCH_TITLE_HOME" = "検索";
+"COMMUNITY_TITLE" = "コンミュニティ";
+"NEARBY_USER_TITLE_HOME" = "近くのユーザー";
+"MORE_TITLE_HOME" = "もっと見る";
+"BOOK_SHARING_TITLE_HOME" = "共有している本";
+"ERROR_ALERT_TITLE_HOME" = "エラーが発生しました";
+"SETTING_ALERT_TITLE_HOME" = "設定";
+"CANCEL_ALERT_TITLE_HOME" = "キャンセル";
+"OK_ALERT_TITLE_HOME" = "エラーが発生しました。";
+"ERROR_BOOKS_EMPTY_MESSAGE_HOME" = "本が見つかりませんでした";
+"NOT_FOUND_NEARBY_USER_MESSAGE_HOME" = "近くのユーザーが見つかりませんでした";
+"EXPLORATION_TITLE_HOME" = "発見";
+"PROFILE_EXPLORATION_HOME" = "プロフィール\nを編集";
+"BOOKSTOP_EXPLORATION_HOME" = "GAT-UP\n本棚";
+"FAN_PAGE_EXPLORATION_HOME" = "GATコンミュニティ\nに参加";
+"TOP_BORROW_BOOK_HOME" = "よく借りられる本";
+"NEW_REVIEW_TITLE_HOME" = "新しい評価";
+"RECOMMEND_BY_GAT_HOME" = "おすすめ";
+"HOT_WRITTERS_ON_GAT_HOME" = "注目のレビュアー";
+"BASE_ON_READ_ARTICLE_HOME" = "あなたのお読み物傾向から";
+"TRENDING_REVIEW_HOME" = "注目のレビュー";
+"TRENDING_ARTICLE_HOME" = "注目の投稿";
+"NEARBY_BOOKSTOP_HOME" = "近くのブックストップ";
+"SUCCESS_HOME" = "参加リクエストが承認されました";
+"ADD_BOOKMARK_HOME" = "ブックマークを追加";
+"REMOVE_BOOKMARK_MESSAGE" = "ブックマップを削除";
+
+//MARK: - NEARBY USER
+"NEARBY_USER_TITLE" = "近くのユーザー";
+"NOT_FOUND_NEARBY_USER_MESSAGE_NEARBYUSER" = "近くのユーザーが見つかりませんでした";
+"RESULT_HEADER_TITLE_NEARBYUSER" = "近くのユーザーの%@人が見つかりました";
+"OK_ALERT_TITLE_NEARBYUSER" = "同意";
+"ERROR_ALERT_TITLE_NEARBYUSER" = "エラーが発生しました";
+"SETTING_ALERT_TITLE_NEARBYUSER" = "設定";
+"CANCEL_ALERT_TITLE_NEARBYUSER" = "キャンセル";
+
+//MARK: - SEARCH
+"SEARCH_TITLE" = "検索";
+"SEARCH_BOOK_TITLE_SEARCH" = "本のタイトル";
+"SEARCH_AUTHOR_TITLE_SEARCH" = "著作名";
+"SEARCH_USER_TITLE_SEARCH" = "ユーザー名";
+"CANCEL_SEARCH_TITLE_SEARCH" = "キャンセル";
+"ERROR_ALERT_TITLE_SEARCH" = "エラーが発生しました";
+"OK_ALERT_TITLE_SEARCH" = "同意";
+"NUMBER_SHARING_BOOK_TITLE_SEARCH" = "冊数";
+"NUMBER_REVIEW_BOOK_TITLE_SEARCH" = "レビュー数";
+"NUMBER_USER_SHARING_BOOK_TITLE" = "本を共有している人数";
+"NO_AUTHOR_TITLE_SEARCH" = "見つかりませんでした";
+"RESULT_SEARCH_TITLE_SEARCH" = "%@件が見つかりました";
+"ADD_NEW_BOOK_SEARCH" = "貸出リクエストを送信する";
+
+//MARK: - BOOK DETAIL
+"BOOK_DETAIL_TITLE" = "本の詳細";
+"BOOK_DESCRIPTION_TITLE_BOOKDETAIL" = "本の要約";
+"REVIEW_BOOK_TITLE_BOOKDETAIL" = "レビュー";
+"ERROR_ALERT_TITLE_BOOKDETAIL" = "エラーが発生しました";
+"OK_ALERT_TITLE_BOOKDETAIL" = "同意";
+"CANCEL_ALERT_TITLE_BOOKDETAIL" = "キャンセル";
+"EDIT_REVIEW_TITLE_BOOKDETAIL" = "レビューを編集";
+"WRITE_REVIEW_TITLE_BOOKDETAIL" = "レビューを書く";
+"ADD_BOOK_TITLE_BOOKDETAIL" = "本棚に追加";
+"BORROW_BOOK_TITLE_BOOKDETAIL" = "借入";
+"MORE_TITLE_BOOKDETAIL" = "もっと見る";
+"BOOK_INFO_TITLE_BOOKDETAIL" = "本の詳細";
+"BUY_BOOK_TITLE_BOOKDETAIL" = "購入";
+"MY_REVIEW_TITLE_BOOKDETAIL" = "あなたのレビュー";
+"STOCKING_TITLE_BOOKDETAIL" = "在庫あり";
+"OUT_OF_STOCK_TITLE_BOOKDETAIL" = "在庫切れ";
+"ADD_BOOKSHELF_MESSAGE_BOOKDETAIL" = "自分の本棚に追加しますか";
+"ADD_BOOK_SUCCEEDED_MESSAGE_BOOKDETAIL" = "本棚の追加済みです";
+"SUCCEEDED_BOOKDETAIL" = "完了";
+"ADD_BOOKSHELF_MESSAGE" = "この本を自分の本棚に追加しますか";
+"NO_START_READING" = "いいえ、すぐに読む";
+
+//MARK: - ADD BOOK
+"ADD_BOOK_TITLE" = "本棚に追加";
+"NUMBER_BOOK_TITLE_ADDBOOK" = "本棚の総冊数";
+"ALLOW_SHARING_TITLE_ADDBOOK" = "貸出を許可する";
+"OK_ALERT_TITLE_ADDBOOK" = "同意";
+"ERROR_ALERT_TITLE_ADDBOOK" = "エラーが発生しました";
+"YES_ALERT_TITLE_ADDBOOK" = "はい";
+"NO_ALERT_TITLE_ADDBOOK" = "いいえ";
+"CANCEL_ADDBOOK_MESSAGE_ADDBOOK" = "本の追加をキャンセルしますか";
+"NOTIFICATION_CANCEL_ADDBOOK" = "お知らせ";
+
+//MARK: - COMMENT
+"RATE_TITLE_COMMENT" = "レビューを書く";
+"ERROR_ALERT_TITLE_COMMENT" = "エラーが発生しました";
+"OK_ALERT_TITLE_COMMENT" = "同意";
+"YES_ALERT_TITLE_COMMENT" = "はい";
+"NO_ALERT_TITLE_COMMENT" = "いいえ";
+"CANCEL_COMMENT_MESSAGE_COMMENT" = "レビューをキャンセルしますか";
+"NOTIFICATION_CANCEL_COMMENT" = "お知らせ";
+"EDIT_PLACEHOLDER_COMMENT" = "この本について感想をシェアしよう";
+
+//MARK: - LIST SHARING BOOK
+"BOOKSELF_TITLE" = "本棚の名前";
+"ERROR_ALERT_TITLE_LISTBOOKSHARING" = "エラーが発生しました";
+"OK_ALERT_TITLE_LISTBOOKSHARING" = "同意";
+"SORT_BY_TITLE_LISTBOOKSHARING" = "絞り込み";
+"BORROW_TITLE_LISTBOOKSHARING" = "借入";
+"ON_HOLD_TITLE_LISTBOOKSHARING" = "予約";
+"BEING_BORROWED_STATUS_TITLE_LISTBOOKSAHRING" = "貸出中";
+"ON_HOLD_AGREE_STATUS_TITLE_LISTBOOKSHARING" = "承認待ち";
+"ON_HOLD_RETURN_STATUS_TITLE_LISTBOOKSHARING" = "順番待ち";
+"DOING_CONTACT_STATUS_TITLE_LISTBOOKSHARING" = "連絡中";
+"BORROWING_STATUS_TITLE_LISTBOOKSHARING" = "貸出中";
+"READ_IN_PLACE_STATUS_TITLE_LISTBOOKSHARING" = "ブックストップで読む";
+"LIMITED_BORROW_TITLE_LISTBOOKSHARING" = "貸出期限";
+"BOOKSTOP_MEMBER_ONLY_TITLE_LISTBOOKSHARING" = "ブックストップのメンバー";
+
+//MARK: - SORT BY OPTION
+"SORT_BY_TITLE_SORTBY" = "絞り込み";
+"UPTIME_STATUS_TITLE_SORTBY" = "アクティブ期間";
+"DISTANCE_STATUS_TITLE_SORTBY" = "距離";
+
+//MARK: - BOOKSTOP
+"READ_IN_PLACE_STATUS_TITLE_BOOKSTOP" = "ブックストップで読む";
+"SEARCH_BOOK_BOOKSTOP" = "本を探す";
+"BOOK_BOOKSTOP" = "本棚";
+"BOOK_SPACE_BOOKSTOP" = "読書スペース";
+
+//MARK: - MESSAGE
+"EMPTY_MESSAGE_TITLE_LISTMESSAGE" = "メッセージがありません";
+"ERROR_ALERT_TITLE_LISTMESSAGE" = "エラーが発生しました";
+"OK_ALERT_TITLE_LISTMESSAGE" = "同意";
+"SEND_MESSAGE_TITLE_MESSAGE" = "送信";
+"PLACEHOLDER_MESSAGE_TITLE_MESSAGE" = "メッセージを入力する";
+"ERROR_SEND_MESSAGE" = "メッセージが送信出来ませんでした";
+"RECOMMEND_MESSAGE_1" = "%@さん、いつ本を取りに来ますか";
+"RECOMMEND_MESSAGE_2" = "%@さん、いつ本を取りに行けば宜しいですか";
+"RECOMMEND_MESSAGE_3" = "位置と電話番号を教えて貰いませんか";
+"RECOMMEND_MESSAGE_4" = "%@へ本を取りに行ってくださいね";
+"READ_STATUS_MESSAGE" = "既読";
+"YOURSELF_MESSAGE" = "あなた";
+
+//MARK: - NOTIFICATION
+"NOTIFICATION_TITLE" = "お知らせ";
+"MESSAGE_TITLE" = "メッセージ";
+"NOTIFICATION_EMPTY_TITLE_NOTIFICATION" = "お知らせがありません";
+"ERROR_ALERT_TITLE_NOTIFICATION" = "エラーが発生しました";
+"OK_ALERT_TITLE_NOTIFICATION" = "同意";
+"EMPTY_NOTIFICATIONS_MESSAGE" = "メッセージがありません";
+"NOTIFICATION_TYPE_0_TITLE" = "未読メッセージが%d件あります";
+"NOTIFICATION_TYPE_1_TITLE" = "メッセージを送信しました";
+"NOTIFICATION_TYPE_10_TITLE" = "\"%@\"貸出リクエストを送信します";
+"NOTIFICATION_TYPE_11_TITLE" = " \"%@\"が貸出中です";
+"NOTIFICATION_TYPE_12_TITLE" = "\"%@\"の貸出リクエストが承認されました";
+"NOTIFICATION_TYPE_13_TITLE" = "あなたが\"%@\"を貸出しています";
+"NOTIFICATION_TYPE_14_TITLE" = "\"%@\"を返却しました";
+"NOTIFICATION_TYPE_15_TITLE" = " \"%@\"の貸出リクエストが拒否されました";
+"NOTIFICATION_TYPE_16_TITLE" = "\"%@\"を紛失しました";
+"NOTIFICATION_TYPE_17_TITLE" = "%@を借入しています";
+"NOTIFICATION_TYPE_18_TITLE" = "\"%@\"の貸出リクエストが%d件あります";
+"NOTIFICATION_TYPE_19_TITLE" = "\"%@\"の貸出リクエストをキャンセします";
+"NOTIFICATION_TYPE_20_TITLE" = "本の所有者が他人の本貸出リクエストを承認したため、%@さんへ%@の本の貸出リクエストはキャンセルされました。 あなたは新しい本の貸出リクエストができます";
+"NOTIFICATION_TYPE_21_TITLE" = "返事がない場合、%@さんへ%@の貸出リクエストが自動的にキャンセルされることになります。あなたは新しい本の貸出リクエストができます";
+"NOTIFICATION_TYPE_120_TITLE" = "%d件の貸出リクエストがまだ返事しません";
+"NOTIFICATION_TYPE_121_TITLE" = "\"%@\"さんの\"%@\"借入状況を更新してください";
+"NOTIFICATION_TYPE_122_TITLE" = "\"%@\"の借入期限が切れますので、所有者に連絡をお願いします";
+"NOTIFICATION_TYPE_123_TITLE" = " \"%@\"の借入期限を一週間過ぎたため、本の所有者に連絡をお願いします";
+"NOTIFICATION_TYPE_200_TITLE" = "GATへようこそ。近くのユーザーと交換出来るため、本を追加してください";
+"NOTIFICATION_TYPE_201_TITLE" = "本を交換できるため、位置を入力してください";
+"NOTIFICATION_TYPE_202_TITLE" = "お気に入り本のタイプを追加してください";
+"NOTIFICATION_TYPE_203_TITLE" = "本を追加し、近くのユーザーと本を交換し始めます";
+"NOTIFICATION_TYPE_301_TITLE" = "近くのユーザーが%d人います";
+"NOTIFICATION_TYPE_500_TITLE" = "%@さんがあなたをフォローしています";
+"NOTIFICATION_TYPE_502_TITLE" = "最近 %@人があなたのフォロワーになります";
+"NOTIFICATION_TYPE_600_TITLE" = "%@が追加されました";
+"NOTIFICATION_TYPE_800_TITLE" = "\"%@\"さんがあなたのチャレンジに参加します";
+"NOTIFICATION_TYPE_801_TITLE" = "\"%@\"さんが新しいチャレンジに参加しました. 発見しましょう";
+"NOTIFICATION_TYPE_802_TITLE" = "50000冊を読むチャレンジ \" GATはチャレンジ参加を招待しました。\"発見しましょう!";
+"NOTIFICATION_TYPE_803_TITLE" = "%@さんがあなたを1件のチャレンジに参加招待しました";
+"NOTIFICATION_TYPE_900_TITLE" = "%@さんがあなたの投稿にリアクションしました";
+"NOTIFICATION_TYPE_901_TITLE" = "%@さんと他の%d人があなたの投稿にリアクションしました";
+"NOTIFICATION_TYPE_902_TITLE" = "%@さんがあなたのコメントにリアクションしました";
+"NOTIFICATION_TYPE_903_TITLE" = "%@さんと他の%d人があなたのコメントにリアクションしました";
+"NOTIFICATION_TYPE_904_TITLE" = "%@さんがあなたの投稿にコメントしました";
+"NOTIFICATION_TYPE_905_TITLE" = "%@さんと他の %d人があなたの投稿にコメントしました";
+"NOTIFICATION_TYPE_906_TITLE" = "%@さんがあなたのコメントを返信しました";
+"NOTIFICATION_TYPE_907_TITLE" = "%@さんと他の %d人があなたのコメントを返信しました";
+"NOTIFICATION_TYPE_908_TITLE" = "%@さんが投稿であなたをメンションしました";
+"NOTIFICATION_TYPE_909_TITLE" = "%@さんがコメントであなたをメンションしました";
+"NOTIFICATION_TYPE_910_TITLE" = "%@さんが新しい投稿を追加しました";
+
+//MARK: - REQUEST DETAIL
+"BORROW_TITLE" = "借入";
+"ON_HOLD_TITLE" = "予約";
+"ON_HOLD_MESSAGE_REQUESTDETAILBORROWER" = "あいにく現在この本は貸出中であるため、返却されるまで「順番待ち」となります";
+"SEND_REQUEST_TO_REQUESTDETAILBORROWER" = "%@さんに貸出リクエストを送信する";
+"SEND_MESSAGE_REQUESTDETAILBORROWER" = "メッセージ";
+"INTEND_RETURN_MESSAGE_REQUESTDETAILBORROWER" = "返却予定日";
+"ERROR_ALERT_TITLE_REQUESTDETAILBORROWER" = "エラーが発生しました";
+"SEND_REQUEST_TITLE_REQUESTDETAILBORROWER" = "リクエストを送信する";
+"REVIEW_BOOK_TITLE_REQUESTDETAILBORROWER" = "コメント数";
+"BORROW_FORMAT_MESSAGE_REQUESTDETAILBORROWER" = "%@さん、こんにちは、\"%@\"を借して貰いませんか？ ";
+"ONHOLD_FORMAT_MESSAGE_REQUESTDETAILBORROWER" = "%@さん、こんにちは、 \"%@\"が返却されたら、借して貰いませんか";
+"OK_ALERT_TITLE_REQUESTDETAILBORROWER" = "OK";
+
+//MARK: - USER PROFILE
+"OK_ALERT_TITLE_USERPROFILE" = "OK";
+"ERROR_ALERT_TITLE_USERPROFILE" = "エラーが発生しました";
+"EDIT_TITLE_USERPROFILE" = "編集";
+"ADD_BOOK_MESSAGE_USERPROFILE" = "本を貸したことがありますか。本を追加しましょう！";
+"SHARE_PROFILE" = "プロフィールを共有";
+
+// Book Instance
+"BOOK_INSTANCE_TITLE_BOOKUSERPROFILE" = "本棚";
+"BORROW_STATUS_TITLE_BOOKUSERPROFILE" = "借入";
+"BORROW_BY_TITLE_BOOKUSERPROFILE" = "借用人%@";
+"SHARING_BOOK_BOOKUSERPROFILE" = "共有中の本";
+"NOT_SHARING_BOOK_TITLE_BOOKUSERPROFILE" = "未共有の本";
+"LOST_BOOK_TITLE_BOOKUSERPROFILE" = "紛失した本";
+"YES_ALERT_TITLE_BOOKUSERPROFILE" = "はい";
+"NO_ALERT_TITLE_BOOKUSERPROFILE" = "いいえ";
+"REMOVE_ALERT_TITLE_BOOKUSERPROFILE" = "本を削除する";
+"REMOVE_MESSAGE_BOOKUSERPROFILE" = " 自分の本棚から\"%@\"を削除しますか";
+
+// Review
+"REIVEW_TITLE_REVIEWUSERPROFILE" = "投稿";
+"RATING_TITLE_REVIEWUSERPROFILE" = "レビュー";
+"MORE_TITLE_REVIEWUSERPROFILE" = "もっと見る";
+"EDIT_ALERT_TITLE_REVIEWUSERPROFILE" = "編集";
+"REMOVE_ALERT_TITLE_REVIEWUSERPROFILE" = "削除";
+"CANCEL_ALERT_TITLE_REVIEWUSERPROFILE" = "キャンセル";
+"YES_ALERT_TITLE_REVIEWUSERPROFILE" = "はい";
+"NO_ALERT_TITLE_REVIEWUSERPROFILE" = "いいえ";
+"REMOVE_MESSAGE_REVIEWUSERPROFILE" = "レビューを削除しても宜しいですか";
+"NOTIFICATION_REMOVE_REVIEW_REVIEWUSERPROFILE" = "お知らせ";
+
+// Request
+"REQUEST_TITLE_REQUESTUSERPROFILE" = "リクエスト";
+"REJECT_TITLE_REQUESTUSERPROFILE" = "拒否";
+"ACCEPT_TITLE_REQUESTUSERPROFILE" = "承認";
+"REQUEST_INT_COMMING_TITLE_REQUESTUSERPROFILE" = "あなたへのリクエスト";
+"REQUEST_OUT_GOING_TITLE_REQUESTUSERPROFILE" = "あなたからのリクエスト";
+"OWNER_REQUEST_TITLE_REQUESTUSERPROFILE" = "あなたからの%@の貸出リクエストが承認されました";
+"BORROWER_REQUEST_TITLE_REQUESTUSERPROFILE" = "あなたからの%@の貸出リクエスト";
+"WAITING_CONFIRM_STATUS_REQUESTUSERPROFILE" = "承認待ち";
+"ON_HOLD_STATUS_REQUESTUSERPROFILE" = "順番待ち";
+"CONTACTING_REQUESTUSERPROFILE" = "連絡中";
+"BORROWING_STATUS_REQUESTUSERPROFILE" = "貸出中";
+"RETURNED_STATUS_REQUESTUSERPROFILE" = "返却された";
+"REJECTED_STATUS_REQUESTUSERPROFILE" = "拒否された";
+"CANCELLED_STATUS_REQUESTUSERPROFILE" = "キャンセルされた";
+"UNRETURNED_STATUS_REQUESTUSERPROFILE" = "返却されていない";
+"OHTER_STATUS_REQUESTUSERPROFILE" = "その他";
+//alert conflict
+"OK_ALERT_TITLE_REQUESTUSERPROFILE" = "OK";
+//alert conflict
+"ERROR_ALERT_TITLE_REQUESTUSERPROFILE" = "エラーが発生しました";
+"REQUEST_TO_BORROW_BOOK_FILTER_REQUESTUSERPROFILE" = "リクエストのタイプ";
+"STATUS_FILTER_REQUESTUSERPROFILE" = "リクエストの状況";
+
+//MARK: - VISTOR USER PROFILE
+"ERROR_ALERT_TITLE_VISTORUSERPROFILE" = "エラーが発生しました";
+"OK_ALERT_TITLE_VISTORUSERPROFILE" = "OK";
+
+// Visistor
+"BOOK_SHARING_TITLE_BOOKVISTORUSERPROFILE" = "本棚";
+"DOING_BORROWED_STATUS_BOOKVISTORUSERPROFILE" = "貸出中";
+"WATING_CONFIRM_STATUS_BOOKVISTORUSERPROFILE" = "承認待ち";
+"ON_HOLD_STATUS_BOOKVISTORUSERPROFILE" = "順番待ち";
+"BORROWING_STATUS_BOOKVISTORUSERPROFILE" = "貸出中";
+"CONTACTING_STATUS_BOOKVISTORUSERPROFILE" = "連絡中";
+"BORROW_BOOK_TITLE_BOOKVISTORUSERPROFILE" = "借入";
+"WAITING_BORROW_BOOK_TITLE_BOOKVISTORUSERPROFILE" = "予約中";
+
+// Review
+"REVIEW_TITLE_REVIEWVISTORUSERPROFILE" = "投稿";
+"RATING_TITLE_REVIEWVISTORUSERPROFILE" = "レビュー";
+"MORE_TITLE_REVIEWVISTORUSERPROFILE" = "もっと見る";
+
+// MARK: - START APP
+"START_PAGE_CAROUSEL_DATA" = "start_page_carousel_data_vi";
+"OVERVIEW_APP_TITLE_STARTAPP" = "アプリ発見";
+"REGISTER_TITLE_STARTAPP" = "投稿";
+"LOGIN_TITLE_STARTAPP" = "ログイン";
+
+// MARK: - LOGIN
+"LOGIN_TITLE" = "ログイン";
+"PASSWORD_PLACEHOLDER_LOGIN" = "パスワード";
+"FORGOT_PASSWORD_TITLE_LOGIN" = "パスワードを忘れた方はこちら";
+"LOGIN_SOCIAL_TITLE_LOGIN" = "SNSアカウントでログイン";
+"REGISTER_NOW_LOGIN" = "登録";
+"HAVE_NOT_ACCOUNT_LOGIN" = "アカウントを持っていますか?";
+"MESSAGE_EMAIL_LOGIN" = "有効なメールが入力必須です";
+"MESSAGE_PASSWORD_LOGIN" = "パスワードが入力必須です";
+
+// MARK: - REGISTER
+"REGISTER_TITLE" = "登録";
+"REGISTER_SOCIAL_TITLE_REGISTER" = "%@でログイン";
+"ADDRESS_EMAIL_PLACEHOLDER_REGISTER" = "メールを入力してください";
+"PASSWORD_PLACEHOLDER_REGISTER" = "パスワード";
+"CONFIRM_EMPTY_MESSAGE_REGISTER" = "確認パスワード入力項目は必須です";
+"COMFIRM_NOT_EQUAL_PASSWORD_MESSAGE_REGISTER" = "パスワードが一致していません";
+"ALREADY_HAVE_ACCOUNT_REGISTER" = "アカウントを既に持っている方はこちら";
+"LOGIN_NOW_REGISTER" = "すぐにログイン";
+"CONFIRM_PASSWORD_REGISTER" = "パスワード（確認用）";
+"COMFIRM_PASSWORD_PLACEHOLDER_REGISTER" = "パスワード（確認用）";
+
+// MARK: - MAP
+"ADD_LOCATION_PLACEHOLDER_MAP" = "現在の位置情報を入力してください";
+"OK_TITLE_MAP" = "OK";
+"SKIP_TITLE_MAP" = "スキップ";
+"SAVE_ADDRESS_TITLE_MAP" = "情報を保存";
+
+// MARK: - FAVOURITE CATEGORY
+"FAVOURITE_CATEGORY_TITLE" = "気に入り本のタイプ";
+"OK_TITLE_FAVOURITECATEGORY" = "OK";
+"SAVE_TITLE_FAVOURITECATEGORY" = "保存";
+"SKIP_TITLE_FAVOURITECATEGORY" = "スキップ";
+
+//MARK: - FORGOT PASSWORD
+"FORGOT_PASSWORD_TITLE" = "パスワードを忘れた方がこちら";
+"MESSAGE_FORGOT_FORGOTPASSWORD" = "以下のEメール宛パスワード変更リクエストを送信しました。";
+"EMAIL_ADDRESS_PLACEHOLDER_FORGOTPASSWORD" = "メールを入力してください";
+"SEND_EMAIL_TITLE_FORGOTPASSWORD" = "送信";
+"ACCOUNT_INVALID_MESSAGE_FORGOTPASSWORD" = "システムに%@ %@のアカウントがありません";
+"SESSION_INVALID_MESSAGE_FORGOTPASSWORD" = "エラーが発生しました。もう一度やり直してください。";
+"TOKEN_FIREBASE_INVALID_MESSAGE_FORGOTPASSWORD" = "エラーが発生しました。もう一度やり直してください。";
+
+// MARK: - RESET PASSWORD FOR SOCIAL
+"MESSAGE_FORGOT_RESETPASSWORDFORSOCIAL" = "新しいパスワードを入力してください";
+"NEW_PASSWORD_PLACEHOLDER_RESETPASSWORDFORSOCIAL" = "新しいパスワード";
+"CHANGE_PASSWORD_TITLE_RESETPASSWORDFORSOCIAL" = "変更を保存";
+
+// MARK: - CONFIRM PASSWORD
+"MESSAGE_FORGOT_CONFIRMPASSWORD" = "パスワードを変更するため、メールへ送信したコードを入力してください";
+"CODE_PLACEHOLDER_CONFIRMPASSWORD" = "メールで送信した確認コードを入力してください";
+"CHANGE_PASSWORD_TITLE_CONFIRMPASSWORD" = "変更を保存";
+
+// MARK: - RESET PASSWORD
+"MESSAGE_FORGOT_RESETPASSWORD" = "新しいパスワードを入力してください";
+"NEW_PASSWORD_PLACEHOLDER_RESETPASSWORD" = "新しいパスワード";
+"CHANGE_PASSWORD_TITLE_RESETPASSWORD" = "変更を保存";
+"SESSION_INVALID_MESSAGE_RESETPASSWORD" = "エラーが発生しました。もう一度やり直してください";
+"TOKEN_FIREBASE_INVALID_MESSAGE_RESETPASSWORD" = "エラーが発生しました。もう一度やり直してください。";
+
+// MARK: - BARCODE
+"SEARCH_TITLE_BARCODE" = "検索";
+"BARCODE_MESSAGE_BARCODE" = "コードをスキャンしてください";
+"TURN_ON_TITLE_BARCODE" = "LEDライトをオフ";
+"TURN_OFF_TITLE_BARCODE" = "LEDライトをオン";
+"CAN_NOT_SCAN_CODE_MESSAGE_BARCODE" = "コードをスキャン出来ません";
+
+// MARK: - EDIT USER
+"EDIT_TITLE" = "編集";
+"CANCEL_TITLE_EDITUSER" = "キャンセル";
+"SAVE_TITLE_EDITUSER" = "保存";
+"DONE_TITLE_EDITUSER" = "完成";
+"YOUR_NAME_PLACEHOLDER_EDITUSER" = "ユーザーネーム";
+"ADDRESS_TITLE_EDITUSER" = "位置";
+"ABOUT_TITLE_EDITUSER" = "自己紹介";
+"LIST_FAVOURITE_CATEGORY_TITLE_EDITUSER" = "気に入り本のタイプ";
+"CHANGE_AVATAR_TITLE" = "プロフィールの写真を変更";
+"MEMBER_BOOKSTOP_EDITUSER" = "ブックストップのメンバー";
+"ADD_BOOKSTOP_EDITUSER" = "ブックストップを追加";
+"CANCEL_REQUEST_EDITUSER" = "リクエストをキャンセル";
+"REMOVE_EDITUSER" = "削除";
+"BOOKSTOP_PLACEHOLDER_EDITUSER" = "ブックストップの名前を入力してください";
+
+// MARK: - SETTING
+"SETTING_TITLE" = "設定";
+"EDIT_USER_INFO_TITLE_SETTING" = "プロフィールを編集";
+"ADD_EMAIL_AND_PASSWORD_TITLE_SETTING" = "メールとパスワードを追加";
+"CHANGE_PASSWORD_TITLE_SETTING" = "パスワードを変更";
+"LOGOUT_TITLE_SETTING" = "ログアウト";
+"CREATE_ACCOUNT_TITLE_SETTING" = "アカウントを作成";
+"INFO_SOCIAL_INVALID_MESSAGE_SETTING" = "SNSからの情報が取得できません";
+"SESSION_NOT_EXISTED_MESSAGE_SETTING" = "セッションが存在していません";
+"BOOK_SHELF_GAT_UP_SETTING" = "GAT-UP";
+"BOOK_SHELF_GAT_UP_DESCRIPTION_SETTING" = "今すぐ発見しよう";
+"READING_HISTORY_SETTING" = "履歴";
+"REVIEW_GAT_SETTING" = "アプリを評価!";
+"QUESTION_SETTING" = "よくある質問";
+"TERM_AND_POLICY_SETTING" = "ポリシーと利用規約";
+"ABOUT_US_SETTING" = "会社情報";
+
+// MARK: - Add Email And Password
+"ADD_EMAIL_AND_PASSWORD_TITLE" = "メールとパスワードを追加";
+"ADD_EMAIL_PLACEHOLDER_ADDEMAILANDPASSWORD" = "メール";
+"PASSWORD_PLACEHOLDER_ADDEMAILANDPASSWORD" = "パスワード";
+
+// MARK: - SOCIAL NETWORK
+"INFO_SOCIAL_INVALID_MESSAGE_SOCIALNETWORK" = "SNSからの情報が取得できません";
+"DISCONNECT_TITLE_SOCIALNETWORK" = "SNS連携を解除";
+"CONNECTING_ACCOUNT_TITLE_SOCIALNETWORK" = "%@ %@のアカウントを繋がっています";
+
+//MARK: - CHANGE PASSWORD
+"CHANGE_PASSWORD_TITLE" = "パスワードを変更";
+"PASSWORD_INVALID_MESSAGE_CHANGEPASSWORD" = "パスワードは正しくありません";
+"PRESENT_PASSWORD_PLACEHOLDER_CHANGEPASSWORD" = "現在のパスワード";
+"NEW_PASSWORD_PLACEHOLDER_CHANGEPASSWORD" = "新しいパスワード";
+"CONFIRM_PASSWORD_PLACEHOLDER_CHANGEPASSWORD" = "パスワード（確認用）";
+"FORGOT_PASSWORD_TITLE_CHANGEPASSWORD" = "パスワードを忘れた";
+"PASSOWRD_MESSAGE_CHANGEPASSWORD" = "パスワード が一致していません";
+
+// MARK: - OWNER REQUEST DETAIL
+"OWNER_REQUEST_DETAIL" = "貸出情報";
+"ACCEPT_STATUS_OWNERREQUESTDETAIL" = "承認";
+"REJECT_STATUS_OWNERREQUESTDETAIL" = "拒否";
+"ON_HOLD_STATUS_OWNERREQUESTDETAIL" = "順番待ち";
+"ON_HOLD_MESSAGE_OWNERREQUESTDETAIL" = "現在すべての本は貸出中ですから 、本が返却されると貸出状況は自動的に\"返事待ち\" になります";
+"CONTACT_STATUS_OWNERREQUESTDETAIL" = "連絡";
+"BORROW_STATUS_OWNERREQUESTDETAIL" = "借入";
+"REJECT_STATUS_OWNERREQUESTDETAIL" = "リクエストを拒否";
+"RETURN_STATUS_OWNERREQUESTDETAIL" = "返却";
+"DID_LOST_STATUS_OWNERREQUESTDETAIL" = "紛失した";
+"DID_LOST_MESSAGE_OWNERREQUESTDETAIL" = "本を返却しないデータが記録され、その方に該当なペナルティを与える可能性があります";
+"CANCELLED_STATUS_OWNERREQUESTDETAIL" = "リクエストがキャンセルされた";
+"REJECTED_STATUS_OWNERREQUESTDETAIL" = "リクエストが拒否された";
+"BORROW_EXPECTATION_TIME_TITLE_OWNERREQUESTDETAIL" = "貸出期間";
+"NUMBER_REVIEW_TITLE_OWNERREQUESTDETAIL" = "レビュー数";
+"SHARING_BOOKS_TITLE_OWNERREQUESTDETAIL" = "共有されている本";
+"SEND_REQUEST_BORROW_BOOK_TITLE_ONWERREQUESTDETAIL" = "貸出リクエストを送信";
+"DATE_SEND_REQUEST_TITLE_OWNERREQUESTDETAIL" = "リクエスト送信日";
+"DATE_START_BORROW_TITLE_OWNERREQUESTDETAIL" = "借入日";
+"DATE_RETURN_BOOK_TITLE_OWNERREQUESTDETAIL" = "返却日";
+"DATE_REJECT_REQUEST_TITLE_OWNERREQUESTDETAIL" = "リクエスト拒否日";
+"DATE_CANCEL_REQUEST_TITLE_OWNERREQUESTDETAIL" = "リクエストキャンセル日";
+"SEND_MESSAGE_TO_TITLE_OWNERREQUESTDETAIL" = "%@さんにチャット";
+
+// MARK: - BORROWER REQUEST DETAIL
+"BORROWER_REQUEST_DETAIL" = "貸出状況";
+"CANCEL_STATUS_BORROWERREQUESTDETAIL" = "リクエストをキャンセル";
+"ON_HOLD_STATUS_BORROWERREQUESTDETAIL" = "順番待ち";
+"ON_HOLD_MESSAGE_BORROWERREQUESTDETAIL" = "現在すべての本は貸出中ですから 、本が返却されると貸出状況は自動的に\"返事待ち\" になります";
+"CONTACT_STATUS_BORROWERREQUESTDETAIL" = "連絡";
+"BORROW_STATUS_BORROWERREQUESTDETAIL" = "借入";
+"DID_LOST_STATUS_BORROWERREQUESTDETAIL" = "紛失した";
+"DID_LOST_MESSAGE_BORROWERREQUESTDETAIL" = "本を返却しないデータが記録され、その方に該当なペナルティを与える可能性があります";
+"RETURN_STATUS_BORROWERREQUESTDETAIL" = "返却";
+"DID_CANCEL_STATUS_BORROWERREQUESTDETAIL" = "リクエストをキャンセル";
+"BEING_REJECTED_STATUS_BORROWERREQUESTDETAIL" = "リクエストが拒否された";
+"BORROW_EXPECTATION_TIME_TITLE_BORROWERREQUESTDETAIL" = "貸出期限";
+"NUMBER_REVIEW_TITLE_BORROWERREQUESTDETAIL" = "コメント数";
+"SHARING_BOOKS_TITLE_BORROWERREQUESTDETAIL" = "共有される本";
+"YOU_SEND_REQUEST_BORROW_TITLE_BORROWERREQUESTDETAIL" = "貸出リクエストを送信しました";
+"DATE_SEND_REQUEST_TITLE_BORROWERREQUESTDETAIL" = "リクエストを送信 ";
+"DATE_START_BORROW_TITLE_BORROWERREQUESTDETAIL" = "借入";
+"DATE_RETURN_BOOK_TITLE_BORROWERREQUESTDETAIL" = "返却";
+"DATE_REJECT_REQUEST_TITLE_BORROWERREQUESTDETAIL" = "リクエストを拒否";
+"DATE_CANCEL_REQUEST_TITLE_BORROWERERQUESTDETAIL" = "リクエストをキャンセル";
+"SEND_MESSAGE_TO_TITLE_BORROWERERQUESTDETAIL" = "%@さんにメッセージ送信";
+
+// MARK: - TOP BORROWING BOOK
+"TOP_BORROW_BOOK" = "よく借りられる本";
+"ADD_BOOK_TITLE_TOPBORROWBOOK" = "本棚を追加";
+"BORROW_TITLE_TOPBORROWBOOK" = "貸出";
+
+// MARK: - BOOKSTOP EXPLORE
+"TITLE_BOOKSTOPEXPLORE" = "ブックストップ";
+"NEARBY_BOOKSTOP_BOOKSTOPEXPLORE" = "近くのブックストップ";
+"NEW_BOOKSTOP_BOOKSTOPEXPLORE" = "新しいブックストップ";
+
+// MARK: - REVIEW EXPLORE
+"TITLE_REVIEWEXPLORE" = "レビュー";
+"TOP_REVIEWS_REVIEWEXPLORE" = "注目のレビュアー";
+"NEW_REVIEW_REVIEWEXPLORE" = "新しいレビュー";
+
+// MARK: - REQUEST BORROWER BOOKSTOP
+"TITLE_REQUESTBORROWERBOOKSTOP" = "リクエスト詳細";
+"YOU_BORROW_MESSAGE_REQUESTBORROWERBOOKSTOP" = "貸出しました";
+"FROM_MESSAGE_REQUESTBORROWERBOOKSTOP" = "から";
+"MEMBERS_TITLE_REQUESTBORROWERBOOKSTOP" = "メンバー";
+"BOOKS_TITLE_REQUESTBORROWERBOOKSTOP" = "本";
+"DEADLINE_RETURN_BOOK_MESSAGE_REQUESTBORROWERBOOKSTOP" = "期限を%@過ぎました!!!";
+"EXPECTED_TIME_REQUESTBORROWERBOOKSTOP" = "返却予定日%@";
+"BOOK_INFO_REQUESTBOOKSTOP" = "本の詳細";
+"BORROW_BOOK_REQUESTBOOKSTOP" = "貸出";
+"BORROWER_INFO_REQUESTBOOKSTOP" = "本借りる人";
+"RETURN_MESSAGE_REQUESTBORROWERBOOKSTOP" = "ブックストップで本を返却し、正しい位置に置きましたか";
+"CONFIRM_NOTIFICATION_REQUESTBORROWERBOOKSTOP" = "確認";
+
+// MARK: - REQUEST BOOKSTOP
+"YOU_BORROWING_MESSAGE_REQUESTBOOKSTOP" = "借入していますよ";
+"EXPECTATION_TIME_REQUESTBOOKSTOP" = "貸出期間 ";
+"START_REQUESTBOOKSTOP" = "スタート";
+"BORROW_REQUESTBOOKSTOP" = "返却";
+"START_BORROW_REQUESTBOOKSTOP" = "貸出: ";
+"EXPECTATION_TIME_TITLE_REQUESTBOOKSTOP" = "返却予定日 %@";
+"JOIN_BOOKSTOP_MESSAGE_REQUESTBOOKSTOP" = "メンバーに限り%@ ブックストッで本を借りることが出来ます。%@の社員であれば、ブックストップのメンバーになるため、リクエストを送信してください";
+"JOIN_REQUESTBOOKSTOP" = "参加";
+
+// MARK: - BOOKSTOP ORGANIZATION
+"BOOKS_BOOKSTOPORGANIZATION" = "本";
+"MEMBERS_BOOKSTOPORGANIZATION" = "メンバー";
+"LEAVE_BOOKSTOP_SUCCESS_MESSAGE_BOOKSTOPORGANIZATION" = "ブックストップを脱退";
+"CANCEL_REQUEST_SUCCESS_MESSAGE_BOOKSTOPORGANIZATION" = "ブックストップにの参加リクエストがキャンセルされました";
+"JOIN_MESSAGE_BOOKSTOPORGANIZATION" = "ブックストップにの参加リクエスト送信しました";
+"SUCCESS_TITLE_" = "完成";
+"BOOKSHELF_TITLE_BOOKSTOPORGANIZATION" = "本棚";
+"READING_CORNER_TITLE_BOOKSTOPORGANIZATION" = "読書環境";
+"MEMBER_ACTIVITIES_TITLE_BOOKSTOPORGANIZATION" = "メンバーのアクティビティ";
+"SHOW_ALL_TITLE_BOOKSTOPORGANIZATION" = " (%d)+を表示";
+"MEMBER_ACTIVITY_BORROW_BOOKSTOPORGANIZATION" = "%＠さんが%@さんの \"%@\"を借りました";
+"MEMBER_ACTIVITY_RETURN_BOOKSTOPORGANIZATION" = "%@さんが%@さんの \"%@\"を返却しました";
+"LEAVE_BOOKSTOPORGANIZATION" = "ブックストップを脱会";
+"CANCEL_BOOKSTOPORGANIZATION" = "リクエストをキャンセル";
+"JOIN_BOOKSTOPORGANIZATION" = "参加";
+"HIDE_BOOKSTOPORGANIZATION" = "非表示";
+"ACTIVITY" = "アクティビティ";
+"CHALLENGE_GATUP" = "%@チャレンジ";
+"SHELVES_GATUP" = "%@本棚 ";
+"CHALLENGE_OF_GATUP" = "%@のチャレンジ";
+
+// MARK: - BOOKSTOP ORGANIZATION SHELVE
+"SEARCH_PLACEHOLDER_BOOKSTOPORGANIZATIONSHELVE" = "検索";
+"LIMITED_BORROW_TITLE_BOOKSTOPORGANIZATIONSHELVE" = "借入期限";
+"BOOKSTOP_MEMBER_ONLY_BOOKSTOPORGANIZATIONSHELVE" = "ブックストップのメンバー";
+
+// MARK: - JOIN BOOKSTOP
+"TITLE_JOINBOOKSTOP" = "ブックストップに参加";
+"REQUEST_MESSAGE_JOINBOOKSTOP" = "%@へようこそ。%@での役名を教えてください。";
+"JOIN_BOOKSTOP_SUCCESS_MESSAGE_JOINBOOKSTOP" = "ブックストップにの参加リクエストを送信しました";
+"JOIN_TRAM_GAT" = "GATステーションに参加";
+"DIRECTION_TITLE" = "経路";
+
+// MARK: - Price
+"FREE_PRICE_ORDER_TITLE" = "%@d以上の注文は送料無料";
+
+// MARK: - Language
+"LANGUAGE" = "言語";
+
+"SEARCH_PLACEHOLDER" = "検索";
+"EMPTY_REVIEW_FILTER" = "レビューはありません";
+"NOT_EMPTY_REVIEW_FILTER" = "レビューがあります";
+"AVAILABLE_BOOK_FILTER" = "貸出可能本";
+"NOT_AVAILABLE_BOOK_FILTER" = "借入中";
+"LOST_BOOK_FILTER" = "紛失";
+"FILTERABLE_TITLE" = "並び替え";
+"FILTERABLE_BUTTON" = "並び替え";
+"ACCEPT_FILTERABLE_BUTTON" = "並び替え";
+"ALL_FILTERABLE" = "すべて";
+
+// MARK: - Add New Book
+"ADD_NEW_BOOK_TITLE" = "本を追加";
+"BOOK_NAME_ADDNEWBOOK" = "本のタイトル";
+"SEND_ADDNEWBOOK" = "リクエストを送信 ";
+"DESCRIPTION_BOOK_ADDNEWBOOK" = "本の情報を追加";
+"OK_ADDNEWBOOK" = "OK";
+"SUCCEEDED_ADDNEWBOOK" = "追加済み";
+"MESSAGE_ADDNEWBOOK" = "本の詳細が追加されました";
+
+// MARK: - Suggestion Book
+"SUGGEST_BOOK" = "本";
+"TOP_BORROWING_BOOK_SUGGEST" = "よく借りられる本";
+"TOP_RATTING_BOOK_SUGGEST" = "注目の本";
+"BOOK_NEARYBY_YOU_SUGGEST" = "近くの本";
+"YOU_MIGHT_LIKE_SUGGEST" = "おすすめ";
+
+"FOLLOWERS_TITLE" = "フォロワー ";
+"FOLLOWINGS_TITLE" = "フォロー中";
+"FOLLOW_TITLE" = "フォロー";
+"UNFOLLOW_TITLE" = "フォローを辞める";
+"FOLLOWING_TITLE" = "フォロー中";
+"UNFOLLOW_MESSAGE" = " \"%@\"さんにフォローを辞めますか";
+"UNFOLLOW_ALERT_TITLE" = "\"%@\"さんフォローを辞める";
+
+// MARK: - Bookmark
+"BOOKMARK_TITLE" = "お気に入り";
+"BOOK_BOOKMARK_TITLE" = "ブックマーク一覧";
+"REVIEW_BOOKMARK_TITLE" = "レビュー";
+"BOOK_DETAIL_BOOKMARK" = "本の詳細";
+
+// MARK: - BookUpdate
+"BOOK_UPDATE_TITLE" = "更新待ち本";
+"WAITING_STATUS_BOOKUPDATE" = "更新待ち";
+"UPDATEDED_STATUS_BOOKUPDATE" = "更新済みです";
+"CREATE_DATE_TITLE_BOOKUPDATE" = "更新日:%@";
+
+// MARK: - Challenge
+"CHALLENGE_TITLE" = "チャレンジ ";
+"YOUR_CHALLENGES" = "あなたのチャレンジ";
+"CHALLENGES_MAY_WANT_JOY" = "おすすめのチャレンジ";
+"NUMBER_MEM_CHALLENGE" = "%d人";
+"ONE_MEMBERS_IS_FRIEND_JOINNED" = "%@さんが参加しています";
+"TWO_MEMBERS_IS_FRIEND_JOINNED" = "%@さんと%@さんが参加しています";
+"THREE_MEMBERS_IS_FRIEND_JOINNED" = "%@さん、%@さんと%@さんが参加しています";
+"FOUR_MEMBERS_IS_FRIEND_JOINNED" = "%@さん、%@さん、%@さんと%@ さんが参加しています";
+"MEMBERS_IS_FRIEND_JOINNED_SHORT" = "%@さん、%@さん、%@さん、%@さん、%@さんが参加しています";
+"MEMBERS_IS_FRIEND_JOINNED_LONG" = "%@さん、%@さん、%@さん、%@ さんと他 %d人が参加しています";
+"FORMAT_PERSON_JOIN_CHALLENGE" = "%1$@さん、%2$@さん、%3$@さん、 %4$@さん、%5$@さんと他 %6$d人が参加しています";
+"SHOW_MORE" = "もっと見る";
+"SHOW_LESS" = "縮小";
+"CHALLENGE_CREATOR" = "作成者：%@さん";
+"REMAINING_TIME" = "後%d日";
+"FORMAT_SET_TARGET_OF_CHALLENGE" = "%d日間で %.0f/%.0f 冊を読む目標";
+"ALERT_SET_TARGET_JOIN_CHALLENGE" = "目標を立てましょう";
+"FORMAT_TARGET_BOOK" = "%d冊";
+"FORMAT_CURRENT_PROGRESS_OF_CHALLENGE" = " %d/%d冊を読み終わった";
+"FORMAT_CURRENT_PROGRESS_OF_CHALLENGE_GROUP" = "%d冊を読み終わった";
+"FORMAT_TIME_REMAINING" = "後%d日";
+"FORMAT_TARGET_CHALLENGE" = "%d日間で%d冊を読む目標";
+"BUTTON_CANCEL" = "キャンセル";
+"SHARE_TO_FACEBOOK" = "Facebookでシェア";
+"CHANGE_CHALLENGE_TARGET" = "目標を変更";
+"ACTIVITY_READING_BOOK_IN_CHALLENGE" = "%@さんが%d/を読み終わった";
+"ACTIVITY_JUST_JOIN_CHALLENGE" = "%@さんが%@のチャレンジに参加しました";
+"ACTIVITY_WRITE_A_POST" = "%@さんが新しい投稿を追加しました";
+"ACTIVITY_JUST_UPDATE_CHALLENGE" = "%@さんが%@を読み終わりました";
+"ACTIVITY_HAS_COMPLETED_CHALLENGE" = "%@さんが目標を達しました";
+"COMPLETED_CHALENGE" = "完了";
+"EXPIRED_CHALLENGE" = "期限切れ";
+"BUTTON_UPDATE_STATUS" = "更新";
+"FORMAT_START_TO_END_TIME" = "%@から%@まで";
+"ACTIVE_MEMBER" = "ランキング";
+"BUTTON_SEE_ALL" = "すべて見る";
+"UPDATE_PROGRESS" = "進捗更新";
+"BUTTON_JOIN_CHALLENGE" = "チャレンジに参加";
+"READ_MORE_BOOK_SLOGAN" = "\"読めば読むほど、知識を身に付けるよ、頑張ろう！ \"";
+"BUTTON_START_CHALLENGE" = "チャレンジをスタート";
+"CONGRATULATIONS" = "";
+"REMIND_USER_UPDATE_PROGRESS" = "進捗更新のため、読書ページ数を入力してください";
+"CONFIRM_READ" = "読み終わりましたか";
+"REMIND_RATE_BOOK" = "GATコミュニティがより良くなるため、レビューをご協力お願いします";
+"YOUR_REVIEW" = "あなたのレビュー";
+"RATE_DONT_LIKE" = "悪い";
+"RATE_OK" = "普通";
+"RATE_GOOD" = "やや良い";
+"RATE_GREAT" = "かなり良い";
+"RATE_EXCELLENT" = "非常に良い";
+"UPDATE_READING_LIST" = "リストを更新";
+"INDIVIDUAL_CHALLENGE_TITLE" = "個人";
+"INDIVIDUAL_CHALLENGE" = " %d 冊を読む";
+"GROUP_CHALLENGE_TITLE" = "グループ";
+"GROUP_CHALLENGE" = " 一緒に%d 冊を読む";
+"PROGRESS_READ_BOOK_MESSAGE" = "%d冊を読み終わった";
+"NOT_READ_BOOK_MESSEAGE" = "まだ読みません";
+"CHALLENGE_ENDED" = "チャレンジが終わりました";
+"SHARE_TITLE" = "シェア";
+"INVITE_TITLE" = "招待";
+"INVITED_TITLE" = "招待しました";
+"INVITE_FRIEND_TITLE" = "友達を招待";
+"UPDATE_READING_TARGET_TITLE" = "目標更新";
+"ADD_TO_READING_LIST_TITLE" = "\n読書リストに追加 ";
+"START_READING_TITLE" = "読み始める";
+"INVITE_FRIEND_TO_JOIN_TITLE" = "友達を参加招待";
+"NUMBER_TARGET_BOOK_TITLE" = "%d冊を読む目標 ";
+"ALERT_READ_BOOK_TARGET" = "目標を達するため、以下の本を読んでください";
+"ACCEPT_CHALLENGE_TITLE" = "チャレンジを受ける";
+"PROGRESS_CIRCLE_TITLE" = "進捗状況: %d/%d (%d%%)";
+ 
+// MARK: - Active members challenge
+"FOLLOWED" = "フォロー中";
+"FOLLOW" = "フォロー";
+"FORMAT_BOOK_HAS_BEEN_REAEDED" = "%@冊を読み終わった";
+
+// MARK: Readings
+"READING_BOOK" = "読んでいる本";
+"READING_LIST_SLOGAN" = "読書は自己開発に最適な方法ですから \n今すぐスタート!";
+"FORMAT_READ_FROM_TIME_AGO" = "%@前読みました";
+"OTHER_BOOKS" = "他の本 ";
+"ADD_TO_READING_LIST" = "\nリストを追加 ";
+"BUTTON_ADD" = "追加";
+"HOW_MANY_PAGES_HAVE_READ" = "進捗更新のため読書ページ数を入力してください";
+"REVIEW" = "レビュー";
+"ADD_REVIEW" = "レビューを追加";
+"EDIT_REVIEW" = "レビューを書く";
+"BUTTON_READ_DONE" = "読み終わりました";
+"BUTTON_UPDATE" = "更新";
+"BUTTON_FIND_BOOK_NOW" = "今すぐ検索";
+"READING_FINISH" = "この本を読み終わりました！";
+"PLEASE_REVIEW_BOOK" = "この本のレビューを書く";
+"TOTAL_READING_BOOK" = "%d冊";
+"READING_START_DATE" = "%@から読み始める";
+"READING_FINNISH_DATE" = "%@に読み終わった";
+"PEOPLE_READ_THIS_BOOK" = "%d人がこの本を読んでいます";
+"START_READ_BOOK" = "今すぐ読む";
+"READING_STATUS" = "読書中";
+"READING_FINNISH_STATUS" = "既読冊数";
+"READING_HISTORY_TITLE" = "読書履歴";
+"FINISH_READING_MESSAGE" = "読み終わりましたか";
+"DONE_READING_ALERT" = "はい";
+"NOT_YET_READING_ALERT" = "いいえ、まだです";
+
+// MARK: - Member Active
+"ACTIVE_MEMBERS_TITLE" = "ランキング";
+"TOTAL_ACTIVE_MEMBERS" = "すべて";
+"FOLLOWING_ACTIVE_MEMBERS" = "フォロー中";
+
+// MARK: - Toast Message
+"MESSAGE_FOLLOW_MEMBER_SUCCESS" = "追加済みです";
+"MESSAGE_UNFOLLOW_MEMBER_SUCCESS" = "フォローを辞める";
+"MESSAGE_ADD_BOOK_TO_READINGS_SUCCESS" = "読んでいるリストが追加済みです";
+"MESSAGE_UPDATE_PROGESS_SUCCESS" = "進捗更新済みです";
+"MESSAGE_JOIN_CHALLENGE_SUCCESS" = "チャレンジに参加済みです";
+"MESSAGE_ADD_BOOK_TO_BOX_SUCCESS" = "本棚の追加済みです";
+
+// MARK: - JoinBarcode
+"JOIN_MESSAGE_JOINBARCODE" = "ブックストップにの参加リクエストを送信しました";
+
+// MARK: - Gatup
+"BOOKSTOP_GATUP" = "GAT-UP本棚 ";
+"INFORMATION_GATUP" = "ニュース";
+"SCAN_GATUP" = "スタートするため、あなたの企業のQRコードをスキャンしてください\n今すぐスキャン >";
+"BOOKSTOP_ORGANIZATION_GATUP" = "GAT-UP x 社内本棚";
+"BOOKSTOP_ORGANIZATION_DESCRIPTION_GATUP" = "\"GAT-UP x社内本棚 \"はベトナムに各企業で社内本棚を作る目的として、GATと他の企業との協力で設定されるプロジェクトです。";
+"LOOKING_INFORMATION_GATUP" = "今すぐ発見";
+"HIDE_GATUP" = "非表示";
+"ACECPT_GATUP" = "参加中";
+"WAITING_GATUP" = "承認待ち";
+"GATUP_TITLE" = "GAT-UP";
+
+// MARK: - Guideline
+"HELLO_MESSAGE_GUILDELINE" = "%@さん、こんにちは";
+"PROFILE_PAGE_GUILDELINE" = "プロフィール";
+"GO_TO_PROFILE_ALERT_GUILDELINE" = "\n本棚を管理し、友達の投稿と貸出リクエストを見逃さいないため、%@へ移行して、発見しましょう。";
+"TAP_PLUS_ADD_BOOK_GUIDELINE" = "貸出可能の本を教えるため、「+」ボタンをクリックすることで、%@出来ます。";
+"ADD_BOOK_TITLE_GUIDELINE" = "本棚に追加 ";
+"ADD_TITLE_GUIDELINE" = "本を追加";
+"BORROW_TITLE_GUIDELINE" = "借入";
+"SEARCH_BOOK_GUIDELINE" = "本を探したい時、%@機能をご利用ください！";
+"SEARCH_TITLE_GUIDELINE" = "検索";
+"ADD_BOOK_OR_BORROW_BOOK_GUIDELINE" = "貸出出来るため、%@してください。または無料で借りられるため、%@をクリックしてください。";
+"LENDING_GUIDELINE" = "こちらは、 %@本を貸出出来る方です。今すぐ貸出リクエストを送信しましょう";
+"COMPLETE_GUIDELINE" = "クイックマニュアルが終わりました";
+
+
+
+
+
+
+
+
+
+//MARK: - BOOKDETAIL
+"TITLE_ALERT_HAVE_BOOK" = "本棚に%d 冊があります ";
+"ALERT_HAVE_BOOK" = "%@の本が追加されました\n\もう一冊を追加しますか。";
+"YES_CONFIRM" = "はい、追加する";
+"NO_CONFIRM" = "いいえ";
+
+//MARK: - USER SCAN PROFILE
+"SCAN_USER" = "コードをスキャン";
+"BOOK_IN_SHELVES" = "本棚にある本";
+"FOLLOW_IN_SCAN_USER" = "フォロワー";
+"GO_TO_PROFILE_PAGE" = "プロフィールへ";
+"USERNAME_ALREADY_EXIST_MESSAGE" = "%@のユーザーが存在していません";
+
+
+//MARK: - ARTICLE
+"LOVE_POST_TITLE" = "いいね！";
+"COMMENT_POST_TITTLE" = "コメント";
+"SAVE_POST_TITLE" = "投稿を保存";
+"SAVED_POST_TITLE" = "投稿を保存しました";
+"SHARE_POST_TITLE" = "投稿をシェア";
+"DELETE_POST_TITLE" = "投稿を削除";
+"POST_ARTICLE_TITLE" = "投稿";
+"ARTICLES_TITLE" = "投稿";
+"ACTIVITIES_TITLE" = "アクティビティ";
+"MEMBER_POST_BOOKSTOP" = "メンバーの投稿";
+"WRITE_YOUR_COMMENT_POST" = "コメントを書く";
+"NUMBER_COMMENT_POST_TITLE" = "コメント%d件";
+"NUMBER_REACTION_POST_TITLE" = "%d 件";
+"NUMBER_REACTION_BY_MEMBER_TITLE" = "%d のメンバーからリアクション%d件";
+"FILTER_POST_NEWEST" = "新着順";
+"FILTER_POST_POPULAR" = "人気順";
+"FILTER_POST_FRIEND" = "友達";
+"SHOW_MORE_REPLY_TITLE" = "%d件をもっと見る";
+"REPLY_COMMENT_USER_TITLE" = "%@さんのコメントを返信";
+"REPLY_COMMENT_TITLE" = "返信";
+"EDIT_COMMENT_TITLE" = "編集";
+"DELETE_COMMENT_TITLE" = "削除";
+"ALERT_DELETE_COMMENT_TITLE" = "このコメントを削除してもよろしいでしょうか";
+"ARTICLE_BY_TITLE" = "投稿者";
+"CHOOSE_CATERGORY_TITLE" = "投稿のカテゴリーを選択";
+"CHOOSE_TAG_IN_POST_TITLE" = "タグを付ける";
+"MENTION_BOOK_TITLE" = "メンションされた本";
+"DISPLAY_COVER_TITLE" = "カバー写真を表示";
+"REMIND_TAG_TITLE" = "投稿のタグは本のタイトル、著者名、或いは概要などかもしれません";
+"REMIND_TAG_BOOK_TITLE" = "投稿に本をメンションしてください";
+"REMIND_SELECT_ARTICLES_TYPE_TITLE" = "投稿のタイプを選択してください";
+"CREATE_ARTICLES_TITLE" = "投稿を作成";
+"DRAFT_POST_TITLE" = "投稿の下書き";
+"SHOW_OFF_ACHIVEMENT_TITLE" = "成果をシェアしよう";
+"SHARE_POST_SOCIAL_TITLE" = "FacebookとInstagramでシェアしよう";
+"ADD_TITLE_POST" = "見出しを追加";
+"ADD_CONTENT_POST" = "レビューを作成";
+"ENTER_TAG_TITLE" = "タグを付ける";
+"ENTER_BOOK_TITLE" = "本のタイトルを入力";
+"INTRO_TITLE_POST" = "投稿の見出し";
+"INTRO_INTRO_POST" = "投稿の概要";
+"KIND_IMG_TITLE1" = "タイプ1";
+"KIND_IMG_TITLE2" = "タイプ2";
+"CHANGE_COVER_IMG_TITLE" = "カバー写真を編集";
+"SAVE_DRAFT_TITLE_CREATE_POST" = "下書きを保存";
+"CONTINUE_EDIT_POST_TITLE" = "編集を続く";
+"THROW_DRAFT_TITLE" = "下書きを削除";
+"SAVE_TAG_TITLE_POST" = "保存";
+"CLOSE_TAG_POPUP_TITLE" = "閉じる";
+"ADD_CATERGORY_HASHTAG_TITLE" = "投稿のタイプとタグを追加";
+"SETTING_POST_TITLE" = "設定";
+"PREVIEW_POST_TITLE" = "プレビュー";
+"ARTICLE_SETTING" = "設定";
+"ENTER_BOOK_REVIEW_POST" = "%@についてレビューを書く";
+"BOOK_REVIEW_POST" = "%@のレビュー";
+"UPLOAD_ERROR_POST_IMG" = "写真アップロードにエラーが発生しました \nもう一度やり直してください";
+"INSERT_LINK_CREATE_POST" = "リンクを挿入";
+"UPDATE_LINK_CREATE_POST" = "リンクを更新";
+"REMOVE_LINK_CREATE_POST" = "リンクを削除";
+"LINK_TEXT_POST" = "ファイルを添付";
+"LOADING_MESSEAGE" = "読み込み中";
+"IMG_NOT_UPLOAD_TITLE" = "写真がまだアップロードされていません";
+"TITLE_POST_NOT_EMPTY" = "見出し入力項目は必須です";
+"CONTENT_POST_NOT_EMPTY" = "内容入力項目は必須です";
+"IMG_NOT_UPLOAD_TITLE_YET" = "写真がまだアップロードされていません";
+"NOT_UPDATE_CATERGORY_POST" = "投稿の設定がまだ更新されていません";
+"NOT_RATING_ALERT" = "まだ評価されていません";
+"REFRESH_URL_TITLE" = "更新";
+
+"BOOK" = "冊";
+"SHOW_ARTICLE" = "表示";
+"DRAFT_ARTICLE" = "投稿の下書き";
+
+"IN_APP_BALACE" = "In-app balance";
+"GAT_WALLET_BALANCE" = "GAT wallet balance";
+"VIEW_MY_WALLET" = "View my wallet";
+"IN_APP_WALLET" = "In-app wallet";
+"GAT_WALLET" = "GAT wallet";
+"CREATE_NEW_WALLER" = "Create new wallet";
+"IMPORT_WALLET" = "Import wallet";
+"CONNECT_PANWALLET" = "Connect PanWallet";
+"AGREE_TERM_AND_CONDITION" = "By proceeding, you agree to GAT's Terms and Conditions";
+"TERM_AND_CONDITIONS" = "Terms and Conditions";
+"SECUE_YOUR_WALLET" = "Secue your wallet";
+"SECUE_DESCRIPTION" = "Don’t risk losing your funds. Protect your wallet by saving your Secret Recovery Phrase in a place you trust. It’s the only way to recover your wallet if you get locked out of the app or get a new device.";
+"SECRET_RECOVERY_PHRASE" = "Secret Recovery Phrase";
+"GET_START" = "Get start";

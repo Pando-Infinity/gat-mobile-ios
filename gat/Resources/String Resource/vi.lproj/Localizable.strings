@@ -1,0 +1,935 @@
+/* 
+  Localizable.strings
+  gat
+
+  Created by Vũ Kiên on 18/08/2017.
+  Copyright © 2017 GaTBook. All rights reserved.
+*/
+//Accept-Language
+"Accept-Language" = "vi";
+
+//MARK: - COMMON
+"ERROR_GPS_MESSAGE" = "Bạn cần kích hoạt GPS để sử dụng tính năng này.";
+"ERROR_CONNECT_INTERNET_MESSAGE" = "Không có kết nối mạng!";
+"ERROR_CONNECT_INTERNET_TITLE" = "Lỗi";
+"ERROR_LOGIN_TITLE" = "Thông báo";
+"SKIP_ALERT_TITLE" = "Bỏ qua";
+"LOGIN_ALERT_MESSAGE" = "Để sử dụng chức năng này bạn phải đăng nhập vào tài khoản của mình.";
+"LOGIN_ALERT_TITLE" = "Đăng nhập";
+"ERROR_CAMERA_TITLE" = "Lỗi";
+"CAMERA_ALERT_MESSAGE" = "Camera không khả dụng";
+"SETTING_ALERT_TITLE" = "Cài đặt";
+"PERMISSION_CAMERA_TITLE" = "Xin vui lòng cấp quyền cho phép ứng dụng truy cập vào ảnh của bạn";
+"ERROR_ALERT_TITLE" = "Lỗi";
+"OK_ALERT_TITLE" = "Đồng ý";
+"ERROR_LOCATION_TITLE" = "Thông báo";
+"CANCEL_NOTIFICATION_ALERT_TITLE" = "Huỷ thông báo";
+"YES_ALERT_TITLE" = "Có";
+"NO_ALERT_TITLE" = "Không";
+"CANCEL_CHANGE_MESSAGE" = "Bạn có muốn huỷ bỏ thông tin sửa đổi?";
+"LOST_BOOK_ALERT_TITLE" = "Thất lạc sách";
+"LOST_BOOK_MESSAGE" = "Bạn đã thử liên hệ với người mượn sách chưa?\nLựa chọn thất lạc sách không thể sửa lại. Vui lòng xem xét kỹ trước khi chọn.";
+"LOST_ALERT_TITLE" = "Thất lạc";
+"CANCEL_ERROR_TITLE" = "Huỷ";
+"CANCEL_REQUEST_ERROR_TITLE" = "Huỷ yêu cầu";
+"CANCEL_REQUEST_MESSAGE" = "Bạn có chắc muốn huỷ yêu cầu mượn sách?";
+"REJECT_ERROR_TITLE" = "Từ chối yêu cầu";
+"REJECT_MESSAGE" = "Bạn có chắc muốn từ chối yêu cầu mượn sách?";
+"ERROR_EMAIL_EXISTED_TITLE" = "Lỗi";
+"EMAIL_EXISTED_MESSAGE" = "Email không tồn tại trên hệ thống";
+"SOCIAL_LOGIN_NOTIFICATION" = "Thông báo";
+"SOCIAL_LOGIN_MESSAGE" = "Bạn cần đăng nhập vào tài khoản %@ %@ để đặt lại mật khẩu.";
+"UPDATE_ALERT_TITLE" = "Cập nhật ứng dụng";
+"UPDATE_MESSAGE" = "GaT đã cập nhật ứng dụng để sửa một số lỗi quan trọng. Vui lòng tải về phiên bản mới của GaT để tiếp tục sử dụng.";
+"UPDATE_ALERT_TITLE" = "Cập nhật";
+"SESSION_NOT_EXISTED_MESSAGE" = "Có lỗi xảy ra. Vui lòng thử lại sau.";
+"NOT_GET_ADDRESS_MESSAGE" = "Không lấy được địa chỉ.";
+"CANCEL_REQUEST_BOOKSTOP_MESSAGE" = "Bạn có muốn huỷ yêu cầu tham gia Bookstop %@?";
+"LEVEAVE_BOOKSTOP_MESSAGE" = "Bạn có muốn rời khỏi Bookstop %@?";
+"DOING_JOIN_BOOKSTOP_MESSAGE" = "Bạn đã tham gia Bookstop %@";
+"NOTIFICATION_TITLE" = "Thông báo";
+"YOUR_SEND_MESSAGE" = "Bạn đã gửi yêu cầu tham gia Bookstop";
+"OTHER" = "Khác";
+"SERVER_ERROR_MESSAGE" = "Server đang gặp lỗi. Vui lòng thử lại sau";
+"LESS_TITLE" = "thu gọn";
+"PLEASE_WAIT" = "Đang xử lí, vui lòng chờ";
+
+
+//MARK: - Pop Up
+"TOTAL_PAGES" = "Tổng số trang sách";
+"BOOK_YOU_HAVE_READ" = "Trang sách bạn đã đọc";
+
+
+//MARK: - Favourite Category
+"CATEGORY_TITLE" = "Loại Sách Yêu Thích";
+"FAVOURITE_CATEGORY_TITLE" = "Loại Sách Yêu Thích";
+"ALL_CATEGORY_TITLE" = "Tất cả";
+"LITERATURE_CATEGORY_TITLE" = "Văn học";
+"SKILL_CATEGORY_TITLE" = "Kỹ năng";
+"ECONOMIC_CATEGORY_TITLE" = "Kinh tế";
+"HISTORY_AND_GEOGRAPHY_CATEGORY_TITLE" = "Lịch sử - Địa lý";
+"ART_CATEGORY_TITLE" = "Nghệ thuật";
+"RELIGION_CATEGORY_TITLE" = "Tôn giáo";
+"CHILDREN_CATEGORY_TITLE" = "Thiếu nhi";
+"COMIC_CATEGORY_TITLE" = "Truyện tranh";
+"SCIENCE_CATEGORY_TITLE" = "Khoa học";
+"TEXTBOOK_CATEGORY_TITLE" = "Giáo khoa";
+"FOREIGN_LANGUAGE_CATEGORY_TITLE" = "Ngoại ngữ";
+"SYLLABUS_CATEGORY_TITLE" = "Giáo trình";
+"MOM_AND_BABY_CATEGORY_TITLE" = "Mẹ và bé";
+"SYNTHESIS_CATEGORY_TITLE" = "Tổng hợp";
+"MAGAZINE_CATEGORY_TITLE" = "Tạp chí";
+
+//MARK: - Time
+"YEARS" = "%d năm";
+"ONE_YEAR" = "%d năm";
+"MONTHS" = "%d tháng";
+"ONE_MONTH" = "%d tháng";
+"WEEKS" = "%d tuần";
+"ONE_WEEK" = "%d tuần";
+"DAYS" = "%d ngày";
+"ONE_DAY" = "%d ngày";
+"HOURS" = "%d giờ";
+"ONE_HOUR" = "%d giờ";
+"MINUTES" = "%d phút";
+"ONE_MINUTE" = "%d phút";
+"SECONDS" = "%d giây";
+"ONE_SECOND" = "%d giây";
+"A_MOMENT_AGO" = "vừa xong";
+
+//MARK: - TAB BAR
+"HOME_TABBAR" = "Trang chủ";
+"PROFILE_TABBAR" = "Cá nhân";
+"ADD_BOOK_TABBAR" = "Thêm sách";
+"NOTIFICATION_TABBAR" = "Thông báo";
+"SETTING_TABBAR" = "Cài đặt";
+
+//MARK: - HOME
+"SEARCH_TITLE_HOME" = "Tìm kiếm";
+"COMMUNITY_TITLE" = "Cộng đồng";
+"NEARBY_USER_TITLE_HOME" = "Người dùng gần bạn";
+"MORE_TITLE_HOME" = "Xem thêm";
+"BOOK_SHARING_TITLE_HOME" = "Sách đang được chia sẻ";
+"ERROR_ALERT_TITLE_HOME" = "Lỗi";
+"SETTING_ALERT_TITLE_HOME" = "Cài đặt";
+"CANCEL_ALERT_TITLE_HOME" = "Huỷ";
+"ERROR_BOOKS_EMPTY_MESSAGE_HOME" = "Không tìm thấy sách";
+"NOT_FOUND_NEARBY_USER_MESSAGE_HOME" = "Không tìm thấy người dùng gần bạn";
+"EXPLORATION_TITLE_HOME" = "Khám Phá";
+"PROFILE_EXPLORATION_HOME" = "Hoàn thiện \ntrang cá nhân";
+"BOOKSTOP_EXPLORATION_HOME" = "Tủ sách \nGAT-UP";
+"FAN_PAGE_EXPLORATION_HOME" = "Tham gia \ncộng đồng GAT";
+"TOP_BORROW_BOOK_HOME" = "Sách được mượn nhiều";
+"NEW_REVIEW_TITLE_HOME" = "Review mới";
+"RECOMMEND_BY_GAT_HOME" = "Đề xuất cho bạn";
+"HOT_WRITTERS_ON_GAT_HOME" = "Cây viết nổi bật";
+"BASE_ON_READ_ARTICLE_HOME" = "Dựa trên các bài viết đã đọc";
+"TRENDING_REVIEW_HOME" = "Review nổi bật";
+"TRENDING_ARTICLE_HOME" = "Bài viết nổi bật";
+"NEARBY_BOOKSTOP_HOME" = "Bookstop gần bạn";
+"SUCCESS_HOME" = "Thành công!";
+"ADD_BOOKMARK_HOME" = "Thêm đánh dấu!";
+"REMOVE_BOOKMARK_MESSAGE" = "Bỏ đánh dấu!";
+
+//MARK: - NEARBY USER
+"NEARBY_USER_TITLE" = "Người Dùng Gần Bạn";
+"NOT_FOUND_NEARBY_USER_MESSAGE_NEARBYUSER" = "Không tìm thấy người dùng gần bạn";
+"RESULT_HEADER_TITLE_NEARBYUSER" = "Hiển thị %@ kết quả";
+"OK_ALERT_TITLE_NEARBYUSER" = "Đồng ý";
+"ERROR_ALERT_TITLE_NEARBYUSER" = "Đã xảy ra lỗi";
+"SETTING_ALERT_TITLE_NEARBYUSER" = "Cài đặt";
+"CANCEL_ALERT_TITLE_NEARBYUSER" = "Huỷ";
+
+//MARK: - SEARCH
+"SEARCH_TITLE" = "Tìm Kiếm";
+"SEARCH_BOOK_TITLE_SEARCH" = "Tên sách";
+"SEARCH_AUTHOR_TITLE_SEARCH" = "Tác giả";
+"SEARCH_USER_TITLE_SEARCH" = "Người dùng";
+"CANCEL_SEARCH_TITLE_SEARCH" = "Huỷ";
+"ERROR_ALERT_TITLE_SEARCH" = "Đã xảy ra lỗi";
+"OK_ALERT_TITLE_SEARCH" = "Đồng ý";
+"NUMBER_SHARING_BOOK_TITLE_SEARCH" = "Sách chia sẻ";
+"NUMBER_REVIEW_BOOK_TITLE_SEARCH" = "Lượt nhận xét";
+"NUMBER_USER_SHARING_BOOK_TITLE" = "Người đang chia sẻ sách";
+"NO_AUTHOR_TITLE_SEARCH" = "N/A";
+"RESULT_SEARCH_TITLE_SEARCH" = "Hiển thị %@ kết quả";
+"ADD_NEW_BOOK_SEARCH" = "Yêu cầu sách";
+
+//MARK: - BOOK DETAIL
+"BOOK_DETAIL_TITLE" = "Thông Tin Sách";
+"BOOK_DESCRIPTION_TITLE_BOOKDETAIL" = "Nội dung sách";
+"REVIEW_BOOK_TITLE_BOOKDETAIL" = "Bình luận";
+"ERROR_ALERT_TITLE_BOOKDETAIL" = "Đã xảy ra lỗi";
+"OK_ALERT_TITLE_BOOKDETAIL" = "Đồng ý";
+"CANCEL_ALERT_TITLE_BOOKDETAIL" = "Huỷ";
+"EDIT_REVIEW_TITLE_BOOKDETAIL" = "Sửa bình luận";
+"WRITE_REVIEW_TITLE_BOOKDETAIL" = "Viết bình luận";
+"ADD_BOOK_TITLE_BOOKDETAIL" = "Thêm vào tủ";
+"BORROW_BOOK_TITLE_BOOKDETAIL" = "Mượn sách";
+"MORE_TITLE_BOOKDETAIL" = "xem thêm";
+"BOOK_INFO_TITLE_BOOKDETAIL" = "Thông tin sách";
+"BUY_BOOK_TITLE_BOOKDETAIL" = "Mua sách";
+"MY_REVIEW_TITLE_BOOKDETAIL" = "Đánh giá của bạn";
+"STOCKING_TITLE_BOOKDETAIL" = "Còn hàng";
+"OUT_OF_STOCK_TITLE_BOOKDETAIL" = "Hết hàng";
+"ADD_BOOKSHELF_MESSAGE_BOOKDETAIL" = "Bạn có muốn thêm cuốn sách này vào tủ sách của bạn?";
+"ADD_BOOK_SUCCEEDED_MESSAGE_BOOKDETAIL" = "Đã thêm sách vào tủ sách của bạn";
+"SUCCEEDED_BOOKDETAIL" = "Thành công";
+"ADD_BOOKSHELF_MESSAGE" = "Bạn có muốn thêm cuốn sách này vào\ntủ sách của mình không?";
+"NO_START_READING" = "Không, bắt đầu đọc";
+
+//MARK: - ADD BOOK
+"ADD_BOOK_TITLE" = "Thêm Vào Tủ Sách";
+"NUMBER_BOOK_TITLE_ADDBOOK" = "Số lượng sách thêm vào tủ";
+"ALLOW_SHARING_TITLE_ADDBOOK" = "Cho mọi người mượn sách";
+"OK_ALERT_TITLE_ADDBOOK" = "Đồng ý";
+"ERROR_ALERT_TITLE_ADDBOOK" = "Đã xảy ra lỗi";
+"YES_ALERT_TITLE_ADDBOOK" = "Có";
+"NO_ALERT_TITLE_ADDBOOK" = "Không";
+"CANCEL_ADDBOOK_MESSAGE_ADDBOOK" = "Bạn có muốn huỷ thêm sách?";
+"NOTIFICATION_CANCEL_ADDBOOK" = "Thông báo";
+
+//MARK: - COMMENT
+"RATE_TITLE_COMMENT" = "Đánh Giá";
+"ERROR_ALERT_TITLE_COMMENT" = "Lỗi";
+"OK_ALERT_TITLE_COMMENT" = "Đồng ý";
+"YES_ALERT_TITLE_COMMENT" = "Có";
+"NO_ALERT_TITLE_COMMENT" = "Không";
+"CANCEL_COMMENT_MESSAGE_COMMENT" = "Bạn có muốn huỷ đánh giá?";
+"NOTIFICATION_CANCEL_COMMENT" = "Thông báo";
+"EDIT_PLACEHOLDER_COMMENT" = "Bạn nghĩ gì về cuốn sách này?";
+
+//MARK: - LIST SHARING BOOK
+"BOOKSELF_TITLE" = "Chủ Sách";
+"ERROR_ALERT_TITLE_LISTBOOKSHARING" = "Lỗi";
+"OK_ALERT_TITLE_LISTBOOKSHARING" = "Đồng ý";
+"SORT_BY_TITLE_LISTBOOKSHARING" = "Sắp xếp theo";
+"BORROW_TITLE_LISTBOOKSHARING" = "Mượn sách";
+"ON_HOLD_TITLE_LISTBOOKSHARING" = "Đợi mượn";
+"BEING_BORROWED_STATUS_TITLE_LISTBOOKSAHRING" = "Đang được mượn";
+"ON_HOLD_AGREE_STATUS_TITLE_LISTBOOKSHARING" = "Đợi đồng ý";
+"ON_HOLD_RETURN_STATUS_TITLE_LISTBOOKSHARING" = "Đợi đến lượn";
+"DOING_CONTACT_STATUS_TITLE_LISTBOOKSHARING" = "Đang liên lạc";
+"BORROWING_STATUS_TITLE_LISTBOOKSHARING" = "Đang mượn";
+"READ_IN_PLACE_STATUS_TITLE_LISTBOOKSHARING" = "Đọc tại chỗ";
+"LIMITED_BORROW_TITLE_LISTBOOKSHARING" = "Giới hạn mượn";
+"BOOKSTOP_MEMBER_ONLY_TITLE_LISTBOOKSHARING" = "Thành viên Bookstop";
+
+//MARK: - SORT BY OPTION
+"SORT_BY_TITLE_SORTBY" = "Sắp Xếp Theo";
+"UPTIME_STATUS_TITLE_SORTBY" = "Thời Gian Hoạt Động";
+"DISTANCE_STATUS_TITLE_SORTBY" = "Khoảng Cách";
+
+//MARK: - BOOKSTOP
+"READ_IN_PLACE_STATUS_TITLE_BOOKSTOP" = "Đọc tại chỗ";
+"SEARCH_BOOK_BOOKSTOP" = "Tìm sách";
+"BOOK_BOOKSTOP" = "Tủ sách";
+"BOOK_SPACE_BOOKSTOP" = "Không gian đọc";
+
+//MARK: - MESSAGE
+"EMPTY_MESSAGE_TITLE_LISTMESSAGE" = "Không có tin nhắn nào";
+"ERROR_ALERT_TITLE_LISTMESSAGE" = "Lỗi";
+"OK_ALERT_TITLE_LISTMESSAGE" = "Đồng ý";
+"SEND_MESSAGE_TITLE_MESSAGE" = "Gửi";
+"PLACEHOLDER_MESSAGE_TITLE_MESSAGE" = "Nhập tin nhắn";
+"ERROR_SEND_MESSAGE" = "Không gửi được tin nhắn";
+"RECOMMEND_MESSAGE_1" = "Chào %@, khi nào cậu qua lấy sách được nhỉ?";
+"RECOMMEND_MESSAGE_2" = "Chào %@, khi nào tớ có thể qua chỗ cậu mượn sách nhỉ?";
+"RECOMMEND_MESSAGE_3" = "Cậu cho tớ xin địa chỉ và số điện thoại nhé.";
+"RECOMMEND_MESSAGE_4" = "Cậu đến %@ để lấy sách nhé.";
+"READ_STATUS_MESSAGE" = "Đã đọc";
+"YOURSELF_MESSAGE" = "Bạn";
+
+//MARK: - NOTIFICATION
+"NOTIFICATION_TITLE" = "Thông Báo";
+"MESSAGE_TITLE" = "Tin Nhắn";
+"NOTIFICATION_EMPTY_TITLE_NOTIFICATION" = "Không có thông báo nào";
+"ERROR_ALERT_TITLE_NOTIFICATION" = "Lỗi";
+"OK_ALERT_TITLE_NOTIFICATION" = "Đồng ý";
+"EMPTY_NOTIFICATIONS_MESSAGE" = "Không có thông báo.";
+"NOTIFICATION_TYPE_0_TITLE" = "Bạn có %d tin nhắn chưa đọc.";
+"NOTIFICATION_TYPE_1_TITLE" = "Gửi tin nhắn cho bạn.";
+"NOTIFICATION_TYPE_10_TITLE" = "Gửi yêu cầu mượn sách \"%@\".";
+"NOTIFICATION_TYPE_11_TITLE" = "Sách \"%@\" đã được cho người khác mượn.";
+"NOTIFICATION_TYPE_12_TITLE" = "Đồng ý cho bạn mượn sách \"%@\".";
+"NOTIFICATION_TYPE_13_TITLE" = "Thông báo đã cho bạn mượn sách \"%@\".";
+"NOTIFICATION_TYPE_14_TITLE" = "Thông báo bạn đã trả sách \"%@\".";
+"NOTIFICATION_TYPE_15_TITLE" = "Từ chối cho bạn mượn sách \"%@\".";
+"NOTIFICATION_TYPE_16_TITLE" = "Thông báo bạn đã làm mất sách \"%@\"!!!";
+"NOTIFICATION_TYPE_17_TITLE" = "Bạn đang mượn %@ quyển sách từ người khác.";
+"NOTIFICATION_TYPE_18_TITLE" = "Có %d người yêu cầu mượn sách \"%@\".";
+"NOTIFICATION_TYPE_19_TITLE" = "Huỷ yêu cầu mượn sách \"%@\".";
+"NOTIFICATION_TYPE_20_TITLE" = "Yêu cầu mượn sách %@ đến %@ đã bị hủy bỏ do chủ sách đồng ý cho người khác mượn sách. Bạn có thể gửi yêu cầu mượn sách mới.";
+"NOTIFICATION_TYPE_21_TITLE" = "Yêu cầu mượn sách %@ đến %@ đã bị hệ thống tự huỷ sau 48h không có phản hồi. Bạn có thể gửi yêu cầu mượn sách mới.";
+"NOTIFICATION_TYPE_120_TITLE" = "Có %d yêu cầu mượn sách đang đợi bạn đồng ý.";
+"NOTIFICATION_TYPE_121_TITLE" = "Hãy cập nhật tiến độ mượn sách \"%@\" của \"%@\".";
+"NOTIFICATION_TYPE_122_TITLE" = "Đã đến thời hạn trả sách \"%@\". Vui lòng liên hệ với chủ sách.";
+"NOTIFICATION_TYPE_123_TITLE" = "Đã quá thời hạn trả sách \"%@\" 1 tuần. Vui lòng liên hệ với chủ sách.";
+"NOTIFICATION_TYPE_200_TITLE" = "Chào mừng bạn đến với GaT. Hãy bắt đầu thêm sách để trao đổi với những bạn đọc gần bạn.";
+"NOTIFICATION_TYPE_201_TITLE" = "Cập nhật địa chỉ của bạn để dễ dàng trao đổi sách cùng mọi người.";
+"NOTIFICATION_TYPE_202_TITLE" = "Thêm thể loại sách ưa thích để được gợi ý chính xác về sách nên đọc.";
+"NOTIFICATION_TYPE_203_TITLE" = "Bắt đầu thêm sách và trao đổi với những bạn đọc gần bạn.";
+"NOTIFICATION_TYPE_301_TITLE" = "Có %d người cho mượn sách đang ở gần bạn.";
+"NOTIFICATION_TYPE_500_TITLE" = "%@ đã theo dõi bạn.";
+"NOTIFICATION_TYPE_502_TITLE" = "Bạn đã được theo dõi bởi %@ người gần đây.";
+"NOTIFICATION_TYPE_600_TITLE" = "%@ đã được cập nhật.";
+"NOTIFICATION_TYPE_800_TITLE" = "\"%@\" đã tham gia thử thách của bạn";
+"NOTIFICATION_TYPE_801_TITLE" = "\"%@\" đã tham gia một thử thách. Cùng khám phá!";
+"NOTIFICATION_TYPE_802_TITLE" = "GAT đã mời bạn tham gia thử thách \"Đọc 50,000 quyển sách cùng GAT\". Cùng khám phá!";
+"NOTIFICATION_TYPE_803_TITLE" = "%@ đã mời bạn tham gia 1 thử thách";
+"NOTIFICATION_TYPE_900_TITLE" = "%@ đã tương tác bài viết của bạn";
+"NOTIFICATION_TYPE_901_TITLE" = "%@ và %d người khác đã tương tác bài viết của bạn";
+"NOTIFICATION_TYPE_902_TITLE" = "%@ đã tương tác bình luận của bạn";
+"NOTIFICATION_TYPE_903_TITLE" = "%@ và %d người khác đã tương tác bình luận của bạn";
+"NOTIFICATION_TYPE_904_TITLE" = "%@ đã bình luận về bài viết của bạn";
+"NOTIFICATION_TYPE_905_TITLE" = "%@ và %d người khác đã bình luận về bài viết của bạn";
+"NOTIFICATION_TYPE_906_TITLE" = "%@ đã trả lời bình luận của bạn";
+"NOTIFICATION_TYPE_907_TITLE" = "%@ và %d người khác đã trả lời comment của bạn";
+"NOTIFICATION_TYPE_908_TITLE" = "%@ đã nhắc đến bạn trong một bài viết";
+"NOTIFICATION_TYPE_909_TITLE" = "%@ đã nhắc đến bạn trong một bình luận";
+"NOTIFICATION_TYPE_910_TITLE" = "%@ đã đăng bài viết mới";
+
+//MARK: - REQUEST DETAIL
+"BORROW_TITLE" = "Mượn Sách";
+"ON_HOLD_TITLE" = "Đợi Mượn Sách";
+"ON_HOLD_MESSAGE_REQUESTDETAILBORROWER" = "Hiện tại sách đang được mượn. Yêu cầu mượn sách của bạn sẽ được cho vào hàng đợi đến khi sách được trả.";
+"SEND_REQUEST_TO_REQUESTDETAILBORROWER" = "Gửi yêu cầu mượn sách tới %@";
+"SEND_MESSAGE_REQUESTDETAILBORROWER" = "Tin nhắn";
+"INTEND_RETURN_MESSAGE_REQUESTDETAILBORROWER" = "Thời gian dự định trả sách:";
+"ERROR_ALERT_TITLE_REQUESTDETAILBORROWER" = "Lỗi";
+"SEND_REQUEST_TITLE_REQUESTDETAILBORROWER" = "Gửi yêu cầu";
+"REVIEW_BOOK_TITLE_REQUESTDETAILBORROWER" = "Lượt nhận xét";
+"BORROW_FORMAT_MESSAGE_REQUESTDETAILBORROWER" = "Chào %@, cho mình mươn quyển \"%@\" nha.";
+"ONHOLD_FORMAT_MESSAGE_REQUESTDETAILBORROWER" = "Chào %@, khi nào quyển \"%@\" được trả thì mình mượn nha.";
+"OK_ALERT_TITLE_REQUESTDETAILBORROWER" = "Đồng ý";
+
+//MARK: - USER PROFILE
+"OK_ALERT_TITLE_USERPROFILE" = "Đồng ý";
+"ERROR_ALERT_TITLE_USERPROFILE" = "Lỗi";
+"EDIT_TITLE_USERPROFILE" = "Chỉnh sửa";
+"ADD_BOOK_MESSAGE_USERPROFILE" = "Bạn chưa từng cho ai mượn sách sao? Hãy thêm sách vào tủ ngay nào!";
+"SHARE_PROFILE" = "Chia sẻ trang cá nhân";
+
+// Book Instance
+"BOOK_INSTANCE_TITLE_BOOKUSERPROFILE" = "Tủ sách";
+"BORROW_STATUS_TITLE_BOOKUSERPROFILE" = "Mượn sách";
+"BORROW_BY_TITLE_BOOKUSERPROFILE" = "Người mượn %@";
+"SHARING_BOOK_BOOKUSERPROFILE" = "Sách chia sẻ";
+"NOT_SHARING_BOOK_TITLE_BOOKUSERPROFILE" = "Sách chưa chia sẻ";
+"LOST_BOOK_TITLE_BOOKUSERPROFILE" = "Sách thất lạc";
+"YES_ALERT_TITLE_BOOKUSERPROFILE" = "Đồng ý";
+"NO_ALERT_TITLE_BOOKUSERPROFILE" = "Từ chối";
+"REMOVE_ALERT_TITLE_BOOKUSERPROFILE" = "Xoá sách";
+"REMOVE_MESSAGE_BOOKUSERPROFILE" = "Bạn muốn xoá sách \"%@\" khỏi tủ sách của mình?";
+
+// Review
+"REIVEW_TITLE_REVIEWUSERPROFILE" = "Bài viết";
+"RATING_TITLE_REVIEWUSERPROFILE" = "Đánh giá";
+"MORE_TITLE_REVIEWUSERPROFILE" = "Xem thêm";
+"EDIT_ALERT_TITLE_REVIEWUSERPROFILE" = "Sửa";
+"REMOVE_ALERT_TITLE_REVIEWUSERPROFILE" = "Xoá";
+"CANCEL_ALERT_TITLE_REVIEWUSERPROFILE" = "Huỷ";
+"YES_ALERT_TITLE_REVIEWUSERPROFILE" = "Có";
+"NO_ALERT_TITLE_REVIEWUSERPROFILE" = "Không";
+"REMOVE_MESSAGE_REVIEWUSERPROFILE" = "Bạn có chắc muốn xoá nhận xét?";
+"NOTIFICATION_REMOVE_REVIEW_REVIEWUSERPROFILE" = "Thông báo";
+
+// Request
+"REQUEST_TITLE_REQUESTUSERPROFILE" = "Yêu cầu";
+"REJECT_TITLE_REQUESTUSERPROFILE" = "Từ chối";
+"ACCEPT_TITLE_REQUESTUSERPROFILE" = "Đồng ý";
+"REQUEST_INT_COMMING_TITLE_REQUESTUSERPROFILE" = "Yêu cầu tới bạn";
+"REQUEST_OUT_GOING_TITLE_REQUESTUSERPROFILE" = "Yêu cầu từ bạn";
+"OWNER_REQUEST_TITLE_REQUESTUSERPROFILE" = "Nhận yêu cầu mượn sách %@ từ bạn.";
+"BORROWER_REQUEST_TITLE_REQUESTUSERPROFILE" = "Yêu cầu mượn sách %@ từ bạn.";
+"WAITING_CONFIRM_STATUS_REQUESTUSERPROFILE" = "Đợi đồng ý";
+"ON_HOLD_STATUS_REQUESTUSERPROFILE" = "Đợi đến lượt";
+"CONTACTING_REQUESTUSERPROFILE" = "Đang liên lạc";
+"BORROWING_STATUS_REQUESTUSERPROFILE" = "Đang mượn";
+"RETURNED_STATUS_REQUESTUSERPROFILE" = "Đã trả";
+"REJECTED_STATUS_REQUESTUSERPROFILE" = "Đã từ chối";
+"CANCELLED_STATUS_REQUESTUSERPROFILE" = "Đã huỷ";
+"UNRETURNED_STATUS_REQUESTUSERPROFILE" = "Không trả sách";
+"OHTER_STATUS_REQUESTUSERPROFILE" = "Khác";
+//alert conflict
+"OK_ALERT_TITLE_REQUESTUSERPROFILE" = "Đồng ý";
+//alert conflict
+"ERROR_ALERT_TITLE_REQUESTUSERPROFILE" = "Lỗi";
+"REQUEST_TO_BORROW_BOOK_FILTER_REQUESTUSERPROFILE" = "Loại yêu cầu";
+"STATUS_FILTER_REQUESTUSERPROFILE" = "Trạng thái yêu cầu";
+
+//MARK: - VISTOR USER PROFILE
+"ERROR_ALERT_TITLE_VISTORUSERPROFILE" = "Lỗi";
+"OK_ALERT_TITLE_VISTORUSERPROFILE" = "Đồng ý";
+
+// Visistor
+"BOOK_SHARING_TITLE_BOOKVISTORUSERPROFILE" = "Tủ sách";
+"DOING_BORROWED_STATUS_BOOKVISTORUSERPROFILE" = "Đang được mượn";
+"WATING_CONFIRM_STATUS_BOOKVISTORUSERPROFILE" = "Đợi đồng ý";
+"ON_HOLD_STATUS_BOOKVISTORUSERPROFILE" = "Đợi đến lượt";
+"BORROWING_STATUS_BOOKVISTORUSERPROFILE" = "Đang mượn";
+"CONTACTING_STATUS_BOOKVISTORUSERPROFILE" = "Đang liên lạc";
+"BORROW_BOOK_TITLE_BOOKVISTORUSERPROFILE" = "Mượn sách";
+"WAITING_BORROW_BOOK_TITLE_BOOKVISTORUSERPROFILE" = "Đợi mượn";
+
+// Review
+"REVIEW_TITLE_REVIEWVISTORUSERPROFILE" = "Bài viết";
+"RATING_TITLE_REVIEWVISTORUSERPROFILE" = "Đánh giá";
+"MORE_TITLE_REVIEWVISTORUSERPROFILE" = "xem thêm";
+
+// MARK: - START APP
+"START_PAGE_CAROUSEL_DATA" = "start_page_carousel_data_vi";
+"OVERVIEW_APP_TITLE_STARTAPP" = "Tham quan ứng dụng";
+"REGISTER_TITLE_STARTAPP" = "Đăng ký";
+"LOGIN_TITLE_STARTAPP" = "Đăng nhập";
+"REGISTER_NOW_LOGIN" = "Đăng ký ngay";
+"HAVE_NOT_ACCOUNT_LOGIN" = "Chưa có tài khoản?";
+"MESSAGE_EMAIL_LOGIN" = "Email không được rỗng hoặc email phải hợp lệ ";
+"MESSAGE_PASSWORD_LOGIN" = "Mật khẩu không được trống";
+
+// MARK: - LOGIN
+"LOGIN_TITLE" = "Đăng Nhập";
+"PASSWORD_PLACEHOLDER_LOGIN" = "Mật khẩu";
+"FORGOT_PASSWORD_TITLE_LOGIN" = "Quên mật khẩu";
+"LOGIN_SOCIAL_TITLE_LOGIN" = "Đăng nhập bằng mạng xã hội đang có";
+"CONFIRM_EMPTY_MESSAGE_REGISTER" = "Mật khẩu xác nhận không được rỗng";
+"COMFIRM_NOT_EQUAL_PASSWORD_MESSAGE_REGISTER" = "Mật khẩu xác nhận không khớp với mật khẩu";
+"ALREADY_HAVE_ACCOUNT_REGISTER" = "Đã có tài khoản?";
+"LOGIN_NOW_REGISTER" = "Đăng nhập ngay";
+"CONFIRM_PASSWORD_REGISTER" = "Xác nhận mật khẩu";
+"COMFIRM_PASSWORD_PLACEHOLDER_REGISTER" = "Xác nhận mật khẩu";
+
+// MARK: - REGISTER
+"REGISTER_TITLE" = "Đăng Ký";
+"REGISTER_SOCIAL_TITLE_REGISTER" = "Đăng nhập bằng tài khoản %@";
+"ADDRESS_EMAIL_PLACEHOLDER_REGISTER" = "Nhập email của bạn";
+"PASSWORD_PLACEHOLDER_REGISTER" = "Mật khẩu";
+
+// MARK: - MAP
+"ADD_LOCATION_PLACEHOLDER_MAP" = "Nhập vị trí thường xuyên của bạn";
+"OK_TITLE_MAP" = "Đồng ý";
+"SKIP_TITLE_MAP" = "Bỏ qua";
+"SAVE_ADDRESS_TITLE_MAP" = "Lưu địa chỉ";
+
+// MARK: - FAVOURITE CATEGORY
+"FAVOURITE_CATEGORY_TITLE" = "Loại Sách Yêu Thích";
+"OK_TITLE_FAVOURITECATEGORY" = "Đồng ý";
+"SAVE_TITLE_FAVOURITECATEGORY" = "Lưu";
+"SKIP_TITLE_FAVOURITECATEGORY" = "Bỏ qua";
+
+//MARK: - FORGOT PASSWORD
+"FORGOT_PASSWORD_TITLE" = "Quên Mật Khẩu";
+"MESSAGE_FORGOT_FORGOTPASSWORD" = "Yêu cầu thay đổi sẽ được gửi tới email bên dưới";
+"EMAIL_ADDRESS_PLACEHOLDER_FORGOTPASSWORD" = "Nhập địa chỉ email";
+"SEND_EMAIL_TITLE_FORGOTPASSWORD" = "Gửi yêu cầu tới email";
+"ACCOUNT_INVALID_MESSAGE_FORGOTPASSWORD" = "Tài khoản %@ %@ không khớp trên hệ thống";
+"SESSION_INVALID_MESSAGE_FORGOTPASSWORD" = "Có lỗi xảy ra. Vui lòng thử lại sau.";
+"TOKEN_FIREBASE_INVALID_MESSAGE_FORGOTPASSWORD" = "Có lỗi xảy ra. Vui lòng thử lại sau.";
+
+// MARK: - RESET PASSWORD FOR SOCIAL
+"MESSAGE_FORGOT_RESETPASSWORDFORSOCIAL" = "Nhập mật khẩu mới cho tài khoản";
+"NEW_PASSWORD_PLACEHOLDER_RESETPASSWORDFORSOCIAL" = "Nhập mật khẩu mới";
+"CHANGE_PASSWORD_TITLE_RESETPASSWORDFORSOCIAL" = "Thay đổi mật khẩu";
+
+// MARK: - CONFIRM PASSWORD
+"MESSAGE_FORGOT_CONFIRMPASSWORD" = "Nhập mã thay đổi mật khẩu được gửi tới email";
+"CODE_PLACEHOLDER_CONFIRMPASSWORD" = "Nhập mã";
+"CHANGE_PASSWORD_TITLE_CONFIRMPASSWORD" = "Thay đổi mật khẩu";
+
+// MARK: - RESET PASSWORD
+"MESSAGE_FORGOT_RESETPASSWORD" = "Nhập mật khẩu mới cho tài khoản";
+"NEW_PASSWORD_PLACEHOLDER_RESETPASSWORD" = "Nhập mật khẩu mới";
+"CHANGE_PASSWORD_TITLE_RESETPASSWORD" = "Thay đổi mật khẩu";
+"SESSION_INVALID_MESSAGE_RESETPASSWORD" = "Có lỗi xảy ra. Vui lòng thử lại sau.";
+"TOKEN_FIREBASE_INVALID_MESSAGE_RESETPASSWORD" = "Có lỗi xảy ra. Vui lòng thử lại sau.";
+
+// MARK: - BARCODE
+"SEARCH_TITLE_BARCODE" = "Tìm kiếm ";
+"BARCODE_MESSAGE_BARCODE" = "Di chuyển Camera tới vùng chứa mã Barcode để quét";
+"TURN_ON_TITLE_BARCODE" = "Bật đèn";
+"TURN_OFF_TITLE_BARCODE" = "Tắt đèn";
+"CAN_NOT_SCAN_CODE_MESSAGE_BARCODE" = "Quét mã bị lỗi";
+
+// MARK: - EDIT USER
+"EDIT_TITLE" = "Sửa Thông Tin";
+"CANCEL_TITLE_EDITUSER" = "Huỷ";
+"SAVE_TITLE_EDITUSER" = "Lưu";
+"DONE_TITLE_EDITUSER" = "Xong";
+"YOUR_NAME_PLACEHOLDER_EDITUSER" = "Tên bạn";
+"ADDRESS_TITLE_EDITUSER" = "Địa chỉ";
+"ABOUT_TITLE_EDITUSER" = "Giới thiệu";
+"LIST_FAVOURITE_CATEGORY_TITLE_EDITUSER" = "Thể loại sách ưa thích";
+"CHANGE_AVATAR_TITLE" = "Thay đổi ảnh đại diện";
+"MEMBER_BOOKSTOP_EDITUSER" = "Thành viên Bookstop";
+"ADD_BOOKSTOP_EDITUSER" = "Thêm bookstop";
+"CANCEL_REQUEST_EDITUSER" = "Hủy yêu cầu";
+"REMOVE_EDITUSER" = "Xoá";
+"BOOKSTOP_PLACEHOLDER_EDITUSER" = "Điền tên bookstop";
+
+// MARK: - SETTING
+"SETTING_TITLE" = "Cài Đặt";
+"EDIT_USER_INFO_TITLE_SETTING" = "Chỉnh sửa thông tin cá nhân";
+"ADD_EMAIL_AND_PASSWORD_TITLE_SETTING" = "Thêm email và mật khẩu";
+"CHANGE_PASSWORD_TITLE_SETTING" = "Thay đổi mật khẩu";
+"LOGOUT_TITLE_SETTING" = "Thoát tài khoản";
+"CREATE_ACCOUNT_TITLE_SETTING" = "Tạo tài khoản";
+"INFO_SOCIAL_INVALID_MESSAGE_SETTING" = "Thông tin lấy về từ mạng xã hội không hợp lệ";
+"SESSION_NOT_EXISTED_MESSAGE_SETTING" = "Session không tồn tại";
+"BOOK_SHELF_GAT_UP_SETTING" = "GAT-UP";
+"BOOK_SHELF_GAT_UP_DESCRIPTION_SETTING" = "Khám phá ngay";
+"READING_HISTORY_SETTING" = "Lịch sử đọc";
+"REVIEW_GAT_SETTING" = "Đánh giá ứng dụng!";
+"QUESTION_SETTING" = "Câu hỏi thường gặp";
+"TERM_AND_POLICY_SETTING" = "Chính sách và điều khoản";
+"ABOUT_US_SETTING" = "Về chúng tôi";
+
+// MARK: - Add Email And Password
+"ADD_EMAIL_AND_PASSWORD_TITLE" = "Thêm Email Và Mật Khẩu";
+"ADD_EMAIL_PLACEHOLDER_ADDEMAILANDPASSWORD" = "Email";
+"PASSWORD_PLACEHOLDER_ADDEMAILANDPASSWORD" = "Mật khẩu";
+
+// MARK: - SOCIAL NETWORK
+"INFO_SOCIAL_INVALID_MESSAGE_SOCIALNETWORK" = "Thông tin lấy về từ mạng xã hội không hợp lệ";
+"DISCONNECT_TITLE_SOCIALNETWORK" = "Ngắt Kết Nối";
+"CONNECTING_ACCOUNT_TITLE_SOCIALNETWORK" = "Đang kết nối với tài khoản %@ %@";
+
+//MARK: - CHANGE PASSWORD
+"CHANGE_PASSWORD_TITLE" = "Thay Đổi Mật Khẩu";
+"PASSWORD_INVALID_MESSAGE_CHANGEPASSWORD" = "Mật khẩu không đúng!";
+"PRESENT_PASSWORD_PLACEHOLDER_CHANGEPASSWORD" = "Mật khẩu hiện tại";
+"NEW_PASSWORD_PLACEHOLDER_CHANGEPASSWORD" = "Mật khẩu mới";
+"CONFIRM_PASSWORD_PLACEHOLDER_CHANGEPASSWORD" = "Xác nhận mật khẩu";
+"FORGOT_PASSWORD_TITLE_CHANGEPASSWORD" = "Quên mật khẩu";
+"PASSOWRD_MESSAGE_CHANGEPASSWORD" = "Mật khẩu mới với xác nhận mật khẩu không giống nhau";
+
+// MARK: - OWNER REQUEST DETAIL
+"OWNER_REQUEST_DETAIL" = "Thông Tin Mượn Sách";
+"ACCEPT_STATUS_OWNERREQUESTDETAIL" = "Đồng ý";
+"REJECT_STATUS_OWNERREQUESTDETAIL" = "Từ chối";
+"ON_HOLD_STATUS_OWNERREQUESTDETAIL" = "Đợi đến lượt";
+"ON_HOLD_MESSAGE_OWNERREQUESTDETAIL" = "Hiện tại tất cả sách đều đang được mượn. Yêu cầu sẽ tự động chuyển sang trạng thái \"Đợi đồng ý\" sau khi sách được trả.";
+"CONTACT_STATUS_OWNERREQUESTDETAIL" = "Liên lạc";
+"BORROW_STATUS_OWNERREQUESTDETAIL" = "Mượn sách";
+"REJECT_STATUS_OWNERREQUESTDETAIL" = "Từ chối yêu cầu";
+"RETURN_STATUS_OWNERREQUESTDETAIL" = "Trả sách";
+"DID_LOST_STATUS_OWNERREQUESTDETAIL" = "Bị thất lạc";
+"DID_LOST_MESSAGE_OWNERREQUESTDETAIL" = "Thông tin người dùng mượn sách và không trả lại được lưu trên hệ thống và sẽ có hình thức xử phạt thích hợp.";
+"CANCELLED_STATUS_OWNERREQUESTDETAIL" = "Huỷ yêu cầu";
+"REJECTED_STATUS_OWNERREQUESTDETAIL" = "Bị từ chối";
+"BORROW_EXPECTATION_TIME_TITLE_OWNERREQUESTDETAIL" = "Thời gian mượn sách";
+"NUMBER_REVIEW_TITLE_OWNERREQUESTDETAIL" = "Lượt nhận xét";
+"SHARING_BOOKS_TITLE_OWNERREQUESTDETAIL" = "Sách chia sẻ";
+"SEND_REQUEST_BORROW_BOOK_TITLE_ONWERREQUESTDETAIL" = "Gửi yêu cầu mượn sách";
+"DATE_SEND_REQUEST_TITLE_OWNERREQUESTDETAIL" = "Gửi yêu cầu";
+"DATE_START_BORROW_TITLE_OWNERREQUESTDETAIL" = "Bắt đầu mượn";
+"DATE_RETURN_BOOK_TITLE_OWNERREQUESTDETAIL" = "Gửi trả sách";
+"DATE_REJECT_REQUEST_TITLE_OWNERREQUESTDETAIL" = "Từ chối yêu cầu";
+"DATE_CANCEL_REQUEST_TITLE_OWNERREQUESTDETAIL" = "Huỷ yêu cầu";
+"SEND_MESSAGE_TO_TITLE_OWNERREQUESTDETAIL" = "Nhắn tin tới %@";
+
+// MARK: - BORROWER REQUEST DETAIL
+"BORROWER_REQUEST_DETAIL" = "Thông Tin Mượn Sách";
+"CANCEL_STATUS_BORROWERREQUESTDETAIL" = "Huỷ yêu cầu";
+"ON_HOLD_STATUS_BORROWERREQUESTDETAIL" = "Đợi đến lượt";
+"ON_HOLD_MESSAGE_BORROWERREQUESTDETAIL" = "Hiện tại tất cả sách đều đang được mượn. Yêu cầu sẽ tự động chuyển sang trạng thái \"Đợi đồng ý\" sau khi sách được trả.";
+"CONTACT_STATUS_BORROWERREQUESTDETAIL" = "Liên lạc";
+"BORROW_STATUS_BORROWERREQUESTDETAIL" = "Mượn sách";
+"DID_LOST_STATUS_BORROWERREQUESTDETAIL" = "Bị thất lạc";
+"DID_LOST_MESSAGE_BORROWERREQUESTDETAIL" = "Thông tin người dùng mượn sách và không trả lại được lưu trên hệ thống và sẽ có hình thức xử phạt thích hợp.";
+"RETURN_STATUS_BORROWERREQUESTDETAIL" = "Trả sách";
+"DID_CANCEL_STATUS_BORROWERREQUESTDETAIL" = "Đã huỷ yêu cầu";
+"BEING_REJECTED_STATUS_BORROWERREQUESTDETAIL" = "Bị từ chối";
+"BORROW_EXPECTATION_TIME_TITLE_BORROWERREQUESTDETAIL" = "Thời gian mượn sách";
+"NUMBER_REVIEW_TITLE_BORROWERREQUESTDETAIL" = "Lượt nhận xét";
+"SHARING_BOOKS_TITLE_BORROWERREQUESTDETAIL" = "Sách chia sẻ";
+"YOU_SEND_REQUEST_BORROW_TITLE_BORROWERREQUESTDETAIL" = "Bạn đã gửi yêu cầu mượn sách:";
+"DATE_SEND_REQUEST_TITLE_BORROWERREQUESTDETAIL" = "Gửi yêu cầu";
+"DATE_START_BORROW_TITLE_BORROWERREQUESTDETAIL" = "Bắt đầu mượn";
+"DATE_RETURN_BOOK_TITLE_BORROWERREQUESTDETAIL" = "Gửi trả sách";
+"DATE_REJECT_REQUEST_TITLE_BORROWERREQUESTDETAIL" = "Từ chối yêu cầu";
+"DATE_CANCEL_REQUEST_TITLE_BORROWERERQUESTDETAIL" = "Huỷ yêu cầu";
+"SEND_MESSAGE_TO_TITLE_BORROWERERQUESTDETAIL" = "Nhắn tin tới %@";
+
+// MARK: - TOP BORROWING BOOK
+"TOP_BORROW_BOOK" = "Sách Được Mượn Nhiều";
+"ADD_BOOK_TITLE_TOPBORROWBOOK" = "Thêm vào tủ";
+"BORROW_TITLE_TOPBORROWBOOK" = "Mượn sách";
+
+// MARK: - BOOKSTOP EXPLORE
+"TITLE_BOOKSTOPEXPLORE" = "Bookstops";
+"NEARBY_BOOKSTOP_BOOKSTOPEXPLORE" = "Bookstop gần bạn";
+"NEW_BOOKSTOP_BOOKSTOPEXPLORE" = "Bookstop mới";
+
+// MARK: - REVIEW EXPLORE
+"TITLE_REVIEWEXPLORE" = "Reviews";
+"TOP_REVIEWS_REVIEWEXPLORE" = "Người viết nổi bật";
+"NEW_REVIEW_REVIEWEXPLORE" = "Review mới";
+
+// MARK: - REQUEST BORROWER BOOKSTOP
+"TITLE_REQUESTBORROWERBOOKSTOP" = "Chi tiết yêu cầu";
+"YOU_BORROW_MESSAGE_REQUESTBORROWERBOOKSTOP" = "Bạn đã mượn sách";
+"FROM_MESSAGE_REQUESTBORROWERBOOKSTOP" = "Từ: ";
+"MEMBERS_TITLE_REQUESTBORROWERBOOKSTOP" = "Thành viên";
+"BOOKS_TITLE_REQUESTBORROWERBOOKSTOP" = "Sách";
+"DEADLINE_RETURN_BOOK_MESSAGE_REQUESTBORROWERBOOKSTOP" = "Bạn đã quá hạn %@ trả sách!!!";
+"EXPECTED_TIME_REQUESTBORROWERBOOKSTOP" = "Ngày dự định trả sách: %@";
+"BOOK_INFO_REQUESTBOOKSTOP" = "Thông tin sách";
+"BORROW_BOOK_REQUESTBOOKSTOP" = "Mượn sách";
+"BORROWER_INFO_REQUESTBOOKSTOP" = "Thông tin người mượn";
+"RETURN_MESSAGE_REQUESTBORROWERBOOKSTOP" = "Bạn đã trả sách lại bookstop và đặt sách đúng vị trí chưa?";
+"CONFIRM_NOTIFICATION_REQUESTBORROWERBOOKSTOP" = "Xác nhận";
+
+// MARK: - REQUEST BOOKSTOP
+"YOU_BORROWING_MESSAGE_REQUESTBOOKSTOP" = "Bạn đang mượn sách này:";
+"EXPECTATION_TIME_REQUESTBOOKSTOP" = "Thời gian mượn: ";
+"START_REQUESTBOOKSTOP" = "Bắt đầu";
+"BORROW_REQUESTBOOKSTOP" = "Trả sách";
+"START_BORROW_REQUESTBOOKSTOP" = "Bắt đầu mượn: ";
+"EXPECTATION_TIME_TITLE_REQUESTBOOKSTOP" = "Dự định trả: %@";
+"JOIN_BOOKSTOP_MESSAGE_REQUESTBOOKSTOP" = "%@ Bookstop chỉ cho phép thành viên được mượn sách. Nếu bạn là nhân viên của %@, hãy gửi yêu cầu để trở thành thành viên Bookstop.";
+"JOIN_REQUESTBOOKSTOP" = "Tham gia";
+
+// MARK: - BOOKSTOP ORGANIZATION
+"BOOKS_BOOKSTOPORGANIZATION" = "Sách";
+"MEMBERS_BOOKSTOPORGANIZATION" = "Thành viên";
+"LEAVE_BOOKSTOP_SUCCESS_MESSAGE_BOOKSTOPORGANIZATION" = "Đã rời Bookstop";
+"CANCEL_REQUEST_SUCCESS_MESSAGE_BOOKSTOPORGANIZATION" = "Đã huỷ yêu cầu tham gia Bookstop";
+"JOIN_MESSAGE_BOOKSTOPORGANIZATION" = "Đã gửi yêu cầu tham gia Bookstop";
+"SUCCESS_TITLE_" = "Thành công";
+"BOOKSHELF_TITLE_BOOKSTOPORGANIZATION" = "Tủ sách";
+"READING_CORNER_TITLE_BOOKSTOPORGANIZATION" = "Không gian đọc";
+"MEMBER_ACTIVITIES_TITLE_BOOKSTOPORGANIZATION" = "Hoạt động của thành viên";
+"SHOW_ALL_TITLE_BOOKSTOPORGANIZATION" = "Hiện thị tất cả (%d)+";
+"MEMBER_ACTIVITY_BORROW_BOOKSTOPORGANIZATION" = "%@ bắt đầu mượn \"%@\" của %@.";
+"MEMBER_ACTIVITY_RETURN_BOOKSTOPORGANIZATION" = "%@ đã trả \"%@\" của %@.";
+"LEAVE_BOOKSTOPORGANIZATION" = "Rời bookstop";
+"CANCEL_BOOKSTOPORGANIZATION" = "Huỷ yêu cầu";
+"JOIN_BOOKSTOPORGANIZATION" = "Tham gia";
+"HIDE_BOOKSTOPORGANIZATION" = "Ẩn";
+"ACTIVITY" = "Hoạt động";
+"CHALLENGE_GATUP" = "Thử thách %@";
+"SHELVES_GATUP" = "Tủ sách %@";
+"CHALLENGE_OF_GATUP" = "Thử thách của %@";
+
+// MARK: - BOOKSTOP ORGANIZATION SHELVE
+"SEARCH_PLACEHOLDER_BOOKSTOPORGANIZATIONSHELVE" = "Tìm sách";
+"LIMITED_BORROW_TITLE_BOOKSTOPORGANIZATIONSHELVE" = "Giới hạn mượn";
+"BOOKSTOP_MEMBER_ONLY_BOOKSTOPORGANIZATIONSHELVE" = "Thành viên bookstop";
+
+// MARK: - JOIN BOOKSTOP
+"TITLE_JOINBOOKSTOP" = "Tham gia Bookstop";
+"REQUEST_MESSAGE_JOINBOOKSTOP" = "Chào mừng bạn đến với %@. Hãy giới thiệu về bản thân và vị trí bạn đang làm việc tại %@.";
+"JOIN_BOOKSTOP_SUCCESS_MESSAGE_JOINBOOKSTOP" = "Đã gửi thành công yêu cầu tham gia bookstop";
+"JOIN_TRAM_GAT" = "Tham gia Trạm GAT";
+"DIRECTION_TITLE" = "Chỉ đường";
+
+// MARK: - Price
+"FREE_PRICE_ORDER_TITLE" = "Miễn phí giao hàng cho đơn hàng từ %@đ.";
+
+// MARK: - Language
+"LANGUAGE" = "Ngôn ngữ";
+
+"SEARCH_PLACEHOLDER" = "Nhập từ khoá";
+"EMPTY_REVIEW_FILTER" = "Không có review";
+"NOT_EMPTY_REVIEW_FILTER" = "Có review";
+"AVAILABLE_BOOK_FILTER" = "Chưa được mượn";
+"NOT_AVAILABLE_BOOK_FILTER" = "Đang được mượn";
+"LOST_BOOK_FILTER" = "Thất lạc";
+"FILTERABLE_TITLE" = "Lọc theo";
+"FILTERABLE_BUTTON" = "Lọc theo";
+"ACCEPT_FILTERABLE_BUTTON" = "Lọc";
+"ALL_FILTERABLE" = "Tất cả";
+
+// MARK: - Add New Book
+"ADD_NEW_BOOK_TITLE" = "Yêu cầu thêm sách";
+"BOOK_NAME_ADDNEWBOOK" = "Nhập tên sách";
+"SEND_ADDNEWBOOK" = "Gửi yêu cầu";
+"DESCRIPTION_BOOK_ADDNEWBOOK" = "Nhập thêm thông tin về cuốn sách mà bạn muốn thêm...";
+"OK_ADDNEWBOOK" = "Đồng ý";
+"SUCCEEDED_ADDNEWBOOK" = "Thành công";
+"MESSAGE_ADDNEWBOOK" = "Đã gửi thông tin sách";
+
+// MARK: - Suggestion Book
+"SUGGEST_BOOK" = "Sách";
+"TOP_BORROWING_BOOK_SUGGEST" = "Sách được mượn nhiều";
+"TOP_RATTING_BOOK_SUGGEST" = "Sách hay";
+"BOOK_NEARYBY_YOU_SUGGEST" = "Sách gần bạn";
+"YOU_MIGHT_LIKE_SUGGEST" = "Có thể bạn thích";
+
+"FOLLOWERS_TITLE" = "Người theo dõi";
+"FOLLOWINGS_TITLE" = "Đang theo dõi";
+"FOLLOW_TITLE" = "Theo dõi";
+"UNFOLLOW_TITLE" = "Bỏ theo dõi";
+"FOLLOWING_TITLE" = "Đang theo dõi";
+"UNFOLLOW_MESSAGE" = "Bạn có muốn huỷ theo dõi \"%@\"";
+"UNFOLLOW_ALERT_TITLE" = "Huỷ theo dõi \"%@\"";
+
+// MARK: - Bookmark
+"BOOKMARK_TITLE" = "Danh sách quan tâm";
+"BOOK_BOOKMARK_TITLE" = "Sách";
+"REVIEW_BOOKMARK_TITLE" = "Nhận xét";
+"BOOK_DETAIL_BOOKMARK" = "Chi tiết sách";
+
+// MARK: - BookUpdate
+"BOOK_UPDATE_TITLE" = "Sách chờ cập nhật";
+"WAITING_STATUS_BOOKUPDATE" = "Chờ cập nhật";
+"UPDATEDED_STATUS_BOOKUPDATE" = "Đã cập nhật";
+"CREATE_DATE_TITLE_BOOKUPDATE" = "Ngày yêu cầu: %@";
+
+// MARK: - Challenge
+"CHALLENGE_TITLE" = "Thử thách";
+"YOUR_CHALLENGES" = "Thử thách của bạn";
+"CHALLENGES_MAY_WANT_JOY" = "Có thể bạn muốn tham gia";
+"NUMBER_MEM_CHALLENGE" = "%d người";
+"ONE_MEMBERS_IS_FRIEND_JOINNED" = "%@ tham gia thử thách này.";
+"TWO_MEMBERS_IS_FRIEND_JOINNED" = "%@ và %@ tham gia thử thách này.";
+"THREE_MEMBERS_IS_FRIEND_JOINNED" = "%@, %@ và %@ tham gia thử thách này.";
+"FOUR_MEMBERS_IS_FRIEND_JOINNED" = "%@, %@, %@ và %@ tham gia thử thách này.";
+"MEMBERS_IS_FRIEND_JOINNED_SHORT" = "%@, %@, %@, %@, %@ tham gia thử thách này.";
+"MEMBERS_IS_FRIEND_JOINNED_LONG" = "%@, %@, %@, %@ và %d người khác tham gia thử thách này.";
+"FORMAT_PERSON_JOIN_CHALLENGE" = "%1$@, %2$@, %3$@, %4$@, %5$@ và %6$d người khác tham gia thử thách này";
+"SHOW_MORE" = "Đọc thêm";
+"SHOW_LESS" = "Ẩn bớt";
+"CHALLENGE_CREATOR" = "%@";
+"REMAINING_TIME" = "%d ngày nữa";
+"FORMAT_SET_TARGET_OF_CHALLENGE" = "Bạn sẽ đọc %.0f/%.0f cuốn sách\ntrong %d ngày.";
+"ALERT_SET_TARGET_JOIN_CHALLENGE" = "Hãy đặt mục tiêu đọc sách cho thử thách này!";
+"FORMAT_TARGET_BOOK" = "%d cuốn";
+"FORMAT_CURRENT_PROGRESS_OF_CHALLENGE" = "Đã đọc %d/%d cuốn sách";
+"FORMAT_CURRENT_PROGRESS_OF_CHALLENGE_GROUP" = "Đã đọc %d cuốn sách";
+"FORMAT_TIME_REMAINING" = "Còn %d ngày nữa";
+"FORMAT_TARGET_CHALLENGE" = "Đọc %d cuốn sách trong %d ngày";
+"BUTTON_CANCEL" = "Huỷ";
+"SHARE_TO_FACEBOOK" = "Chia sẻ lên Facebook";
+"CHANGE_CHALLENGE_TARGET" = "Điều chỉnh mục tiêu";
+"ACTIVITY_READING_BOOK_IN_CHALLENGE" = "%@ đã đọc %d/";
+"ACTIVITY_JUST_JOIN_CHALLENGE" = "%@ đã tham gia vào thử thách %@";
+"ACTIVITY_WRITE_A_POST" = "%@ đã viết một bài viết";
+"ACTIVITY_JUST_UPDATE_CHALLENGE" = "%@ vừa đọc xong quyển %@";
+"ACTIVITY_HAS_COMPLETED_CHALLENGE" = "%@ đã hoàn thành thử thách";
+"COMPLETED_CHALENGE" = "Hoàn thành";
+"EXPIRED_CHALLENGE" = "Hết hạn";
+"BUTTON_UPDATE_STATUS" = "Cập nhật trạng thái";
+"FORMAT_START_TO_END_TIME" = "%@ đến %@";
+"ACTIVE_MEMBER" = "Bảng xếp hạng";
+"BUTTON_SEE_ALL" = "Xem tất cả";
+"UPDATE_PROGRESS" = "Cập nhật tiến độ";
+"BUTTON_JOIN_CHALLENGE" = "Tham gia thử thách";
+"READ_MORE_BOOK_SLOGAN" = "\"Đọc sách nhiều, học được nhiều, tội gì không đọc\"";
+"BUTTON_START_CHALLENGE" = "Bắt đầu thử thách";
+"CONGRATULATIONS" = "Chúc mừng bạn";
+"REMIND_USER_UPDATE_PROGRESS" = "Điền số trang nếu bạn muốn cập nhật chi tiết";
+"CONFIRM_READ" = "Bạn đã đọc xong?";
+"REMIND_RATE_BOOK" = "Đánh giá sách để góp phần xây dựng cộng đồng GAT";
+"YOUR_REVIEW" = "Đánh giá của bạn về cuốn sách";
+"RATE_DONT_LIKE" = "Cuốn sách này tệ";
+"RATE_OK" = "Cuốn sách này bình thường";
+"RATE_GOOD" = "Cuốn sách này khá hay";
+"RATE_GREAT" = "Cuốn sách này hay";
+"RATE_EXCELLENT" = "Cuốn sách này rất hay";
+"UPDATE_READING_LIST" = "Cập nhật danh sách đọc";
+"INDIVIDUAL_CHALLENGE_TITLE" = "Cá nhân";
+"INDIVIDUAL_CHALLENGE" = "đọc %d quyển sách";
+"GROUP_CHALLENGE_TITLE" = "Tập thể";
+"GROUP_CHALLENGE" = " cùng đọc %d quyển sách";
+"PROGRESS_READ_BOOK_MESSAGE" = "Đã hoàn thành %d quyển";
+"NOT_READ_BOOK_MESSEAGE" = "Bạn chưa đọc cuốn nào";
+"CHALLENGE_ENDED" = "Thử thách kết thúc";
+"SHARE_TITLE" = "Chia sẻ";
+"INVITE_TITLE" = "Mời";
+"INVITED_TITLE" = "Đã mời";
+"INVITE_FRIEND_TITLE" = "Mời bạn bè";
+"UPDATE_READING_TARGET_TITLE" = "Cập nhật mục tiêu";
+"ADD_TO_READING_LIST_TITLE" = "Thêm vào\n Danh sách đọc";
+"START_READING_TITLE" = "Bắt đầu đọc";
+"INVITE_FRIEND_TO_JOIN_TITLE" = "Mời bạn bè tham gia";
+"NUMBER_TARGET_BOOK_TITLE" = "%d mục tiêu của thử thách";
+"ALERT_READ_BOOK_TARGET" = "Hãy đọc những cuốn sách dưới đây để hoàn thành thử thách";
+"ACCEPT_CHALLENGE_TITLE" = "Chấp nhận thử thách";
+"PROGRESS_CIRCLE_TITLE" = "Hoàn thành: %d/%d (%d%%)";
+
+// MARK: - Active members challenge
+"FOLLOWED" = "Đã follow";
+"FOLLOW" = "Follow";
+"FORMAT_BOOK_HAS_BEEN_REAEDED" = "Đã đọc %@ cuốn";
+
+// MARK: Readings
+"READING_BOOK" = "Sách đang đọc";
+"READING_LIST_SLOGAN" = "Đọc sách là cách tốt nhất để phát triển bản thân\nBắt đầu ngay nào!";
+"FORMAT_READ_FROM_TIME_AGO" = "Đọc từ %@ trước";
+"OTHER_BOOKS" = "Sách khác";
+"ADD_TO_READING_LIST" = "Thêm vào\ndanh sách đọc";
+"BUTTON_ADD" = "Thêm";
+"HOW_MANY_PAGES_HAVE_READ" = "Điền số trang nếu bạn muốn cập nhật chi tiết";
+"REVIEW" = "Đánh giá";
+"ADD_REVIEW" = "Thêm đánh giá";
+"EDIT_REVIEW" = "Viết đánh giá";
+"BUTTON_READ_DONE" = "Đã đọc xong";
+"BUTTON_UPDATE" = "Cập nhật";
+"BUTTON_FIND_BOOK_NOW" = "Tìm sách ngay";
+"READING_FINISH" = "Bạn đã đọc xong. Chúc mừng bạn";
+"PLEASE_REVIEW_BOOK" = "Thêm đánh giá cho cuốn sách này";
+"TOTAL_READING_BOOK" = "%d cuốn sách";
+"READING_START_DATE" = "Bạn bắt đầu đọc từ %@";
+"READING_FINNISH_DATE" = "Bạn đã đọc xong từ %@";
+"PEOPLE_READ_THIS_BOOK" = "%d bạn đang đọc cuốn sách này";
+"START_READ_BOOK" = "Bắt đầu đọc ngay";
+"READING_STATUS" = "Đang đọc";
+"READING_FINNISH_STATUS" = "Đã đọc xong";
+"READING_HISTORY_TITLE" = "Lịch sử đọc sách";
+"FINISH_READING_MESSAGE" = "Bạn đã đọc xong chưa?";
+"DONE_READING_ALERT" = "Rồi";
+"NOT_YET_READING_ALERT" = "Chưa";
+
+// MARK: - Member Active
+"ACTIVE_MEMBERS_TITLE" = "Thành viên tích cực";
+"TOTAL_ACTIVE_MEMBERS" = "Tất cả";
+"FOLLOWING_ACTIVE_MEMBERS" = "Đang theo dõi";
+
+// MARK: - Toast Message
+"MESSAGE_FOLLOW_MEMBER_SUCCESS" = "Đã thêm thành công!";
+"MESSAGE_UNFOLLOW_MEMBER_SUCCESS" = "Đã bỏ theo dõi!";
+"MESSAGE_ADD_BOOK_TO_READINGS_SUCCESS" = "Đã thêm sách vào danh sách đang đọc thành công!";
+"MESSAGE_UPDATE_PROGESS_SUCCESS" = "Đã cập nhật tiến độ đọc sách thành công!";
+"MESSAGE_JOIN_CHALLENGE_SUCCESS" = "Đã tham gia thử thách thành công!";
+"MESSAGE_ADD_BOOK_TO_BOX_SUCCESS" = "Đã thêm sách vào tủ thành công!";
+
+// MARK: - JoinBarcode
+"JOIN_MESSAGE_JOINBARCODE" = "Đã gửi yêu cầu tham gia bookstop. Quay lại màn hình trước.";
+
+// MARK: - Gatup
+"BOOKSTOP_GATUP" = "Tủ sách GAT-UP";
+"INFORMATION_GATUP" = "Tin tức";
+"SCAN_GATUP" = "Quét QR code của doanh nghiệp bạn để bắt đầu \nQuét ngay >";
+"BOOKSTOP_ORGANIZATION_GATUP" = "GAT-UP x Tủ Sách Doanh Nghiệp";
+"BOOKSTOP_ORGANIZATION_DESCRIPTION_GATUP" = "\"GAT-UP x Tủ Sách Doanh Nghiệp\" là dự án khởi tạo bởi GAT cùng với các đơn vị đồng hành, nhằm mục đích mang phần mềm GAT-UP cùng hoạt động xây dựng tủ sách đến các doanh nghiệp tại Việt Nam.";
+"LOOKING_INFORMATION_GATUP" = "Tìm hiểu ngay";
+"HIDE_GATUP" = "Ẩn tin";
+"ACECPT_GATUP" = "Đã tham gia";
+"WAITING_GATUP" = "Chờ phê duyệt";
+"GATUP_TITLE" = "GAT-UP";
+
+// MARK: - Guideline
+"HELLO_MESSAGE_GUILDELINE" = "Chào %@";
+"PROFILE_PAGE_GUILDELINE" = "Trang cá nhân";
+"GO_TO_PROFILE_ALERT_GUILDELINE" = "\nĐến %@ để quản lý tủ sách, bài viết của bạn và không bỏ lỡ yêu cầu mượn sách từ mọi người.";
+"TAP_PLUS_ADD_BOOK_GUIDELINE" = "Hãy ấn nút + để %@, cho mọi người biết bạn đang có những cuốn sách nào có thể cho mượn nhé!";
+"ADD_BOOK_TITLE_GUIDELINE" = "Thêm sách vào tủ";
+"ADD_TITLE_GUIDELINE" = "Thêm sách vào tủ";
+"BORROW_TITLE_GUIDELINE" = "Mượn sách";
+"SEARCH_BOOK_GUIDELINE" = "Dùng chức năng %@ để tìm cuốn sách bạn cần";
+"SEARCH_TITLE_GUIDELINE" = "Tìm kiếm";
+"ADD_BOOK_OR_BORROW_BOOK_GUIDELINE" = "Hãy nhấn %@ để mọi người có thể mượn cuốn sách đó từ bạn. Hoặc %@ để mượn sách miễn phí!";
+"LENDING_GUIDELINE" = "Đây là những người đang cho mượn cuốn %@. Hãy gửi yêu cầu mượn sách ngay nào!";
+"COMPLETE_GUIDELINE" = "Hoàn thành hướng dẫn!";
+
+
+
+
+
+
+
+
+
+//MARK: - BOOKDETAIL
+"TITLE_ALERT_HAVE_BOOK" = "Đã có %d cuốn trong tủ";
+"ALERT_HAVE_BOOK" = "Cuốn sách %@ đã được thêm vào tủ \n\nBạn có muốn thêm một cuốn nữa vào tủ sách không?";
+"YES_CONFIRM" = "Có, vẫn thêm";
+"NO_CONFIRM" = "Không";
+
+//MARK: - USER SCAN PROFILE
+"SCAN_USER" = "Quét mã";
+"BOOK_IN_SHELVES" = "Sách trong tủ";
+"FOLLOW_IN_SCAN_USER" = "Người theo dõi";
+"GO_TO_PROFILE_PAGE" = "Đến trang cá nhân";
+"USERNAME_ALREADY_EXIST_MESSAGE" = "Username %@ đã tồn tại";
+
+
+//MARK: - ARTICLE
+"LOVE_POST_TITLE" = "Ghi nhận";
+"COMMENT_POST_TITTLE" = "Bình luận";
+"SAVE_POST_TITLE" = "Lưu bài viết";
+"SAVED_POST_TITLE" = "Đã lưu bài viết";
+"SHARE_POST_TITLE" = "Chia sẻ bài viết";
+"DELETE_POST_TITLE" = "Xoá bài viết";
+"POST_ARTICLE_TITLE" = "Đăng";
+"ARTICLES_TITLE" = "Bài viết";
+"ACTIVITIES_TITLE" = "Hoạt động";
+"MEMBER_POST_BOOKSTOP" = "Bài viết của thành viên";
+"WRITE_YOUR_COMMENT_POST" = "Viết bình luận của bạn";
+"NUMBER_COMMENT_POST_TITLE" = "%d bình luận";
+"NUMBER_REACTION_POST_TITLE" = "%d ghi nhận";
+"NUMBER_REACTION_BY_MEMBER_TITLE" = "%d ghi nhận bởi %d thành viên";
+"FILTER_POST_NEWEST" = "Mới";
+"FILTER_POST_POPULAR" = "Phổ biến";
+"FILTER_POST_FRIEND" = "Bạn bè";
+"SHOW_MORE_REPLY_TITLE" = "Hiển thị thêm %d trả lời";
+"REPLY_COMMENT_USER_TITLE" = "Trả lời bình luận của %@";
+"REPLY_COMMENT_TITLE" = "Trả lời";
+"EDIT_COMMENT_TITLE" = "Chỉnh sửa";
+"DELETE_COMMENT_TITLE" = "Xoá";
+"ALERT_DELETE_COMMENT_TITLE" = "Bạn có muốn xoá bình luận này không?";
+"ARTICLE_BY_TITLE" = "BÀI VIẾT BỞI";
+"CHOOSE_CATERGORY_TITLE" = "Chọn Catergory cho bài viết...";
+"CHOOSE_TAG_IN_POST_TITLE" = "Gắn tag cho bài";
+"MENTION_BOOK_TITLE" = "Sách được nhắc đến";
+"DISPLAY_COVER_TITLE" = "Ảnh bìa hiển thị";
+"REMIND_TAG_TITLE" = "Tag bài viết có thể là sách bạn nói đến, tác giả hoặc nội dung của bài viết của bạn";
+"REMIND_TAG_BOOK_TITLE" = "Nhập tên sách được nói đến trong nội dung bài viết của bạn";
+"REMIND_SELECT_ARTICLES_TYPE_TITLE" = "Lựa chọn loại bài viết";
+"CREATE_ARTICLES_TITLE" = "Tạo bài viết của bạn trên GAT";
+"DRAFT_POST_TITLE" = "Bài viết nháp";
+"SHOW_OFF_ACHIVEMENT_TITLE" = "Khoe thành quả của bạn";
+"SHARE_POST_SOCIAL_TITLE" = "Chia sẻ lên facebook hoặc instagram để các bạn cùng biết";
+"ADD_TITLE_POST" = "Thêm tiêu đề";
+"ADD_CONTENT_POST" = "Nhập nội dung đánh giá...";
+"ENTER_TAG_TITLE" = "Nhập tag...";
+"ENTER_BOOK_TITLE" = "Nhập book...";
+"INTRO_TITLE_POST" = "Đây là tiêu đề của bài viết";
+"INTRO_INTRO_POST" = "Đây là phần giới thiệu của bài viết";
+"KIND_IMG_TITLE1" = "Kiểu 1";
+"KIND_IMG_TITLE2" = "Kiểu 2";
+"CHANGE_COVER_IMG_TITLE" = "Thay đổi ảnh bìa";
+"SAVE_DRAFT_TITLE_CREATE_POST" = "Lưu nháp";
+"CONTINUE_EDIT_POST_TITLE" = "Tiếp tục chỉnh sửa";
+"THROW_DRAFT_TITLE" = "Bỏ bài viết";
+"SAVE_TAG_TITLE_POST" = "Lưu";
+"CLOSE_TAG_POPUP_TITLE" = "Đóng";
+"ADD_CATERGORY_HASHTAG_TITLE" = "Thêm mục bài viết và hashtag";
+"SETTING_POST_TITLE" = "Cài đặt";
+"PREVIEW_POST_TITLE" = "Xem trước";
+"ARTICLE_SETTING" = "Cài đặt bài viết";
+"ENTER_BOOK_REVIEW_POST" = "Nhập nội dung đánh giá sách %@";
+"BOOK_REVIEW_POST" = "Đánh giá sách %@";
+"UPLOAD_ERROR_POST_IMG" = "Upload ảnh bị lỗi.\nVui lòng thử lại.";
+"INSERT_LINK_CREATE_POST" = "Chèn đường dẫn";
+"UPDATE_LINK_CREATE_POST" = "Cập nhật đường dẫn";
+"REMOVE_LINK_CREATE_POST" = "Bỏ đường dẫn";
+"LINK_TEXT_POST" = "Văn bản liên kết";
+"LOADING_MESSEAGE" = "Vui lòng đợi...";
+"IMG_NOT_UPLOAD_TITLE" = "Ảnh chưa được tải lên";
+"TITLE_POST_NOT_EMPTY" = "Tiêu đề không được rỗng";
+"CONTENT_POST_NOT_EMPTY" = "Nội dung không được rỗng";
+"IMG_NOT_UPLOAD_TITLE_YET" = "Ảnh chưa được tải lên hoặc tải lên chưa xong";
+"NOT_UPDATE_CATERGORY_POST" = "Chưa cập nhật thể loại trong cài đặt bài viết";
+"NOT_RATING_ALERT" = "Chưa rating";
+"REFRESH_URL_TITLE" = "Làm mới";
+
+"BOOK" = "cuốn sách";
+"SHOW_ARTICLE" = "Xem bài viết";
+"DRAFT_ARTICLE" = "Bài viết nháp";
+
+"IN_APP_BALACE" = "In-app balance";
+"GAT_WALLET_BALANCE" = "GAT wallet balance";
+"VIEW_MY_WALLET" = "View my wallet";
+"IN_APP_WALLET" = "In-app wallet";
+"GAT_WALLET" = "GAT wallet";
+"CREATE_NEW_WALLER" = "Create new wallet";
+"IMPORT_WALLET" = "Import wallet";
+"CONNECT_PANWALLET" = "Connect PanWallet";
+"AGREE_TERM_AND_CONDITION" = "By proceeding, you agree to GAT's Terms and Conditions";
+"TERM_AND_CONDITIONS" = "Terms and Conditions";
+"SECUE_YOUR_WALLET" = "Secue your wallet";
+"SECUE_DESCRIPTION" = "Don’t risk losing your funds. Protect your wallet by saving your Secret Recovery Phrase in a place you trust. It’s the only way to recover your wallet if you get locked out of the app or get a new device.";
+"SECRET_RECOVERY_PHRASE" = "Secret Recovery Phrase";
+"GET_START" = "Get start";

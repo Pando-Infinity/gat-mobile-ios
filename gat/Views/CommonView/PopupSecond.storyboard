@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ZYQ-6m-ef7">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Connect Popup View Controller-->
+        <scene sceneID="jVj-NE-Ls7">
+            <objects>
+                <viewController storyboardIdentifier="ConnectPopupViewController" id="ZYQ-6m-ef7" customClass="ConnectPopupViewController" customModule="gat" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oev-Zv-EXq"/>
+                        <viewControllerLayoutGuide type="bottom" id="y6d-FE-0vY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="buf-if-bCY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iS8-9k-znA">
+                                <rect key="frame" x="37" y="303.5" width="300" height="60"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.43529411764705883" green="0.43529411764705883" blue="0.43529411764705883" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wifi-icon" translatesAutoresizingMaskIntoConstraints="NO" id="A36-zw-q4X">
+                                <rect key="frame" x="136.5" y="218.5" width="101" height="72.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="A36-zw-q4X" secondAttribute="height" multiplier="7:5" id="q2a-4S-ClX"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dhn-rz-fhK">
+                                <rect key="frame" x="150.5" y="377.5" width="74" height="22"/>
+                                <state key="normal" title="Thử lại" image="refresh-icon">
+                                    <color key="titleColor" red="0.32549019607843138" green="0.58823529411764708" blue="0.72549019607843135" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="A36-zw-q4X" firstAttribute="centerY" secondItem="buf-if-bCY" secondAttribute="centerY" multiplier="0.765" id="4tC-LZ-gUH"/>
+                            <constraint firstItem="iS8-9k-znA" firstAttribute="centerY" secondItem="buf-if-bCY" secondAttribute="centerY" id="6s4-iX-7zv"/>
+                            <constraint firstItem="iS8-9k-znA" firstAttribute="height" secondItem="buf-if-bCY" secondAttribute="height" multiplier="0.09" id="B7B-6M-Wge"/>
+                            <constraint firstItem="iS8-9k-znA" firstAttribute="width" secondItem="buf-if-bCY" secondAttribute="width" multiplier="0.8" id="Dxs-Vf-iKk"/>
+                            <constraint firstItem="dhn-rz-fhK" firstAttribute="centerY" secondItem="buf-if-bCY" secondAttribute="centerY" multiplier="1.165" id="P2q-1s-A1d"/>
+                            <constraint firstItem="iS8-9k-znA" firstAttribute="centerX" secondItem="buf-if-bCY" secondAttribute="centerX" id="abs-Os-zyb"/>
+                            <constraint firstItem="A36-zw-q4X" firstAttribute="centerX" secondItem="buf-if-bCY" secondAttribute="centerX" id="bkU-nm-Q0J"/>
+                            <constraint firstItem="A36-zw-q4X" firstAttribute="width" secondItem="buf-if-bCY" secondAttribute="width" multiplier="0.27" id="cnJ-Hu-vEn"/>
+                            <constraint firstItem="dhn-rz-fhK" firstAttribute="centerX" secondItem="buf-if-bCY" secondAttribute="centerX" id="lL6-F4-Sfu"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="A36-zw-q4X" id="L0p-t1-X29"/>
+                        <outlet property="refreshButton" destination="dhn-rz-fhK" id="Qh4-wI-GJV"/>
+                        <outlet property="titleLabel" destination="iS8-9k-znA" id="ruD-uH-EDz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ep3-7b-IKN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="224.80000000000001" y="151.57421289355324"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="refresh-icon" width="19" height="17"/>
+        <image name="wifi-icon" width="99" height="71"/>
+    </resources>
+</document>

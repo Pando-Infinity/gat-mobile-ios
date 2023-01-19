@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SmallPostTbvCell" rowHeight="191" id="KGk-i7-Jjw" customClass="SmallPostTbvCell" customModule="gat" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="309" height="191"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="309" height="191"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iqp-fF-oTr">
+                        <rect key="frame" x="0.0" y="189" width="309" height="2"/>
+                        <color key="backgroundColor" red="0.88235294119999996" green="0.8980392157" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="2" id="6g5-yt-o0H"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="thj-gH-rkZ">
+                        <rect key="frame" x="0.0" y="0.0" width="309" height="189"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="thj-gH-rkZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Haa-t2-acv"/>
+                    <constraint firstAttribute="trailing" secondItem="thj-gH-rkZ" secondAttribute="trailing" id="KIZ-LC-GlG"/>
+                    <constraint firstAttribute="bottom" secondItem="thj-gH-rkZ" secondAttribute="bottom" constant="2" id="XJi-uO-oeO"/>
+                    <constraint firstItem="thj-gH-rkZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="ZWb-ZV-18V"/>
+                    <constraint firstAttribute="trailing" secondItem="iqp-fF-oTr" secondAttribute="trailing" id="aMl-ha-cdL"/>
+                    <constraint firstAttribute="bottom" secondItem="iqp-fF-oTr" secondAttribute="bottom" id="cJ9-80-i9g"/>
+                    <constraint firstItem="iqp-fF-oTr" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="dhq-GW-Aol"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="containerView" destination="thj-gH-rkZ" id="YlV-Pp-X88"/>
+            </connections>
+            <point key="canvasLocation" x="129.71014492753625" y="60.602678571428569"/>
+        </tableViewCell>
+    </objects>
+</document>

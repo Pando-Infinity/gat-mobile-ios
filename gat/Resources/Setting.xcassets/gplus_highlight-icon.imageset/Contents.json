@@ -1,0 +1,23 @@
+{
+  "images": [
+    {
+      "idiom": "universal",
+      "scale": "1x",
+      "filename": "googleplusAvalIc.png"
+    },
+    {
+      "idiom": "universal",
+      "scale": "2x",
+      "filename": "googleplusAvalIc@2x.png"
+    },
+    {
+      "idiom": "universal",
+      "scale": "3x",
+      "filename": "googleplusAvalIc@3x.png"
+    }
+  ],
+  "info": {
+    "author": "zeplin",
+    "version": "1"
+  }
+}

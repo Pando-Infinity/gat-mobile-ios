@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TimelineRequestView" customModule="gat" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="161"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="zvF-zj-7hJ">
+                    <rect key="frame" x="0.0" y="25" width="375" height="136"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thời gian dự định trả sách:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0mg-VP-PDF">
+                    <rect key="frame" x="0.0" y="0.0" width="187.5" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="TyS-Lk-9wk"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.56862745100000001" green="0.56862745100000001" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WYT-OY-vOd">
+                    <rect key="frame" x="187.5" y="0.0" width="187.5" height="25"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.56862745100000001" green="0.56862745100000001" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="WYT-OY-vOd" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="240-oq-wFu"/>
+                <constraint firstItem="WYT-OY-vOd" firstAttribute="leading" secondItem="0mg-VP-PDF" secondAttribute="trailing" id="Eou-wk-W57"/>
+                <constraint firstItem="0mg-VP-PDF" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="JJk-dy-ZSE"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="WYT-OY-vOd" secondAttribute="trailing" id="Oh3-Fa-s48"/>
+                <constraint firstItem="0mg-VP-PDF" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="Wf1-X7-PaX"/>
+                <constraint firstItem="zvF-zj-7hJ" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="WwH-EJ-GRB"/>
+                <constraint firstItem="WYT-OY-vOd" firstAttribute="height" secondItem="0mg-VP-PDF" secondAttribute="height" id="hUA-iF-Chz"/>
+                <constraint firstItem="zvF-zj-7hJ" firstAttribute="top" secondItem="0mg-VP-PDF" secondAttribute="bottom" id="hub-jc-TmY"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="zvF-zj-7hJ" secondAttribute="bottom" id="l2b-9z-ko5"/>
+                <constraint firstItem="zvF-zj-7hJ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ppa-et-I9i"/>
+                <constraint firstItem="0mg-VP-PDF" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.5" id="zox-Kn-oar"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="expectationTitleLabel" destination="0mg-VP-PDF" id="NPZ-7Z-k3z"/>
+                <outlet property="tableView" destination="zvF-zj-7hJ" id="cTx-5m-v2U"/>
+                <outlet property="timeExpectationLabel" destination="WYT-OY-vOd" id="ZOy-7I-YHK"/>
+                <outlet property="titleHeightConstraint" destination="TyS-Lk-9wk" id="7ON-6Q-GAi"/>
+            </connections>
+            <point key="canvasLocation" x="47.5" y="-132.5"/>
+        </view>
+    </objects>
+</document>

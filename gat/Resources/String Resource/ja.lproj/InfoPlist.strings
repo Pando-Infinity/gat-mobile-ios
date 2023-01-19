@@ -1,0 +1,12 @@
+/* 
+  InfoPlist.strings
+  gat
+
+  Created by Vũ Kiên on 11/09/2017.
+  Copyright © 2017 GaTBook. All rights reserved.
+*/
+
+"NSCameraUsageDescription" = "本のバーコードをスキャン";
+"NSLocationWhenInUseUsageDescription" = "近くのユーザーと近くの本を検索";
+"NSPhotoLibraryUsageDescription" = "プロフィール写真を変更";
+"NSPhotoLibraryAddUsageDescription" = "ライブラリにの追加を許可";

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cSw-Zh-J4t">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Challenge MembersVC-->
+        <scene sceneID="WGR-wG-1p2">
+            <objects>
+                <viewController storyboardIdentifier="ChallengeMembersVC" id="xG4-qC-ElJ" customClass="ChallengeMembersVC" customModule="gat" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mNY-oH-mEO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tf4-49-qkA" customClass="SwipeMenuView" customModule="SwipeMenuViewController">
+                                <rect key="frame" x="0.0" y="88" width="414" height="702"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C2J-wE-F47" userLabel="vBottom">
+                                <rect key="frame" x="0.0" y="790" width="414" height="72"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QZS-Fj-v0Q">
+                                        <rect key="frame" x="16" y="16" width="382" height="40"/>
+                                        <color key="backgroundColor" red="0.3529411764705882" green="0.64313725490196072" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="cUc-cV-RYb"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                        <state key="normal" title="Mời bạn bè">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="8"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="QZS-Fj-v0Q" firstAttribute="centerY" secondItem="C2J-wE-F47" secondAttribute="centerY" id="2TQ-4Y-NeJ"/>
+                                    <constraint firstItem="QZS-Fj-v0Q" firstAttribute="leading" secondItem="C2J-wE-F47" secondAttribute="leading" constant="16" id="F8G-0f-uLh"/>
+                                    <constraint firstAttribute="trailing" secondItem="QZS-Fj-v0Q" secondAttribute="trailing" constant="16" id="WbU-1c-oko"/>
+                                    <constraint firstAttribute="height" constant="72" id="bka-Wz-wlf"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.10000000000000001"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="C2J-wE-F47" firstAttribute="leading" secondItem="OIc-3b-wRb" secondAttribute="leading" id="3M4-Ca-Oi2"/>
+                            <constraint firstItem="C2J-wE-F47" firstAttribute="top" secondItem="Tf4-49-qkA" secondAttribute="bottom" id="4Wh-Pb-Omf"/>
+                            <constraint firstItem="Tf4-49-qkA" firstAttribute="top" secondItem="OIc-3b-wRb" secondAttribute="top" id="G69-9Z-aS7"/>
+                            <constraint firstItem="Tf4-49-qkA" firstAttribute="trailing" secondItem="OIc-3b-wRb" secondAttribute="trailing" id="QZV-u3-TF8"/>
+                            <constraint firstItem="Tf4-49-qkA" firstAttribute="leading" secondItem="OIc-3b-wRb" secondAttribute="leading" id="R7M-M1-5Bq"/>
+                            <constraint firstItem="C2J-wE-F47" firstAttribute="trailing" secondItem="OIc-3b-wRb" secondAttribute="trailing" id="dew-Ba-AsC"/>
+                            <constraint firstItem="C2J-wE-F47" firstAttribute="bottom" secondItem="OIc-3b-wRb" secondAttribute="bottom" id="klh-Mk-Pa4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="OIc-3b-wRb"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Z8W-Yh-VgD"/>
+                    <connections>
+                        <outlet property="swipeMenuView" destination="Tf4-49-qkA" id="wa2-HP-bNj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qbx-1g-YZU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="847.82608695652175" y="97.767857142857139"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="NUE-37-YcN">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cSw-Zh-J4t" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dPw-g9-Zmg">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="xG4-qC-ElJ" kind="relationship" relationship="rootViewController" id="2Ch-Ck-QA3"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dgU-7w-ESS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-62.318840579710148" y="97.767857142857139"/>
+        </scene>
+    </scenes>
+</document>

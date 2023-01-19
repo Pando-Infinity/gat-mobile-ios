@@ -1,0 +1,11 @@
+framework module PanWalletSDK {
+  umbrella header "PanWalletSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module PanWalletSDK.Swift {
+  header "PanWalletSDK-Swift.h"
+  requires objc
+}

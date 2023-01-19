@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="readingCornerCell" rowHeight="347" id="RcP-5g-FnD" customClass="ReadingCornerTableViewCell" customModule="gat" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="347"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="RcP-5g-FnD" id="Elg-lg-Prb">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="347"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="yjM-ee-wjG">
+                        <rect key="frame" x="16" y="0.0" width="343" height="347"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="tif-ce-9aI">
+                            <size key="itemSize" width="0.0" height="0.0"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                    </collectionView>
+                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="riJ-GZ-NCB">
+                        <rect key="frame" x="168" y="308.5" width="39" height="38.5"/>
+                        <color key="pageIndicatorTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="currentPageIndicatorTintColor" red="0.55686274509803924" green="0.76470588235294112" blue="0.87450980392156863" alpha="1" colorSpace="calibratedRGB"/>
+                    </pageControl>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="yjM-ee-wjG" firstAttribute="centerY" secondItem="Elg-lg-Prb" secondAttribute="centerY" id="3S6-Ya-6Qe"/>
+                    <constraint firstItem="yjM-ee-wjG" firstAttribute="centerX" secondItem="Elg-lg-Prb" secondAttribute="centerX" id="Cx9-g5-x8E"/>
+                    <constraint firstItem="yjM-ee-wjG" firstAttribute="height" secondItem="Elg-lg-Prb" secondAttribute="height" id="hwA-oT-yGq"/>
+                    <constraint firstItem="riJ-GZ-NCB" firstAttribute="height" secondItem="yjM-ee-wjG" secondAttribute="height" multiplier="1:9" id="iCx-ET-Tjy"/>
+                    <constraint firstAttribute="bottom" secondItem="riJ-GZ-NCB" secondAttribute="bottom" id="is9-2H-fTg"/>
+                    <constraint firstItem="yjM-ee-wjG" firstAttribute="width" secondItem="Elg-lg-Prb" secondAttribute="width" multiplier="343:375" id="lJL-Qx-zRK"/>
+                    <constraint firstItem="riJ-GZ-NCB" firstAttribute="centerX" secondItem="Elg-lg-Prb" secondAttribute="centerX" id="pnJ-Ud-dQB"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="collectionView" destination="yjM-ee-wjG" id="Ue3-qs-cOe"/>
+                <outlet property="pageControl" destination="riJ-GZ-NCB" id="IhF-Tv-aK8"/>
+            </connections>
+            <point key="canvasLocation" x="0.5" y="73.5"/>
+        </tableViewCell>
+    </objects>
+</document>

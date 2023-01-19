@@ -1,0 +1,23 @@
+{
+  "images": [
+    {
+      "idiom": "universal",
+      "scale": "1x",
+      "filename": "logoutIc.png"
+    },
+    {
+      "idiom": "universal",
+      "scale": "2x",
+      "filename": "logoutIc@2x.png"
+    },
+    {
+      "idiom": "universal",
+      "scale": "3x",
+      "filename": "logoutIc@3x.png"
+    }
+  ],
+  "info": {
+    "author": "zeplin",
+    "version": "1"
+  }
+}

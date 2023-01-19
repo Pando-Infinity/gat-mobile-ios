@@ -1,0 +1,936 @@
+/* 
+  Localizable.strings
+  gat
+
+  Created by Vũ Kiên on 18/08/2017.
+  Copyright © 2017 GaTBook. All rights reserved.
+*/
+//Accept-Language
+"Accept-Language" = "en";
+
+//MARK: - COMMON
+"ERROR_GPS_MESSAGE" = "Activate GPS to use this feature.";
+"ERROR_CONNECT_INTERNET_MESSAGE" = "No internet connection!";
+"ERROR_CONNECT_INTERNET_TITLE" = "Error!";
+"ERROR_LOGIN_TITLE" = "Notification";
+"SKIP_ALERT_TITLE" = "Cancel";
+"LOGIN_ALERT_MESSAGE" = "Please sign in to use this feature.";
+"LOGIN_ALERT_TITLE" = "Sign in";
+"ERROR_CAMERA_TITLE" = "Error!";
+"CAMERA_ALERT_MESSAGE" = "Camera unavailable";
+"SETTING_ALERT_TITLE" = "SETTING";
+"PERMISSION_CAMERA_TITLE" = "You must change camera access privileges. To do this, go to Settings > Privacty > Camera on you iOS Device.";
+"ERROR_ALERT_TITLE" = "Error!";
+"OK_ALERT_TITLE" = "OK";
+"ERROR_LOCATION_TITLE" = "Error!";
+"CANCEL_NOTIFICATION_ALERT_TITLE" = "CANCEL";
+"YES_ALERT_TITLE" = "Yes";
+"NO_ALERT_TITLE" = "No";
+"CANCEL_CHANGE_MESSAGE" = "Do you want cancel the changes?";
+"LOST_BOOK_ALERT_TITLE" = "Lost Book";
+"LOST_BOOK_MESSAGE" = "Do you try to contact the borrower? /nThis choice cannot undo, please becareful with your choice.";
+"LOST_ALERT_TITLE" = "Lost!";
+"CANCEL_ERROR_TITLE" = "Cancel";
+"CANCEL_REQUEST_ERROR_TITLE" = "Huỷ yêu cầu";
+"CANCEL_REQUEST_MESSAGE" = "Are you sure to cancel the borrowing request?";
+"REJECT_ERROR_TITLE" = "REJECT";
+"REJECT_MESSAGE" = "Are you sure to reject the borrowing request?";
+"ERROR_EMAIL_EXISTED_TITLE" = "Error";
+"EMAIL_EXISTED_MESSAGE" = "Email does not exist in the system.";
+"SOCIAL_LOGIN_NOTIFICATION" = "Notification";
+"SOCIAL_LOGIN_MESSAGE" = "You need sign in to accout %@ %@ to reset the password.";
+"UPDATE_ALERT_TITLE" = "Update your app!";
+"UPDATE_MESSAGE" = "Please download the latest GaT version to get previous errors fixed.";
+"UPDATE_ALERT_TITLE" = "Update";
+"SESSION_NOT_EXISTED_MESSAGE" = "Server error. Please try again later.";
+"NOT_GET_ADDRESS_MESSAGE" = "Cannot locate current location.";
+"CANCEL_REQUEST_BOOKSTOP_MESSAGE" = "Are you sure to cancel the join request to Bookstop %@?";
+"LEVEAVE_BOOKSTOP_MESSAGE" = "Are you sure to leave the Bookstop %@?";
+"DOING_JOIN_BOOKSTOP_MESSAGE" = "You're member of Bookstop %@";
+"NOTIFICATION_TITLE" = "Notification";
+"YOUR_SEND_MESSAGE" = "You sent the join request to Bookstop";
+"OTHER" = "Others";
+"SERVER_ERROR_MESSAGE" = "The server is having an error. Please try again later";
+"LESS_TITLE" = "less";
+"PLEASE_WAIT" = "Please waiting";
+
+
+//MARK: - Pop Up
+"TOTAL_PAGES" = "Total pages";
+"BOOK_YOU_HAVE_READ" = "Pages you have read";
+
+//MARK: - Favourite Category
+"CATEGORY_TITLE" = "Book Genres";
+"FAVOURITE_CATEGORY_TITLE" = "Select Your Favourite Genres";
+"ALL_CATEGORY_TITLE" = "All";
+"LITERATURE_CATEGORY_TITLE" = "Literature";
+"SKILL_CATEGORY_TITLE" = "Self-Help";
+"ECONOMIC_CATEGORY_TITLE" = "Economic";
+"HISTORY_AND_GEOGRAPHY_CATEGORY_TITLE" = "History & Geography";
+"ART_CATEGORY_TITLE" = "Art";
+"RELIGION_CATEGORY_TITLE" = "Religion";
+"CHILDREN_CATEGORY_TITLE" = "Kid";
+"COMIC_CATEGORY_TITLE" = "Comic";
+"SCIENCE_CATEGORY_TITLE" = "Science";
+"TEXTBOOK_CATEGORY_TITLE" = "Study Aid";
+"FOREIGN_LANGUAGE_CATEGORY_TITLE" = "Foreign Language";
+"SYLLABUS_CATEGORY_TITLE" = "Education";
+"MOM_AND_BABY_CATEGORY_TITLE" = "Mom & Child";
+"SYNTHESIS_CATEGORY_TITLE" = "Compilation";
+"MAGAZINE_CATEGORY_TITLE" = "Magazine";
+
+//MARK: - Time
+"YEARS" = "%d years";
+"ONE_YEAR" = "%d year";
+"MONTHS" = "%d months";
+"ONE_MONTH" = "%d month";
+"WEEKS" = "%d weeks";
+"ONE_WEEK" = "%d week";
+"DAYS" = "%d days";
+"ONE_DAY" = "%d day";
+"HOURS" = "%d hours";
+"ONE_HOUR" = "%d hour";
+"MINUTES" = "%d minutes";
+"ONE_MINUTE" = "%d minute";
+"SECONDS" = "%d seconds";
+"ONE_SECOND" = "%d second";
+"A_MOMENT_AGO" = "a moment agao";
+
+// TAB BAR
+"HOME_TABBAR" = "Home";
+"PROFILE_TABBAR" = "Personal";
+"ADD_BOOK_TABBAR" = "Add book";
+"NOTIFICATION_TABBAR" = "Notification";
+"SETTING_TABBAR" = "Setting";
+
+//MARK: - HOME
+"SEARCH_TITLE_HOME" = "Search";
+"COMMUNITY_TITLE" = "Community";
+"NEARBY_USER_TITLE_HOME" = "Nearby";
+"MORE_TITLE_HOME" = "More";
+"BOOK_SHARING_TITLE_HOME" = "Sharing books";
+"ERROR_ALERT_TITLE_HOME" = "Error!";
+"SETTING_ALERT_TITLE_HOME" = "Setting";
+"CANCEL_ALERT_TITLE_HOME" = "Cancel";
+"OK_ALERT_TITLE_HOME" = "Error";
+"ERROR_BOOKS_EMPTY_MESSAGE_HOME" = "There is no sharing book";
+"NOT_FOUND_NEARBY_USER_MESSAGE_HOME" = "There is no nearby reader";
+"EXPLORATION_TITLE_HOME" = "Explore";
+"PROFILE_EXPLORATION_HOME" = "Complete \nyour profile";
+"BOOKSTOP_EXPLORATION_HOME" = "GAT-UP \nBookshelf";
+"FAN_PAGE_EXPLORATION_HOME" = "Join \nGAT community";
+"TOP_BORROW_BOOK_HOME" = "Top Borrowing Books";
+"NEW_REVIEW_TITLE_HOME" = "New Reviews";
+"RECOMMEND_BY_GAT_HOME" = "Based on what you've read";
+"HOT_WRITTERS_ON_GAT_HOME" = "GAT Hot Writers";
+"BASE_ON_READ_ARTICLE_HOME" = "Base on read Articles";
+"TRENDING_REVIEW_HOME" = "Featured reviews";
+"TRENDING_ARTICLE_HOME" = "Featured Articles";
+"NEARBY_BOOKSTOP_HOME" = "Nearby Bookstops";
+"SUCCESS_HOME" = "Success!";
+"ADD_BOOKMARK_HOME" = "Add bookmark!";
+"REMOVE_BOOKMARK_MESSAGE" = "Remove bookmark!";
+
+//MARK: - NEARBY USER
+"NEARBY_USER_TITLE" = "Nearby";
+"NOT_FOUND_NEARBY_USER_MESSAGE_NEARBYUSER" = "There is no nearby reader";
+"RESULT_HEADER_TITLE_NEARBYUSER" = "About %@ results";
+"OK_ALERT_TITLE_NEARBYUSER" = "OK";
+"ERROR_ALERT_TITLE_NEARBYUSER" = "Error!";
+"SETTING_ALERT_TITLE_NEARBYUSER" = "Setting";
+"CANCEL_ALERT_TITLE_NEARBYUSER" = "CANCEL";
+
+//MARK: - SEARCH
+"SEARCH_TITLE" = "Search";
+"SEARCH_BOOK_TITLE_SEARCH" = "Book title";
+"SEARCH_AUTHOR_TITLE_SEARCH" = "Author";
+"SEARCH_USER_TITLE_SEARCH" = "People";
+"CANCEL_SEARCH_TITLE_SEARCH" = "Cancel";
+"ERROR_ALERT_TITLE_SEARCH" = "Error!";
+"OK_ALERT_TITLE_SEARCH" = "OK";
+"NUMBER_SHARING_BOOK_TITLE_SEARCH" = "Sharing books";
+"NUMBER_REVIEW_BOOK_TITLE_SEARCH" = "Reviews";
+"NUMBER_USER_SHARING_BOOK_TITLE" = "People sharing this book";
+"NO_AUTHOR_TITLE_SEARCH" = "N/A";
+"RESULT_SEARCH_TITLE_SEARCH" = "About %@ results";
+"ADD_NEW_BOOK_SEARCH" = "Request Book";
+
+//MARK: - BOOK DETAIL
+"BOOK_DETAIL_TITLE" = "Book Detail Info";
+"BOOK_DESCRIPTION_TITLE_BOOKDETAIL" = "Description";
+"REVIEW_BOOK_TITLE_BOOKDETAIL" = "Reviews";
+"ERROR_ALERT_TITLE_BOOKDETAIL" = "Error";
+"OK_ALERT_TITLE_BOOKDETAIL" = "OK";
+"CANCEL_ALERT_TITLE_BOOKDETAIL" = "CANCEL";
+"EDIT_REVIEW_TITLE_BOOKDETAIL" = "Edit review";
+"WRITE_REVIEW_TITLE_BOOKDETAIL" = "Write review";
+"ADD_BOOK_TITLE_BOOKDETAIL" = "Add to shelf";
+"BORROW_BOOK_TITLE_BOOKDETAIL" = "Borrow book";
+"MORE_TITLE_BOOKDETAIL" = "more";
+"BOOK_INFO_TITLE_BOOKDETAIL" = "Information";
+"BUY_BOOK_TITLE_BOOKDETAIL" = "Buy Book";
+"MY_REVIEW_TITLE_BOOKDETAIL" = "Your Review";
+"STOCKING_TITLE_BOOKDETAIL" = "Available";
+"OUT_OF_STOCK_TITLE_BOOKDETAIL" = "Out of stock";
+"ADD_BOOKSHELF_MESSAGE_BOOKDETAIL" = "Do you want add this book to bookshelf?";
+"ADD_BOOK_SUCCEEDED_MESSAGE_BOOKDETAIL" = "Added books to your bookshelf";
+"SUCCEEDED_BOOKDETAIL" = "Succeeded";
+"ADD_BOOKSHELF_MESSAGE" = "Do you want add this book to bookshelf?";
+"NO_START_READING" = "No, start reading";
+
+//MARK: - ADD BOOK
+"ADD_BOOK_TITLE" = "Add Book To Shelf";
+"NUMBER_BOOK_TITLE_ADDBOOK" = "Book quantity";
+"ALLOW_SHARING_TITLE_ADDBOOK" = "Allow people to borrow book";
+"OK_ALERT_TITLE_ADDBOOK" = "OK";
+"ERROR_ALERT_TITLE_ADDBOOK" = "Error!";
+"YES_ALERT_TITLE_ADDBOOK" = "YES";
+"NO_ALERT_TITLE_ADDBOOK" = "NO";
+"CANCEL_ADDBOOK_MESSAGE_ADDBOOK" = "Are you sure to cancel the adding book?";
+"NOTIFICATION_CANCEL_ADDBOOK" = "Notification";
+
+//MARK: - COMMENT
+"RATE_TITLE_COMMENT" = "Rating";
+"ERROR_ALERT_TITLE_COMMENT" = "Error!";
+"OK_ALERT_TITLE_COMMENT" = "OK";
+"YES_ALERT_TITLE_COMMENT" = "YES";
+"NO_ALERT_TITLE_COMMENT" = "NO";
+"CANCEL_COMMENT_MESSAGE_COMMENT" = "Are you sure to cancel the reviewing?";
+"NOTIFICATION_CANCEL_COMMENT" = "Notification";
+"EDIT_PLACEHOLDER_COMMENT" = "What did you think of the book?";
+
+//MARK: - LIST SHARING BOOK
+"BOOKSELF_TITLE" = "Book Owners";
+"ERROR_ALERT_TITLE_LISTBOOKSHARING" = "Error!";
+"OK_ALERT_TITLE_LISTBOOKSHARING" = "OK";
+"SORT_BY_TITLE_LISTBOOKSHARING" = "Sort by";
+"BORROW_TITLE_LISTBOOKSHARING" = "Borrow";
+"ON_HOLD_TITLE_LISTBOOKSHARING" = "Wait Borrow";
+"BEING_BORROWED_STATUS_TITLE_LISTBOOKSAHRING" = "Being borrowed";
+"ON_HOLD_AGREE_STATUS_TITLE_LISTBOOKSHARING" = "Wait approve";
+"ON_HOLD_RETURN_STATUS_TITLE_LISTBOOKSHARING" = "On hold";
+"DOING_CONTACT_STATUS_TITLE_LISTBOOKSHARING" = "Contacting";
+"BORROWING_STATUS_TITLE_LISTBOOKSHARING" = "Borrowing";
+"READ_IN_PLACE_STATUS_TITLE_LISTBOOKSHARING" = "Read in Bookstop";
+"LIMITED_BORROW_TITLE_LISTBOOKSHARING" = "Limited borrow";
+"BOOKSTOP_MEMBER_ONLY_TITLE_LISTBOOKSHARING" = "Bookstop member only";
+
+//MARK: - SORT BY OPTION
+"SORT_BY_TITLE_SORTBY" = "Sort By";
+"UPTIME_STATUS_TITLE_SORTBY" = "Active Time";
+"DISTANCE_STATUS_TITLE_SORTBY" = "Distance";
+
+//MARK: - BOOKSTOP
+"READ_IN_PLACE_STATUS_TITLE_BOOKSTOP" = "Read in Bookstop";
+"SEARCH_BOOK_BOOKSTOP" = "Search book";
+"BOOK_BOOKSTOP" = "Bookshelf";
+"BOOK_SPACE_BOOKSTOP" = "Reading space";
+
+//MARK: - MESSAGE
+"EMPTY_MESSAGE_TITLE_LISTMESSAGE" = "There is no message";
+"ERROR_ALERT_TITLE_LISTMESSAGE" = "Error!";
+"OK_ALERT_TITLE_LISTMESSAGE" = "OK";
+"SEND_MESSAGE_TITLE_MESSAGE" = "Send";
+"PLACEHOLDER_MESSAGE_TITLE_MESSAGE" = "Enter your message";
+"ERROR_SEND_MESSAGE" = "Cannot send message";
+"ERROR_SEND_MESSAGE" = "Không gửi được tin nhắn";
+"RECOMMEND_MESSAGE_1" = "Hi %@, when will you come to take the book?";
+"RECOMMEND_MESSAGE_2" = "Hi %@, when can I come to take the book? ";
+"RECOMMEND_MESSAGE_3" = "Can you send me your phone number and address? I will call you when I come.";
+"RECOMMEND_MESSAGE_4" = "My address is %@";
+"READ_STATUS_MESSAGE" = "Read";
+"YOURSELF_MESSAGE" = "You";
+
+//MARK: - NOTIFICATION
+"NOTIFICATION_TITLE" = "Notification";
+"MESSAGE_TITLE" = "Message";
+"NOTIFICATION_EMPTY_TITLE_NOTIFICATION" = "There is no notification";
+"ERROR_ALERT_TITLE_NOTIFICATION" = "Error!";
+"OK_ALERT_TITLE_NOTIFICATION" = "OK";
+"EMPTY_NOTIFICATIONS_MESSAGE" = "There is no notification";
+"NOTIFICATION_TYPE_0_TITLE" = "You've got %d the messages.";
+"NOTIFICATION_TYPE_1_TITLE" = "Sent a message to you.";
+"NOTIFICATION_TYPE_10_TITLE" = "Sent a request to borrow \"%@\".";
+"NOTIFICATION_TYPE_11_TITLE" = "\"%@\" is borrowed by someone else.";
+"NOTIFICATION_TYPE_12_TITLE" = "Accepted your borrowing request \"%@\".";
+"NOTIFICATION_TYPE_13_TITLE" = "Announced that you have borrowed the book \"%@\".";
+"NOTIFICATION_TYPE_14_TITLE" = "Announced that you have returned the book \"%@\" back.";
+"NOTIFICATION_TYPE_15_TITLE" = "Rejected your borrowing request the book \"%@\".";
+"NOTIFICATION_TYPE_16_TITLE" = "Announced that you have unreturned the book \"%@\"!!!";
+"NOTIFICATION_TYPE_17_TITLE" = "You are borrowing %@ books from other readers.";
+"NOTIFICATION_TYPE_18_TITLE" = "You have received %d requests to borrow the book \"%@\".";
+"NOTIFICATION_TYPE_19_TITLE" = "Cancelled the request to borrow the book \"%@\".";
+"NOTIFICATION_TYPE_20_TITLE" = "Request borrow %@ to %@ has cancelled by system due to owner accepted other request. You can send request to other.";
+"NOTIFICATION_TYPE_21_TITLE" = "Yêu cầu mượn sách %@ đến %@ đã bị hệ thống tự huỷ sau 48h không có phản hồi. Bạn có thể gửi yêu cầu mượn sách mới.";
+"NOTIFICATION_TYPE_120_TITLE" = "There are %d borrowing requests awaiting for your approval.";
+"NOTIFICATION_TYPE_121_TITLE" = "Please update the borrowing progress for \"%@\" of \"%@\".";
+"NOTIFICATION_TYPE_122_TITLE" = "It's time to return \"%@\". Please contact the book owner.";
+"NOTIFICATION_TYPE_123_TITLE" = "The returning date for \"%@\"  is 1 week overdue. Please contact the book owner.";
+"NOTIFICATION_TYPE_200_TITLE" = "Welcome to GaT. Start adding books to sharing with readers near you.";
+"NOTIFICATION_TYPE_201_TITLE" = "Update your address to sharing books with others easily.";
+"NOTIFICATION_TYPE_202_TITLE" = "Add your favourite book genre to receive better reading recommendation.";
+"NOTIFICATION_TYPE_203_TITLE" = "Start adding books and sharing with readers near you.";
+"NOTIFICATION_TYPE_301_TITLE" = "There are %d book reader near you.";
+"NOTIFICATION_TYPE_500_TITLE" = "%@ is following you.";
+"NOTIFICATION_TYPE_502_TITLE" = "You has followed by %@ users recently.";
+"NOTIFICATION_TYPE_600_TITLE" = "%@ has been updated.";
+"NOTIFICATION_TYPE_800_TITLE" = "\"%@\" has joined your challenge";
+"NOTIFICATION_TYPE_801_TITLE" = "\"%@\" has joined a challenge. Let's explore!";
+"NOTIFICATION_TYPE_802_TITLE" = "GAT has invited you to join \"Đọc 50,000 quyển sách cùng GAT\". Let's explore!";
+"NOTIFICATION_TYPE_803_TITLE" = "%@ has invited you to join a challenge";
+"NOTIFICATION_TYPE_900_TITLE" = "%@ has reacted to your article";
+"NOTIFICATION_TYPE_901_TITLE" = "%@ and %d peoples reacted to your article";
+"NOTIFICATION_TYPE_902_TITLE" = "%@ has reacted your comment";
+"NOTIFICATION_TYPE_903_TITLE" = "%@ and %d people reacted to your comment";
+"NOTIFICATION_TYPE_904_TITLE" = "%@ commented on your article";
+"NOTIFICATION_TYPE_905_TITLE" = "%@ and %d commented on your article";
+"NOTIFICATION_TYPE_906_TITLE" = "%@ replied your comment";
+"NOTIFICATION_TYPE_907_TITLE" = "%@ and %d people replied your comment";
+"NOTIFICATION_TYPE_908_TITLE" = "%@ mentioned you in an article";
+"NOTIFICATION_TYPE_909_TITLE" = "%@ mentioned you in a comment";
+"NOTIFICATION_TYPE_910_TITLE" = "%@ created a new article";
+
+//MARK: - REQUEST DETAIL
+"BORROW_TITLE" = "Borrow Book";
+"ON_HOLD_TITLE" = "Wait To Borrow Book";
+"ON_HOLD_MESSAGE_REQUESTDETAILBORROWER" = "This book is being borrowed. Your request will be placed in the queue until it is returned.";
+"SEND_REQUEST_TO_REQUESTDETAILBORROWER" = "Send book borrowing request to %@";
+"SEND_MESSAGE_REQUESTDETAILBORROWER" = "Message";
+"INTEND_RETURN_MESSAGE_REQUESTDETAILBORROWER" = "Borrowing duration";
+"ERROR_ALERT_TITLE_REQUESTDETAILBORROWER" = "Error!";
+"SEND_REQUEST_TITLE_REQUESTDETAILBORROWER" = "Send request";
+"REVIEW_BOOK_TITLE_REQUESTDETAILBORROWER" = "Reviews";
+"BORROW_FORMAT_MESSAGE_REQUESTDETAILBORROWER" = "Hi %@, can you let me borrow your book \"%@\"?";
+"ONHOLD_FORMAT_MESSAGE_REQUESTDETAILBORROWER" = "Hi %@, can you let me borrow your book \"%@\" after it be returned?";
+"OK_ALERT_TITLE_REQUESTDETAILBORROWER" = "OK";
+
+//MARK: - USER PROFILE
+"OK_ALERT_TITLE_USERPROFILE" = "OK";
+"ERROR_ALERT_TITLE_USERPROFILE" = "Error!";
+"EDIT_TITLE_USERPROFILE" = "Edit";
+"ADD_BOOK_MESSAGE_USERPROFILE" = "Have you never lent books to anyone? Add books to your shelf now!";
+"SHARE_PROFILE" = "Share Profile";
+
+// Book Instance
+"BOOK_INSTANCE_TITLE_BOOKUSERPROFILE" = "Books";
+"BORROW_STATUS_TITLE_BOOKUSERPROFILE" = "Borrow";
+"BORROW_BY_TITLE_BOOKUSERPROFILE" = "Borrower %@";
+"SHARING_BOOK_BOOKUSERPROFILE" = "Sharing books";
+"NOT_SHARING_BOOK_TITLE_BOOKUSERPROFILE" = "Not sharing books";
+"LOST_BOOK_TITLE_BOOKUSERPROFILE" = "Lost books";
+"YES_ALERT_TITLE_BOOKUSERPROFILE" = "OK";
+"NO_ALERT_TITLE_BOOKUSERPROFILE" = "CANCEL";
+"REMOVE_ALERT_TITLE_BOOKUSERPROFILE" = "Remove book";
+"REMOVE_MESSAGE_BOOKUSERPROFILE" = "Are you sure to remove book \"%@\" from your shelf?";
+
+// Review
+"REIVEW_TITLE_REVIEWUSERPROFILE" = "Reviews";
+"RATING_TITLE_REVIEWUSERPROFILE" = "Rating";
+"MORE_TITLE_REVIEWUSERPROFILE" = "more";
+"EDIT_ALERT_TITLE_REVIEWUSERPROFILE" = "Edit";
+"REMOVE_ALERT_TITLE_REVIEWUSERPROFILE" = "Remove";
+"CANCEL_ALERT_TITLE_REVIEWUSERPROFILE" = "Cancel";
+"YES_ALERT_TITLE_REVIEWUSERPROFILE" = "Yes";
+"NO_ALERT_TITLE_REVIEWUSERPROFILE" = "No";
+"REMOVE_MESSAGE_REVIEWUSERPROFILE" = "Are you sure to remove the review?";
+"NOTIFICATION_REMOVE_REVIEW_REVIEWUSERPROFILE" = "Notification";
+
+// Request
+"REQUEST_TITLE_REQUESTUSERPROFILE" = "Requests";
+"REJECT_TITLE_REQUESTUSERPROFILE" = "Reject";
+"ACCEPT_TITLE_REQUESTUSERPROFILE" = "Accept";
+"REQUEST_INT_COMMING_TITLE_REQUESTUSERPROFILE" = "Requests to you";
+"REQUEST_OUT_GOING_TITLE_REQUESTUSERPROFILE" = "Requests from you";
+"OWNER_REQUEST_TITLE_REQUESTUSERPROFILE" = "Received your request to borrow %@";
+"BORROWER_REQUEST_TITLE_REQUESTUSERPROFILE" = "Sent request to borrow %@";
+"WAITING_CONFIRM_STATUS_REQUESTUSERPROFILE" = "Wait approve";
+"ON_HOLD_STATUS_REQUESTUSERPROFILE" = "On hold";
+"CONTACTING_REQUESTUSERPROFILE" = "Contacting";
+"BORROWING_STATUS_REQUESTUSERPROFILE" = "Borrowing";
+"RETURNED_STATUS_REQUESTUSERPROFILE" = "Returned";
+"REJECTED_STATUS_REQUESTUSERPROFILE" = "Rejected";
+"CANCELLED_STATUS_REQUESTUSERPROFILE" = "Cancelled";
+"UNRETURNED_STATUS_REQUESTUSERPROFILE" = "Unreturned";
+"OHTER_STATUS_REQUESTUSERPROFILE" = "Other";
+//alert conflict
+"OK_ALERT_TITLE_REQUESTUSERPROFILE" = "OK";
+//alert conflict
+"ERROR_ALERT_TITLE_REQUESTUSERPROFILE" = "Error!";
+"REQUEST_TO_BORROW_BOOK_FILTER_REQUESTUSERPROFILE" = "Request type";
+"STATUS_FILTER_REQUESTUSERPROFILE" = "Request status";
+
+//MARK: - VISTOR USER PROFILE
+"ERROR_ALERT_TITLE_VISTORUSERPROFILE" = "Error!";
+"OK_ALERT_TITLE_VISTORUSERPROFILE" = "OK";
+
+// Visitor - bookshelf
+"BOOK_SHARING_TITLE_BOOKVISTORUSERPROFILE" = "Books";
+"DOING_BORROWED_STATUS_BOOKVISTORUSERPROFILE" = "Being borrowed";
+"WATING_CONFIRM_STATUS_BOOKVISTORUSERPROFILE" = "Wait approve";
+"ON_HOLD_STATUS_BOOKVISTORUSERPROFILE" = "On hold";
+"BORROWING_STATUS_BOOKVISTORUSERPROFILE" = "Borrowing";
+"CONTACTING_STATUS_BOOKVISTORUSERPROFILE" = "Contacting";
+"BORROW_BOOK_TITLE_BOOKVISTORUSERPROFILE" = "Borrow";
+"WAITING_BORROW_BOOK_TITLE_BOOKVISTORUSERPROFILE" = "Wait borrow";
+
+// Visistor -  Review
+"REVIEW_TITLE_REVIEWVISTORUSERPROFILE" = "Reviews";
+"RATING_TITLE_REVIEWVISTORUSERPROFILE" = "Rating";
+"MORE_TITLE_REVIEWVISTORUSERPROFILE" = "more";
+
+// MARK: - START APP
+"START_PAGE_CAROUSEL_DATA" = "start_page_carousel_data_en";
+"OVERVIEW_APP_TITLE_STARTAPP" = "Continue without siging in";
+"REGISTER_TITLE_STARTAPP" = "Register";
+"LOGIN_TITLE_STARTAPP" = "Sign in";
+
+// MARK: - LOGIN
+"LOGIN_TITLE" = "Sign in";
+"PASSWORD_PLACEHOLDER_LOGIN" = "Password";
+"FORGOT_PASSWORD_TITLE_LOGIN" = "Forgot your password";
+"LOGIN_SOCIAL_TITLE_LOGIN" = "Sign in with social account";
+"REGISTER_NOW_LOGIN" = "Register now";
+"HAVE_NOT_ACCOUNT_LOGIN" = "No account?";
+"MESSAGE_EMAIL_LOGIN" = "Email must not be empty or the email must be valid";
+"MESSAGE_PASSWORD_LOGIN" = "Password must not be empty";
+
+// MARK: - REGISTER
+"REGISTER_TITLE" = "Register";
+"REGISTER_SOCIAL_TITLE_REGISTER" = "Register with account %@";
+"ADDRESS_EMAIL_PLACEHOLDER_REGISTER" = "Enter your email";
+"PASSWORD_PLACEHOLDER_REGISTER" = "Password";
+"CONFIRM_EMPTY_MESSAGE_REGISTER" = "Confirm password must not be empty";
+"COMFIRM_NOT_EQUAL_PASSWORD_MESSAGE_REGISTER" = "Confirm password doesn't match password";
+"ALREADY_HAVE_ACCOUNT_REGISTER" = "Already have an account?";
+"LOGIN_NOW_REGISTER" = "Signin now";
+"CONFIRM_PASSWORD_REGISTER" = "Confirm password";
+"COMFIRM_PASSWORD_PLACEHOLDER_REGISTER" = "Confirm password";
+
+// MARK: - MAP
+"ADD_LOCATION_PLACEHOLDER_MAP" = "Enter your usually address";
+"OK_TITLE_MAP" = "OK";
+"SKIP_TITLE_MAP" = "SKIP";
+"SAVE_ADDRESS_TITLE_MAP" = "SAVE";
+
+// MARK: - FAVOURITE CATEGORY
+"FAVOURITE_CATEGORY_TITLE" = "FAVOURITE BOOK GENRES";
+"OK_TITLE_FAVOURITECATEGORY" = "OK";
+"SAVE_TITLE_FAVOURITECATEGORY" = "SAVE";
+"SKIP_TITLE_FAVOURITECATEGORY" = "SKIP";
+
+//MARK: - FORGOT PASSWORD
+"FORGOT_PASSWORD_TITLE" = "Forgot Your Password";
+"MESSAGE_FORGOT_FORGOTPASSWORD" = "Enter your email address and we will send you a code to reset your password.";
+"EMAIL_ADDRESS_PLACEHOLDER_FORGOTPASSWORD" = "Email";
+"SEND_EMAIL_TITLE_FORGOTPASSWORD" = "Send code";
+"ACCOUNT_INVALID_MESSAGE_FORGOTPASSWORD" = "Email does not exist in the system.";
+"SESSION_INVALID_MESSAGE_FORGOTPASSWORD" = "Server error. Please try again later.";
+"TOKEN_FIREBASE_INVALID_MESSAGE_FORGOTPASSWORD" = "Server error. Please try again later.";
+
+// MARK: - RESET PASSWORD FOR SOCIAL
+"MESSAGE_FORGOT_RESETPASSWORDFORSOCIAL" = "Enter new password for your account.";
+"NEW_PASSWORD_PLACEHOLDER_RESETPASSWORDFORSOCIAL" = "New password";
+"CHANGE_PASSWORD_TITLE_RESETPASSWORDFORSOCIAL" = "Update";
+
+// MARK: - CONFIRM PASSWORD
+"MESSAGE_FORGOT_CONFIRMPASSWORD" = "Enter the code you received via email.";
+"CODE_PLACEHOLDER_CONFIRMPASSWORD" = "6 numbers";
+"CHANGE_PASSWORD_TITLE_CONFIRMPASSWORD" = "Next";
+
+// MARK: - RESET PASSWORD
+"MESSAGE_FORGOT_RESETPASSWORD" = "Enter new password for your account.";
+"NEW_PASSWORD_PLACEHOLDER_RESETPASSWORD" = "New password";
+"CHANGE_PASSWORD_TITLE_RESETPASSWORD" = "Update";
+"SESSION_INVALID_MESSAGE_RESETPASSWORD" = "Server error. Please try again later.";
+"TOKEN_FIREBASE_INVALID_MESSAGE_RESETPASSWORD" = "Server error. Please try again later.";
+
+// MARK: - BARCODE
+"SEARCH_TITLE_BARCODE" = "Search ";
+"BARCODE_MESSAGE_BARCODE" = "Move camera to the \nISBN/Barcode area";
+"TURN_ON_TITLE_BARCODE" = "FLASH ON";
+"TURN_OFF_TITLE_BARCODE" = "FLASH OFF";
+"CAN_NOT_SCAN_CODE_MESSAGE_BARCODE" = "Quét mã bị lỗi";
+
+// MARK: - EDIT USER
+"EDIT_TITLE" = "Edit Profile";
+"CANCEL_TITLE_EDITUSER" = "Cancel";
+"SAVE_TITLE_EDITUSER" = "Save";
+"DONE_TITLE_EDITUSER" = "Done";
+"YOUR_NAME_PLACEHOLDER_EDITUSER" = "Your name";
+"ADDRESS_TITLE_EDITUSER" = "Address";
+"ABOUT_TITLE_EDITUSER" = "About";
+"LIST_FAVOURITE_CATEGORY_TITLE_EDITUSER" = "Favourite book genres";
+"CHANGE_AVATAR_TITLE" = "Change profile image";
+"MEMBER_BOOKSTOP_EDITUSER" = "Your Bookstops";
+"ADD_BOOKSTOP_EDITUSER" = "Join Bookstop";
+"CANCEL_REQUEST_EDITUSER" = "Cancel";
+"REMOVE_EDITUSER" = "Remove";
+"BOOKSTOP_PLACEHOLDER_EDITUSER" = "Enter bookstop name";
+
+// MARK: - SETTING
+"SETTING_TITLE" = "Setting";
+"EDIT_USER_INFO_TITLE_SETTING" = "Edit profile";
+"ADD_EMAIL_AND_PASSWORD_TITLE_SETTING" = "Add email and password";
+"CHANGE_PASSWORD_TITLE_SETTING" = "Change password";
+"LOGOUT_TITLE_SETTING" = "Sign out";
+"CREATE_ACCOUNT_TITLE_SETTING" = "Create account";
+"INFO_SOCIAL_INVALID_MESSAGE_SETTING" = "Invalid information from social account.";
+"SESSION_NOT_EXISTED_MESSAGE_SETTING" = "Server error. Please try again later.";
+"BOOK_SHELF_GAT_UP_SETTING" = "GAT-UP";
+"BOOK_SHELF_GAT_UP_DESCRIPTION_SETTING" = "Discover!";
+"READING_HISTORY_SETTING" = "Reading History";
+"REVIEW_GAT_SETTING" = "Rate this app!";
+"QUESTION_SETTING" = "FAQ";
+"TERM_AND_POLICY_SETTING" = "Term and Policy";
+"ABOUT_US_SETTING" = "About us";
+
+// MARK: - Add Email And Password
+"ADD_EMAIL_AND_PASSWORD_TITLE" = "Add Email And Password";
+"ADD_EMAIL_PLACEHOLDER_ADDEMAILANDPASSWORD" = "Your email";
+"PASSWORD_PLACEHOLDER_ADDEMAILANDPASSWORD" = "Password";
+
+// MARK: - SOCIAL NETWORK
+"INFO_SOCIAL_INVALID_MESSAGE_SOCIALNETWORK" = "Invalid information from social account.";
+"DISCONNECT_TITLE_SOCIALNETWORK" = "Disconnect";
+"CONNECTING_ACCOUNT_TITLE_SOCIALNETWORK" = "Connected as %@ account %@";
+
+//MARK: - CHANGE PASSWORD
+"CHANGE_PASSWORD_TITLE" = "Change Password";
+"PASSWORD_INVALID_MESSAGE_CHANGEPASSWORD" = "Incorrect password!";
+"PRESENT_PASSWORD_PLACEHOLDER_CHANGEPASSWORD" = "Current password";
+"NEW_PASSWORD_PLACEHOLDER_CHANGEPASSWORD" = "New password";
+"CONFIRM_PASSWORD_PLACEHOLDER_CHANGEPASSWORD" = "New password, again";
+"FORGOT_PASSWORD_TITLE_CHANGEPASSWORD" = "Forgot your password";
+"PASSOWRD_MESSAGE_CHANGEPASSWORD" = "Password input is not matched.";
+
+// MARK: - OWNER REQUEST DETAIL
+"OWNER_REQUEST_DETAIL" = "Book Borrowing Info";
+"ACCEPT_STATUS_OWNERREQUESTDETAIL" = "Accept";
+"REJECT_STATUS_OWNERREQUESTDETAIL" = "Reject";
+"ON_HOLD_STATUS_OWNERREQUESTDETAIL" = "On hold";
+"ON_HOLD_MESSAGE_OWNERREQUESTDETAIL" = "This book is being borrowed. Your request will be placed in the queue until the it is returned.";
+"CONTACT_STATUS_OWNERREQUESTDETAIL" = "Contact";
+"BORROW_STATUS_OWNERREQUESTDETAIL" = "Borrow";
+"REJECT_STATUS_OWNERREQUESTDETAIL" = "Reject";
+"RETURN_STATUS_OWNERREQUESTDETAIL" = "Return";
+"DID_LOST_STATUS_OWNERREQUESTDETAIL" = "Lost";
+"DID_LOST_MESSAGE_OWNERREQUESTDETAIL" = "Information of users with late book return or no return is recorded in the system. Users will receive punishment accordingly.";
+"CANCELLED_STATUS_OWNERREQUESTDETAIL" = "Cancelled";
+"REJECTED_STATUS_OWNERREQUESTDETAIL" = "Rejected";
+"BORROW_EXPECTATION_TIME_TITLE_OWNERREQUESTDETAIL" = "Borrowing duration";
+"NUMBER_REVIEW_TITLE_OWNERREQUESTDETAIL" = "Reviews";
+"SHARING_BOOKS_TITLE_OWNERREQUESTDETAIL" = "Sharing books";
+"SEND_REQUEST_BORROW_BOOK_TITLE_ONWERREQUESTDETAIL" = "Sent request to borrow book";
+"DATE_SEND_REQUEST_TITLE_OWNERREQUESTDETAIL" = "Sent request";
+"DATE_START_BORROW_TITLE_OWNERREQUESTDETAIL" = "Started borrow";
+"DATE_RETURN_BOOK_TITLE_OWNERREQUESTDETAIL" = "Returned book";
+"DATE_REJECT_REQUEST_TITLE_OWNERREQUESTDETAIL" = "Rejected request";
+"DATE_CANCEL_REQUEST_TITLE_OWNERREQUESTDETAIL" = "Cancelled request";
+"SEND_MESSAGE_TO_TITLE_OWNERREQUESTDETAIL" = "Send message to %@";
+
+// MARK: - BORROWER REQUEST DETAIL
+"BORROWER_REQUEST_DETAIL" = "Book Borrowing Info";
+"CANCEL_STATUS_BORROWERREQUESTDETAIL" = "Cancel";
+"ON_HOLD_STATUS_BORROWERREQUESTDETAIL" = "On hold";
+"ON_HOLD_MESSAGE_BORROWERREQUESTDETAIL" = "This book is being borrowed. Your request will be placed in the queue until the it is returned.";
+"CONTACT_STATUS_BORROWERREQUESTDETAIL" = "Contact";
+"BORROW_STATUS_BORROWERREQUESTDETAIL" = "Borrow";
+"DID_LOST_STATUS_BORROWERREQUESTDETAIL" = "Lost";
+"DID_LOST_MESSAGE_BORROWERREQUESTDETAIL" = "Information of users with late book return or no return is recorded in the system. Users will receive punishment accordingly.";
+"RETURN_STATUS_BORROWERREQUESTDETAIL" = "Return";
+"DID_CANCEL_STATUS_BORROWERREQUESTDETAIL" = "Cancelled";
+"BEING_REJECTED_STATUS_BORROWERREQUESTDETAIL" = "Rejected";
+"BORROW_EXPECTATION_TIME_TITLE_BORROWERREQUESTDETAIL" = "Borrowing duration";
+"NUMBER_REVIEW_TITLE_BORROWERREQUESTDETAIL" = "Reviews";
+"SHARING_BOOKS_TITLE_BORROWERREQUESTDETAIL" = "Sharing books";
+"YOU_SEND_REQUEST_BORROW_TITLE_BORROWERREQUESTDETAIL" = "You sent request to borrow book";
+"DATE_SEND_REQUEST_TITLE_BORROWERREQUESTDETAIL" = "Send request";
+"DATE_START_BORROW_TITLE_BORROWERREQUESTDETAIL" = "Started borrow";
+"DATE_RETURN_BOOK_TITLE_BORROWERREQUESTDETAIL" = "Returned book";
+"DATE_REJECT_REQUEST_TITLE_BORROWERREQUESTDETAIL" = "Rejected request";
+"DATE_CANCEL_REQUEST_TITLE_BORROWERERQUESTDETAIL" = "Cancelled request";
+"SEND_MESSAGE_TO_TITLE_BORROWERERQUESTDETAIL" = "Send message to %@";
+
+// MARK: - TOP BORROWING BOOK
+"TOP_BORROW_BOOK" = "Top Borrowing Books";
+"ADD_BOOK_TITLE_TOPBORROWBOOK" = "Add to shelf";
+"BORROW_TITLE_TOPBORROWBOOK" = "Borrow book";
+
+// MARK: - BOOKSTOP EXPLORE
+"TITLE_BOOKSTOPEXPLORE" = "Bookstops";
+"NEARBY_BOOKSTOP_BOOKSTOPEXPLORE" = "Nearby Bookstops";
+"NEW_BOOKSTOP_BOOKSTOPEXPLORE" = "New Bookstops";
+
+// MARK: - REVIEW EXPLORE
+"TITLE_REVIEWEXPLORE" = "Reviews";
+"TOP_REVIEWS_REVIEWEXPLORE" = "Top Reviewers";
+"NEW_REVIEW_REVIEWEXPLORE" = "New Reviews";
+
+// MARK: - REQUEST BORROWER BOOKSTOP
+"TITLE_REQUESTBORROWERBOOKSTOP" = "Book Borrowing Info";
+"YOU_BORROW_MESSAGE_REQUESTBORROWERBOOKSTOP" = "You are borrowing the book";
+"FROM_MESSAGE_REQUESTBORROWERBOOKSTOP" = "From: ";
+"MEMBERS_TITLE_REQUESTBORROWERBOOKSTOP" = "Members";
+"BOOKS_TITLE_REQUESTBORROWERBOOKSTOP" = "Books";
+"DEADLINE_RETURN_BOOK_MESSAGE_REQUESTBORROWERBOOKSTOP" = "Bạn đã quá hạn %@ trả sách!!!";
+"EXPECTED_TIME_REQUESTBORROWERBOOKSTOP" = "Ngày dự định trả sách: %@";
+"BOOK_INFO_REQUESTBOOKSTOP" = "Thông tin sách";
+"BORROW_BOOK_REQUESTBOOKSTOP" = "Mượn sách";
+"BORROWER_INFO_REQUESTBOOKSTOP" = "Thông tin người mượn";
+"RETURN_MESSAGE_REQUESTBORROWERBOOKSTOP" = "Bạn đã trả sách lại bookstop và đặt sách đúng vị trí chưa?";
+"CONFIRM_NOTIFICATION_REQUESTBORROWERBOOKSTOP" = "Xác nhận";
+
+// MARK: - REQUEST BOOKSTOP
+"YOU_BORROWING_MESSAGE_REQUESTBOOKSTOP" = "You are borrowing this book:";
+"EXPECTATION_TIME_REQUESTBOOKSTOP" = "Started borrow: ";
+"START_REQUESTBOOKSTOP" = "Start borrow";
+"BORROW_REQUESTBOOKSTOP" = "Return book";
+"START_BORROW_REQUESTBOOKSTOP" = "Started borrow: ";
+"EXPECTATION_TIME_TITLE_REQUESTBOOKSTOP" = "Expired date: %@";
+"JOIN_BOOKSTOP_MESSAGE_REQUESTBOOKSTOP" = "%@ Bookstop has only allowing members to borrowing book. If you are the member of %@, please send join request to Bookstop.";
+"JOIN_REQUESTBOOKSTOP" = "Join Bookstop";
+
+// MARK: - BOOKSTOP ORGANIZATION
+"BOOKS_BOOKSTOPORGANIZATION" = "Books";
+"MEMBERS_BOOKSTOPORGANIZATION" = "Members";
+"LEAVE_BOOKSTOP_SUCCESS_MESSAGE_BOOKSTOPORGANIZATION" = "Leaved Bookstop";
+"CANCEL_REQUEST_SUCCESS_MESSAGE_BOOKSTOPORGANIZATION" = "Canceled Bookstop join request";
+"JOIN_MESSAGE_BOOKSTOPORGANIZATION" = "Sent Bookstop join request";
+"SUCCESS_TITLE_" = "Sucessful";
+"BOOKSHELF_TITLE_BOOKSTOPORGANIZATION" = "Bookshelf";
+"READING_CORNER_TITLE_BOOKSTOPORGANIZATION" = "Reading space";
+"MEMBER_ACTIVITIES_TITLE_BOOKSTOPORGANIZATION" = "Member Activities";
+"SHOW_ALL_TITLE_BOOKSTOPORGANIZATION" = "Show All (%d)+";
+"MEMBER_ACTIVITY_BORROW_BOOKSTOPORGANIZATION" = "%@ has started borrowing \"%@\" by %@.";
+"MEMBER_ACTIVITY_RETURN_BOOKSTOPORGANIZATION" = "%@ has returned \"%@\" by %@.";
+"LEAVE_BOOKSTOPORGANIZATION" = "Leave Bookstop";
+"CANCEL_BOOKSTOPORGANIZATION" = "Cancel join request";
+"JOIN_BOOKSTOPORGANIZATION" = "Join Bookstop";
+"HIDE_BOOKSTOPORGANIZATION" = "Hide";
+"ACTIVITY" = "Activities";
+"CHALLENGE_GATUP" = "%@ challenge";
+"SHELVES_GATUP" = "%@ bookshelf";
+"CHALLENGE_OF_GATUP" = "%@'s challenge";
+
+// MARK: - BOOKSTOP ORGANIZATION SHELVE
+"SEARCH_PLACEHOLDER_BOOKSTOPORGANIZATIONSHELVE" = "Search book";
+"LIMITED_BORROW_TITLE_BOOKSTOPORGANIZATIONSHELVE" = "Limited borrow";
+"BOOKSTOP_MEMBER_ONLY_BOOKSTOPORGANIZATIONSHELVE" = "Bookstop member";
+
+// MARK: - JOIN BOOKSTOP
+"TITLE_JOINBOOKSTOP" = "Send Bookstop Join Request";
+"REQUEST_MESSAGE_JOINBOOKSTOP" = "Welcome to Bookstop %@. Please write about yourself and what you know about %@.";
+"JOIN_BOOKSTOP_SUCCESS_MESSAGE_JOINBOOKSTOP" = "Đã gửi thành công yêu cầu tham gia bookstop";
+"JOIN_TRAM_GAT" = "Join Trạm GAT";
+"DIRECTION_TITLE" = "Direction";
+
+// MARK: - Price
+"FREE_PRICE_ORDER_TITLE" = "Free ship for order from %@đ.";
+
+// MARK: - Language
+"LANGUAGE" = "Language";
+
+"SEARCH_PLACEHOLDER" = "Enter keywords";
+"EMPTY_REVIEW_FILTER" = "No review";
+"NOT_EMPTY_REVIEW_FILTER" = "Have review";
+"AVAILABLE_BOOK_FILTER" = "Sharing books";
+"NOT_AVAILABLE_BOOK_FILTER" = "Borrowing books";
+"LOST_BOOK_FILTER" = "Lost books";
+"FILTERABLE_TITLE" = "Filter by";
+"FILTERABLE_BUTTON" = "Filter by";
+"ACCEPT_FILTERABLE_BUTTON" = "Confirm filter";
+"ALL_FILTERABLE" = "All";
+
+// MARK: - Add New Book
+"ADD_NEW_BOOK_TITLE" = "Request update book";
+"BOOK_NAME_ADDNEWBOOK" = "Input book title";
+"SEND_ADDNEWBOOK" = "Send Request";
+"DESCRIPTION_BOOK_ADDNEWBOOK" = "Write more information of book that you want to add...";
+"OK_ADDNEWBOOK" = "Done";
+"SUCCEEDED_ADDNEWBOOK" = "Success";
+"MESSAGE_ADDNEWBOOK" = "Your book request has been sent. Thank you!";
+
+// MARK: - Suggestion Book
+"SUGGEST_BOOK" = "Books";
+"TOP_BORROWING_BOOK_SUGGEST" = "Top Borrowing Books";
+"TOP_RATTING_BOOK_SUGGEST" = "Top Rating Books";
+"BOOK_NEARYBY_YOU_SUGGEST" = "Books Near You";
+"YOU_MIGHT_LIKE_SUGGEST" = "You Might Like";
+
+"FOLLOWERS_TITLE" = "Followers";
+"FOLLOWINGS_TITLE" = "Followings";
+"FOLLOW_TITLE" = "Follow";
+"UNFOLLOW_TITLE" = "UnFollow";
+"FOLLOWING_TITLE" = "Following";
+"UNFOLLOW_MESSAGE" = "Are you sure you want to unfollow \"%@\"";
+"UNFOLLOW_ALERT_TITLE" = "Unfollow \"%@\"";
+
+// MARK: - Bookmark
+"BOOKMARK_TITLE" = "Bookmark list";
+"BOOK_BOOKMARK_TITLE" = "Book";
+"REVIEW_BOOKMARK_TITLE" = "Review";
+"BOOK_DETAIL_BOOKMARK" = "Book's detail";
+
+// MARK: - BookUpdate
+"BOOK_UPDATE_TITLE" = "Waiting update books";
+"WAITING_STATUS_BOOKUPDATE" = "Waiting update";
+"UPDATEDED_STATUS_BOOKUPDATE" = "Updated";
+"CREATE_DATE_TITLE_BOOKUPDATE" = "Request date: %@";
+
+// MARK: - Challenge
+"CHALLENGE_TITLE" = "Challenges";
+"YOUR_CHALLENGES" = "Your challenges";
+"CHALLENGES_MAY_WANT_JOY" = "Maybe you want to join";
+"NUMBER_MEM_CHALLENGE" = "%d people";
+"ONE_MEMBERS_IS_FRIEND_JOINNED" = "%@ joined this challenge.";
+"TWO_MEMBERS_IS_FRIEND_JOINNED" = "%@ and %@ joined this challenge.";
+"THREE_MEMBERS_IS_FRIEND_JOINNED" = "%@, %@ and %@ joined this challenge.";
+"FOUR_MEMBERS_IS_FRIEND_JOINNED" = "%@, %@, %@ and %@ joined this challenge.";
+"MEMBERS_IS_FRIEND_JOINNED_SHORT" = "%@, %@, %@, %@, %@ joined this challenge.";
+"MEMBERS_IS_FRIEND_JOINNED_LONG" = "%@, %@, %@, %@ and %d others joined this challenge.";
+"FORMAT_PERSON_JOIN_CHALLENGE" = "%1$@, %2$@, %3$@, %4$@, %5$@ và %6$d others joined this challenge.";
+"SHOW_MORE" = "Show more";
+"SHOW_LESS" = "Show less";
+"CHALLENGE_CREATOR" = "%@";
+"REMAINING_TIME" = "%d days left";
+"FORMAT_SET_TARGET_OF_CHALLENGE" = "You will read %.0f/%.0f books\nin %d days.";
+"ALERT_SET_TARGET_JOIN_CHALLENGE" = "Set a reading goal for this challenge!";
+"FORMAT_TARGET_BOOK" = "%d books";
+"FORMAT_CURRENT_PROGRESS_OF_CHALLENGE" = "Read %d/%d books";
+"FORMAT_CURRENT_PROGRESS_OF_CHALLENGE_GROUP" = "Read %d books";
+"FORMAT_TIME_REMAINING" = "%d days left";
+"FORMAT_TARGET_CHALLENGE" = "Read %d books in %d days";
+"BUTTON_CANCEL" = "Cancel";
+"SHARE_TO_FACEBOOK" = "Share to Facebook";
+"CHANGE_CHALLENGE_TARGET" = "Target adjustment";
+"ACTIVITY_READING_BOOK_IN_CHALLENGE" = "%@ read %d/";
+"ACTIVITY_JUST_JOIN_CHALLENGE" = "%@ participated in the challenge %@";
+"ACTIVITY_WRITE_A_POST" = "%@ wrote a post";
+"ACTIVITY_JUST_UPDATE_CHALLENGE" = "%@ just finished reading %@";
+"ACTIVITY_HAS_COMPLETED_CHALLENGE" = "%@ completed the challenge";
+"COMPLETED_CHALENGE" = "Finish";
+"EXPIRED_CHALLENGE" = "Expired";
+"BUTTON_UPDATE_STATUS" = "Update status";
+"FORMAT_START_TO_END_TIME" = "%@ to %@";
+"ACTIVE_MEMBER" = "Leader board";
+"BUTTON_SEE_ALL" = "See all";
+"UPDATE_PROGRESS" = "Update progress";
+"BUTTON_JOIN_CHALLENGE" = "Join challenge";
+"READ_MORE_BOOK_SLOGAN" = "\"Read a lot, learn a lot, why not read\"";
+"BUTTON_START_CHALLENGE" = "Start Challenge";
+"CONGRATULATIONS" = "Congratulations";
+"REMIND_USER_UPDATE_PROGRESS" = "Enter the page number if you want to update progress";
+"CONFIRM_READ" = "Have you finished reading this book?";
+"REMIND_RATE_BOOK" = "Rate a book is the best way to build our reading community";
+"YOUR_REVIEW" = "Write a review";
+"RATE_DONT_LIKE" = "I don't like it";
+"RATE_OK" = "It's okay";
+"RATE_GOOD" = "I like it!";
+"RATE_GREAT" = "I really like it";
+"RATE_EXCELLENT" = "Awesome!";
+"UPDATE_READING_LIST" = "Update Reading List";
+"INDIVIDUAL_CHALLENGE_TITLE" = "Personal";
+"INDIVIDUAL_CHALLENGE" = "read %d books";
+"GROUP_CHALLENGE_TITLE" = "Group";
+"GROUP_CHALLENGE" = "read %d books together";
+"PROGRESS_READ_BOOK_MESSAGE" = "Complete %d books";
+"NOT_READ_BOOK_MESSEAGE" = "You haven’t read any books";
+"CHALLENGE_ENDED" = "The challenge has ended";
+"SHARE_TITLE" = "Share";
+"INVITE_TITLE" = "Invite";
+"INVITED_TITLE" = "Invited";
+"INVITE_FRIEND_TITLE" = "Invite friend";
+"UPDATE_READING_TARGET_TITLE" = "Update reading target";
+"ADD_TO_READING_LIST_TITLE" = "Add to reading list";
+"START_READING_TITLE" = "Start reading";
+"INVITE_FRIEND_TO_JOIN_TITLE" = "Invite friend to join";
+"NUMBER_TARGET_BOOK_TITLE" = "%d target of challenge";
+"ALERT_READ_BOOK_TARGET" = "Read these books below to finish the challenge";
+"ACCEPT_CHALLENGE_TITLE" = "Accept challenge";
+"PROGRESS_CIRCLE_TITLE" = "Finished: %d/%d (%d%%)";
+ 
+// MARK: - Active members challenge
+"FOLLOWED" = "Following";
+"FOLLOW" = "Follow";
+"FORMAT_BOOK_HAS_BEEN_REAEDED" = "Read %@ books";
+
+// MARK: Readings
+"READING_BOOK" = "Reading book";
+"READING_LIST_SLOGAN" = "Reading is the best way to develop yourself\nGet started now!";
+"FORMAT_READ_FROM_TIME_AGO" = "Read from %@ ago";
+"OTHER_BOOKS" = "Other books";
+"ADD_TO_READING_LIST" = "Add to\nreading list";
+"BUTTON_ADD" = "Add";
+"HOW_MANY_PAGES_HAVE_READ" = "How many pages did you read?";
+"REVIEW" = "Review";
+"ADD_REVIEW" = "Add review";
+"EDIT_REVIEW" = "Write review";
+"BUTTON_READ_DONE" = "Reading done";
+"BUTTON_UPDATE" = "Update";
+"BUTTON_FIND_BOOK_NOW" = "Find book now";
+"READING_FINISH" = "Congrats! You have done it.";
+"PLEASE_REVIEW_BOOK" = "Add review for this book";
+"TOTAL_READING_BOOK" = "%d book";
+"READING_START_DATE" = "You start reading from %@";
+"READING_FINNISH_DATE" = "You have finished reading from %@";
+"PEOPLE_READ_THIS_BOOK" = "%d people are reading this book";
+"START_READ_BOOK" = "Start reading now";
+"READING_STATUS" = "Reading";
+"READING_FINNISH_STATUS" = "Finished reading";
+"READING_HISTORY_TITLE" = "Reading history";
+"DONE_READING_ALERT" = "Yes";
+"NOT_YET_READING_ALERT" = "No";
+
+// MARK: - Member Active
+"ACTIVE_MEMBERS_TITLE" = "Active members";
+"TOTAL_ACTIVE_MEMBERS" = "All members";
+"FOLLOWING_ACTIVE_MEMBERS" = "Following";
+
+// MARK: - Toast Message
+"MESSAGE_FOLLOW_MEMBER_SUCCESS" = "Added successfully!";
+"MESSAGE_UNFOLLOW_MEMBER_SUCCESS" = "Unfollowed!";
+"MESSAGE_ADD_BOOK_TO_READINGS_SUCCESS" = "The book has been added to the reading list successfully!";
+"MESSAGE_UPDATE_PROGESS_SUCCESS" = "The reading progress has been updated successfully!";
+"MESSAGE_JOIN_CHALLENGE_SUCCESS" = "Has joined the challenge successfully!";
+"MESSAGE_ADD_BOOK_TO_BOX_SUCCESS" = "Book successfully added to bookshelf!";
+
+// MARK: - JoinBarcode
+"JOIN_MESSAGE_JOINBARCODE" = "Bookstop joining request sent: back to last screen";
+
+// MARK: - Gatup
+"BOOKSTOP_GATUP" = "GATUP bookcase";
+"INFORMATION_GATUP" = "News";
+"SCAN_GATUP" = "Scan company’s QR code to start \nScan now >";
+"BOOKSTOP_ORGANIZATION_GATUP" = "GAT-UP x Business Bookcase";
+"BOOKSTOP_ORGANIZATION_DESCRIPTION_GATUP" = "\"GAT-UP x Business Bookcase\" Project initiated by GAT and partners, with a view to bring GATUP software and bookcase-building activities to Vietnam businesses.";
+"LOOKING_INFORMATION_GATUP" = "Explore now";
+"HIDE_GATUP" = "Hide post";
+"ACECPT_GATUP" = "Joined";
+"WAITING_GATUP" = "Pending";
+"GATUP_TITLE" = "GAT-UP";
+"FINISH_READING_MESSAGE" = "Finish reading? ";
+
+// MARK: - Guideline
+"HELLO_MESSAGE_GUILDELINE" = "Hi %@";
+"PROFILE_PAGE_GUILDELINE" = "Your home page";
+"GO_TO_PROFILE_ALERT_GUILDELINE" = "\nGo to %@ to manage your bookshelf, review articles and do not miss the request to borrow books from everyone.";
+"TAP_PLUS_ADD_BOOK_GUIDELINE" = "Press the + button to %@, letting everyone know what books you have available to borrow!";
+"ADD_BOOK_TITLE_GUIDELINE" = "Add books to your shelf";
+"ADD_TITLE_GUIDELINE" = "Add to shelf";
+"BORROW_TITLE_GUIDELINE" = "Borrow book";
+"SEARCH_BOOK_GUIDELINE" = "Use the %@ to find the book you need";
+"SEARCH_TITLE_GUIDELINE" = "Search bar";
+"ADD_BOOK_OR_BORROW_BOOK_GUIDELINE" = "Click %@ so people can borrow it from you. Or %@ to borrow books for free!";
+"LENDING_GUIDELINE" = "These are the people who are lending %@. Please request to borrow a book now!";
+"COMPLETE_GUIDELINE" = "Complete the tutorial!";
+
+
+
+
+
+
+
+
+//MARK: - BOOKDETAIL
+"TITLE_ALERT_HAVE_BOOK" = "You have %d book(s)";
+"ALERT_HAVE_BOOK" = "%@ was added to your bookcase. Do you want to add one more book?";
+"YES_CONFIRM" = "Yes, still add";
+"NO_CONFIRM" = "Cancel";
+
+//MARK: - USER SCAN PROFILE
+"SCAN_USER" = "Scan code";
+"BOOK_IN_SHELVES" = "books in case";
+"FOLLOW_IN_SCAN_USER" = "followers";
+"GO_TO_PROFILE_PAGE" = "See profile";
+"USERNAME_ALREADY_EXIST_MESSAGE" = "Username %@ already existed.";
+
+
+//MARK: - ARTICLE
+"LOVE_POST_TITLE" = "Give Kudos";
+"COMMENT_POST_TITTLE" = "Comment";
+"SAVE_POST_TITLE" = "Save article";
+"SAVED_POST_TITLE" = "Article saved";
+"SHARE_POST_TITLE" = "Share article";
+"DELETE_POST_TITLE" = "Delete article";
+"POST_ARTICLE_TITLE" = "Post";
+"ARTICLES_TITLE" = "Articles";
+"ACTIVITIES_TITLE" = "Activities";
+"MEMBER_POST_BOOKSTOP" = "Member Posts";
+"WRITE_YOUR_COMMENT_POST" = "Write comment";
+"NUMBER_COMMENT_POST_TITLE" = "%d comment";
+"NUMBER_REACTION_POST_TITLE" = "%d gave kudos";
+"NUMBER_REACTION_BY_MEMBER_TITLE" = "%d given kudos by %d member";
+"FILTER_POST_NEWEST" = "Newest";
+"FILTER_POST_POPULAR" = "Popular";
+"FILTER_POST_FRIEND" = "Friend";
+"SHOW_MORE_REPLY_TITLE" = "Show more %d comment";
+"REPLY_COMMENT_USER_TITLE" = "Reply comment of %@";
+"REPLY_COMMENT_TITLE" = "Reply";
+"EDIT_COMMENT_TITLE" = "Edit";
+"DELETE_COMMENT_TITLE" = "Delete";
+"ALERT_DELETE_COMMENT_TITLE" = "Delete this comment?";
+"ARTICLE_BY_TITLE" = "ARTICLE BY";
+"CHOOSE_CATERGORY_TITLE" = "Select category for your article...";
+"CHOOSE_TAG_IN_POST_TITLE" = "Put hashtag for article";
+"MENTION_BOOK_TITLE" = "Mentioned books";
+"DISPLAY_COVER_TITLE" = "Displayed cover";
+"REMIND_TAG_TITLE" = "Hashtag can be books, authors you mentioned or your article's content";
+"REMIND_TAG_BOOK_TITLE" = "Enter the title of mentioned book in your content";
+"REMIND_SELECT_ARTICLES_TYPE_TITLE" = "Select article type";
+"CREATE_ARTICLES_TITLE" = "Create article";
+"DRAFT_POST_TITLE" = "Draft";
+"SHOW_OFF_ACHIVEMENT_TITLE" = "Show your results";
+"SHARE_POST_SOCIAL_TITLE" = "Share to Facebook or Instagram. Let your friends read!";
+"ADD_TITLE_POST" = "Add Title";
+"ADD_CONTENT_POST" = "Enter content...";
+"ENTER_TAG_TITLE" = "Enter tag...";
+"ENTER_BOOK_TITLE" = "Enter book's title...";
+"INTRO_TITLE_POST" = "This is Article's title";
+"INTRO_INTRO_POST" = "This is Articles's introduction";
+"KIND_IMG_TITLE1" = "Type 1";
+"KIND_IMG_TITLE2" = "Type 2";
+"CHANGE_COVER_IMG_TITLE" = "Change cover image";
+"SAVE_DRAFT_TITLE_CREATE_POST" = "Save draft";
+"CONTINUE_EDIT_POST_TITLE" = "Continue editing";
+"THROW_DRAFT_TITLE" = "Cancel";
+"SAVE_TAG_TITLE_POST" = "Save";
+"CLOSE_TAG_POPUP_TITLE" = "Close";
+"ADD_CATERGORY_HASHTAG_TITLE" = "Add article type and hashtag";
+"SETTING_POST_TITLE" = "Setting";
+"PREVIEW_POST_TITLE" = "Preview";
+"ARTICLE_SETTING" = "Article Setting";
+"ENTER_BOOK_REVIEW_POST" = "Enter review for %@";
+"BOOK_REVIEW_POST" = "Review %@";
+"UPLOAD_ERROR_POST_IMG" = "Upload error.\nPlease try again.";
+"INSERT_LINK_CREATE_POST" = "Insert Link";
+"UPDATE_LINK_CREATE_POST" = "Update Link";
+"REMOVE_LINK_CREATE_POST" = "Remove Link";
+"LINK_TEXT_POST" = "Link Text";
+"LOADING_MESSEAGE" = "Loading...";
+"IMG_NOT_UPLOAD_TITLE" = "Photo has not been uploaded";
+"TITLE_POST_NOT_EMPTY" = "Title cannot be empty";
+"CONTENT_POST_NOT_EMPTY" = "Content cannot be empty";
+"IMG_NOT_UPLOAD_TITLE_YET" = "Photo has not been uploaded or uploaded yet";
+"NOT_UPDATE_CATERGORY_POST" = "Haven't updated categories in article settings";
+"NOT_RATING_ALERT" = "Not rated yet";
+"REFRESH_URL_TITLE" = "Refresh";
+
+"BOOK" = "books";
+"SHOW_ARTICLE" = "Show article";
+"DRAFT_ARTICLE" = "Draft articles";
+
+
+"IN_APP_BALACE" = "In-app balance";
+"GAT_WALLET_BALANCE" = "GAT wallet balance";
+"VIEW_MY_WALLET" = "View my wallet";
+"IN_APP_WALLET" = "In-app wallet";
+"GAT_WALLET" = "GAT wallet";
+"CREATE_NEW_WALLER" = "Create new wallet";
+"IMPORT_WALLET" = "Import wallet";
+"CONNECT_PANWALLET" = "Connect PanWallet";
+"AGREE_TERM_AND_CONDITION" = "By proceeding, you agree to GAT's Terms and Conditions";
+"TERM_AND_CONDITIONS" = "Terms and Conditions";
+"SECUE_YOUR_WALLET" = "Secue your wallet";
+"SECUE_DESCRIPTION" = "Don’t risk losing your funds. Protect your wallet by saving your Secret Recovery Phrase in a place you trust. It’s the only way to recover your wallet if you get locked out of the app or get a new device.";
+"SECRET_RECOVERY_PHRASE" = "Secret Recovery Phrase";
+"GET_START" = "Get start";
